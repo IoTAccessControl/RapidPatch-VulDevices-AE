@@ -1,0 +1,170 @@
+run 2␊
+[23:08:01:082] test cve in Linux␍␊
+[23:08:01:082] buf len cve␍␊
+[23:08:01:082] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:01:088] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:01:094] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:01:100] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:01:101] run cmd: 2 {Test CVE patch}␍␊
+[23:08:01:101] $ run 2␊
+[23:08:07:952] test cve in Linux␍␊
+[23:08:07:958] buf len cve␍␊
+[23:08:07:958] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:07:960] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:07:964] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:07:970] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:07:970] run cmd: 2 {Test CVE patch}␍␊
+[23:08:07:976] $ run 2␊
+[23:08:10:070] test cve in Linux␍␊
+[23:08:10:070] buf len cve␍␊
+[23:08:10:070] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:10:076] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:10:082] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:10:088] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:10:088] run cmd: 2 {Test CVE patch}␍␊
+[23:08:10:096] $ run 2␊
+[23:08:11:114] test cve in Linux␍␊
+[23:08:11:114] buf len cve␍␊
+[23:08:11:114] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:11:120] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:11:126] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:11:132] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:11:138] run cmd: 2 {Test CVE patch}␍␊
+[23:08:11:138] $ run 2␊
+[23:08:12:002] test cve in Linux␍␊
+[23:08:12:008] buf len cve␍␊
+[23:08:12:008] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:12:014] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:12:020] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:12:026] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:12:026] run cmd: 2 {Test CVE patch}␍␊
+[23:08:12:026] $ run 2␊
+[23:08:12:674] test cve in Linux␍␊
+[23:08:12:674] buf len cve␍␊
+[23:08:12:680] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:12:686] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:12:686] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:12:698] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:12:698] run cmd: 2 {Test CVE patch}␍␊
+[23:08:12:701] $ run 2␊
+[23:08:13:274] test cve in Linux␍␊
+[23:08:13:274] buf len cve␍␊
+[23:08:13:277] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:13:280] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:13:286] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:13:292] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:13:295] run cmd: 2 {Test CVE patch}␍␊
+[23:08:13:298] $ run 2␊
+[23:08:13:850] test cve in Linux␍␊
+[23:08:13:856] buf len cve␍␊
+[23:08:13:856] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:13:862] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:13:868] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:13:871] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:13:875] run cmd: 2 {Test CVE patch}␍␊
+[23:08:13:875] $ run 2␊
+[23:08:14:384] test cve in Linux␍␊
+[23:08:14:384] buf len cve␍␊
+[23:08:14:384] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:14:395] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:14:404] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:14:404] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:14:404] run cmd: 2 {Test CVE patch}␍␊
+[23:08:14:413] $ run 2␊
+[23:08:14:900] test cve in Linux␍␊
+[23:08:14:900] buf len cve␍␊
+[23:08:14:903] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:14:906] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:14:912] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:14:918] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:14:918] run cmd: 2 {Test CVE patch}␍␊
+[23:08:14:924] $ run 2␊
+[23:08:15:434] test cve in Linux␍␊
+[23:08:15:434] buf len cve␍␊
+[23:08:15:434] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:15:447] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:15:447] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:15:457] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:15:457] run cmd: 2 {Test CVE patch}␍␊
+[23:08:15:465] $ run 2␊
+[23:08:15:962] test cve in Linux␍␊
+[23:08:15:962] buf len cve␍␊
+[23:08:15:962] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:15:974] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:15:979] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:15:982] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:15:982] run cmd: 2 {Test CVE patch}␍␊
+[23:08:15:986] $ run 2␊
+[23:08:16:478] test cve in Linux␍␊
+[23:08:16:478] buf len cve␍␊
+[23:08:16:489] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:16:489] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:16:501] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:16:501] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:16:501] run cmd: 2 {Test CVE patch}␍␊
+[23:08:16:511] $ ␊
+[23:08:17:078] $ run 2␊
+[23:08:18:662] test cve in Linux␍␊
+[23:08:18:668] buf len cve␍␊
+[23:08:18:668] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:18:674] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:18:680] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:18:683] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:18:686] run cmd: 2 {Test CVE patch}␍␊
+[23:08:18:692] $ run 2␊
+[23:08:19:262] test cve in Linux␍␊
+[23:08:19:262] buf len cve␍␊
+[23:08:19:268] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:19:272] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:19:276] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:19:280] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:19:292] run cmd: 2 {Test CVE patch}␍␊
+[23:08:19:292] $ run 2␊
+[23:08:19:844] test cve in Linux␍␊
+[23:08:19:850] buf len cve␍␊
+[23:08:19:850] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:19:856] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:19:862] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:19:862] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:19:868] run cmd: 2 {Test CVE patch}␍␊
+[23:08:19:871] $ run 2␊
+[23:08:20:462] test cve in Linux␍␊
+[23:08:20:462] buf len cve␍␊
+[23:08:20:462] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:20:473] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:20:482] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:20:490] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:20:490] run cmd: 2 {Test CVE patch}␍␊
+[23:08:20:490] $ run 2␊
+[23:08:21:020] test cve in Linux␍␊
+[23:08:21:020] buf len cve␍␊
+[23:08:21:026] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:21:029] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:21:032] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:21:044] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:21:044] run cmd: 2 {Test CVE patch}␍␊
+[23:08:21:044] $ run 2␊
+[23:08:21:578] test cve in Linux␍␊
+[23:08:21:578] buf len cve␍␊
+[23:08:21:578] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:21:584] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:21:596] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:21:596] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:21:599] run cmd: 2 {Test CVE patch}␍␊
+[23:08:21:599] $ run 2␊
+[23:08:22:076] test cve in Linux␍␊
+[23:08:22:076] buf len cve␍␊
+[23:08:22:076] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:22:082] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:22:094] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:22:098] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:22:101] run cmd: 2 {Test CVE patch}␍␊
+[23:08:22:101] $ run 2␊
+[23:08:22:592] test cve in Linux␍␊
+[23:08:22:592] buf len cve␍␊
+[23:08:22:595] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:22:598] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:22:605] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:22:610] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:22:610] run cmd: 2 {Test CVE patch}␍␊
+[23:08:22:610] $ 

@@ -1,0 +1,278 @@
+***** Booting Zephyr OS zephyr-v1.14.1 *****␊
+[22:04:57:031] ␍IoTPatch init_patch_sys1: 1␍␊
+[22:04:57:085] packet size: 64 patch type:1 code_len:56 addr:0x00000000␍␊
+[22:04:57:091] New Patch is OK!␍␊
+[22:04:57:091] Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[22:04:57:097] run 0: Test log print␍␊
+[22:04:57:097] run 1: FPB breakpoint test␍␊
+[22:04:57:103] run 2: Test CVE patch␍␊
+[22:04:57:109] run 3: Run ebpf test␍␊
+[22:04:57:109] run 4: Start patch service␍␊
+[22:04:57:109] $ run 2␊
+[22:05:24:556] test cve in Linux␍␊
+[22:05:24:556] buf len cve␍␊
+[22:05:24:580] Ebpf filter block Dummy-CVE1!␍␊
+[22:05:24:580] run cmd: 2 {Test CVE patch}␍␊
+[22:05:24:580] $ ***** Booting Zephyr OS zephyr-v1.14.1 *****␊
+[22:39:47:765] ␍IoTPatch init_patch_sys1: 1␍␊
+[22:39:47:819] packet size: 64 patch type:1 code_len:56 addr:0x00000000␍␊
+[22:39:47:825] New Patch is OK!␍␊
+[22:39:47:831] Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[22:39:47:838] run 0: Test log print␍␊
+[22:39:47:838] run 1: FPB breakpoint test␍␊
+[22:39:47:838] run 2: Test CVE patch␍␊
+[22:39:47:845] run 3: Run ebpf test␍␊
+[22:39:47:845] run 4: Start patch service␍␊
+[22:39:47:845] $ patch 00 -> my test cve␍␊
+[22:40:13:315] 1 -> zephyr_cve_2020_10063 attack_coap␍␊
+[22:40:13:321] 2 -> zephyr_cve_2020_10021 attack_usb_mass␍␊
+[22:40:13:327] dynamic patch: pc=0x08002822 inst=0x08002820␍␊
+[22:40:13:327] load patch my test cve success!␍␊
+[22:40:13:333] Dump current hardware breakpoints, MODE-debug monitor:␍␊
+[22:40:13:339]   FP_COMP[0] Enabled 1, Replace: 1, Address 0x8002820␍␊
+[22:40:13:339]   FP_COMP[1] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:40:13:351]   FP_COMP[2] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:40:13:351]   FP_COMP[3] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:40:13:358]   FP_COMP[4] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:40:13:358]   FP_COMP[5] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:40:13:363]   FP_COMP[6] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:40:13:369]   FP_COMP[7] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:40:13:375] Halting Debug Enabled - Can't Enable Monitor Mode Debug!Dynamic Patch List:␍␊
+[22:40:13:379] dpkt: inst_addr: 0x08002820 pc_addr: 0x08002822 is_active: 1␍␊
+[22:40:13:381] ␊
+[22:40:13:381] $ ***** Booting Zephyr OS zephyr-v1.14.1 *****␊
+[22:43:25:139] ␍IoTPatch init_patch_sys1: 1␍␊
+[22:43:25:199] packet size: 64 patch type:1 code_len:56 addr:0x00000000␍␊
+[22:43:25:199] New Patch is OK!␍␊
+[22:43:25:212] Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[22:43:25:212] run 0: Test log print␍␊
+[22:43:25:212] run 1: FPB breakpoint test␍␊
+[22:43:25:212] run 2: Test CVE patch␍␊
+[22:43:25:224] run 3: Run ebpf test␍␊
+[22:43:25:224] run 4: Start patch service␍␊
+[22:43:25:224] $ patch 00 -> my test cve␍␊
+[22:43:31:661] 1 -> zephyr_cve_2020_10063 attack_coap␍␊
+[22:43:31:667] 2 -> zephyr_cve_2020_10021 attack_usb_mass␍␊
+[22:43:31:667] dynamic patch: pc=0x08002822 inst=0x08002820␍␊
+[22:43:31:674] load patch my test cve success!␍␊
+[22:43:31:679] Dump current hardware breakpoints, MODE-debug monitor:␍␊
+[22:43:31:681]   FP_COMP[0] Enabled 1, Replace: 1, Address 0x8002820␍␊
+[22:43:31:691]   FP_COMP[1] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:43:31:694]   FP_COMP[2] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:43:31:697]   FP_COMP[3] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:43:31:699]   FP_COMP[4] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:43:31:703]   FP_COMP[5] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:43:31:709]   FP_COMP[6] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:43:31:711]   FP_COMP[7] Enabled 0, Replace: 0, Address 0x0␍␊
+[22:43:31:715] Halting Debug Enabled - Can't Enable Monitor Mode Debug!Dynamic Patch List:␍␊
+[22:43:31:722] dpkt: inst_addr: 0x08002820 pc_addr: 0x08002822 is_active: 1␍␊
+[22:43:31:733] ␊
+[22:43:31:733] $ ***** Booting Zephyr OS zephyr-v1.14.1 *****␊
+[23:02:03:270] ␍IoTPatch init_patch_sys1: 1␍␊
+[23:02:03:324] packet size: 64 patch type:1 code_len:56 addr:0x00000000␍␊
+[23:02:03:332] New Patch is OK!␍␊
+[23:02:03:332] Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[23:02:03:343] run 0: Test log print␍␊
+[23:02:03:343] run 1: FPB breakpoint test␍␊
+[23:02:03:349] run 2: Test CVE patch␍␊
+[23:02:03:349] run 3: Run ebpf test␍␊
+[23:02:03:349] run 4: Start patch service␍␊
+[23:02:03:349] $ patch 00 -> my test cve␍␊
+[23:02:12:738] 1 -> zephyr_cve_2020_10063 attack_coap␍␊
+[23:02:12:743] 2 -> zephyr_cve_2020_10021 attack_usb_mass␍␊
+[23:02:12:747] dynamic patch: pc=0x08002822 inst=0x08002820␍␊
+[23:02:12:751] load patch my test cve success!␍␊
+[23:02:12:755] Dump current hardware breakpoints, MODE-debug monitor:␍␊
+[23:02:12:759]   FP_COMP[0] Enabled 1, Replace: 1, Address 0x8002820␍␊
+[23:02:12:763]   FP_COMP[1] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:02:12:767]   FP_COMP[2] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:02:12:767]   FP_COMP[3] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:02:12:780]   FP_COMP[4] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:02:12:783]   FP_COMP[5] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:02:12:783]   FP_COMP[6] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:02:12:787]   FP_COMP[7] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:02:12:791] debug_monitor_init setup dhcsr: 16842752␍␊
+[23:02:12:798] Dynamic Patch List:␍␊
+[23:02:12:798] dpkt: inst_addr: 0x08002820 pc_addr: 0x08002822 is_active: 1␍␊
+[23:02:12:803] ␊
+[23:02:12:803] $ trigger 0run test_func: 0x08002821␍␊
+[23:02:24:750] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:02:24:757] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:02:24:762] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:02:24:768] is bug fixed? yes␍␊
+[23:02:24:768] ␊
+[23:02:24:768] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:20:832] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:20:836] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:20:839] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:20:851] is bug fixed? yes␍␊
+[23:04:20:851] ␊
+[23:04:20:851] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:21:859] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:21:864] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:21:870] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:21:877] is bug fixed? yes␍␊
+[23:04:21:877] ␊
+[23:04:21:877] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:23:395] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:23:406] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:23:406] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:23:416] is bug fixed? yes␍␊
+[23:04:23:416] ␊
+[23:04:23:416] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:25:957] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:25:960] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:25:963] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:25:975] is bug fixed? yes␍␊
+[23:04:25:975] ␊
+[23:04:25:975] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:26:563] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:26:569] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:26:576] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:26:581] is bug fixed? yes␍␊
+[23:04:26:586] ␊
+[23:04:26:586] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:27:121] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:27:127] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:27:127] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:27:133] is bug fixed? yes␍␊
+[23:04:27:138] ␊
+[23:04:27:138] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:27:655] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:27:658] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:27:662] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:27:667] is bug fixed? yes␍␊
+[23:04:27:672] ␊
+[23:04:27:672] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:28:171] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:28:181] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:28:190] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:28:190] is bug fixed? yes␍␊
+[23:04:28:190] ␊
+[23:04:28:190] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:28:711] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:28:714] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:28:718] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:28:723] is bug fixed? yes␍␊
+[23:04:28:723] ␊
+[23:04:28:723] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:29:269] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:29:275] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:29:281] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:29:287] is bug fixed? yes␍␊
+[23:04:29:287] ␊
+[23:04:29:287] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:29:821] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:29:833] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:29:836] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:29:840] is bug fixed? yes␍␊
+[23:04:29:840] ␊
+[23:04:29:840] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:30:343] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:30:355] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:30:355] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:30:361] is bug fixed? yes␍␊
+[23:04:30:361] ␊
+[23:04:30:361] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:30:913] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:30:925] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:30:929] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:30:933] is bug fixed? yes␍␊
+[23:04:30:933] ␊
+[23:04:30:933] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:31:465] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:31:477] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:31:487] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:31:487] is bug fixed? yes␍␊
+[23:04:31:487] ␊
+[23:04:31:487] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:32:011] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:32:017] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:32:025] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:32:035] is bug fixed? yes␍␊
+[23:04:32:035] ␊
+[23:04:32:035] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:32:683] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:32:689] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:32:695] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:32:701] is bug fixed? yes␍␊
+[23:04:32:701] ␊
+[23:04:32:701] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:33:265] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:33:268] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:33:277] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:33:281] is bug fixed? yes␍␊
+[23:04:33:284] ␊
+[23:04:33:284] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:33:841] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:33:844] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:33:853] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:33:856] is bug fixed? yes␍␊
+[23:04:33:861] ␊
+[23:04:33:861] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:34:381] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:34:384] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:34:393] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:34:393] is bug fixed? yes␍␊
+[23:04:34:403] ␊
+[23:04:34:403] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:34:939] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:34:946] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:34:946] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:34:957] is bug fixed? yes␍␊
+[23:04:34:957] ␊
+[23:04:34:957] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:35:491] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:35:502] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:35:502] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:35:515] is bug fixed? yes␍␊
+[23:04:35:515] ␊
+[23:04:35:515] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:36:007] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:36:013] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:36:019] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:36:025] is bug fixed? yes␍␊
+[23:04:36:025] ␊
+[23:04:36:025] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:36:529] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:36:535] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:36:541] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:36:553] is bug fixed? yes␍␊
+[23:04:36:553] ␊
+[23:04:36:553] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:37:453] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:37:459] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:37:465] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:37:477] is bug fixed? yes␍␊
+[23:04:37:477] ␊
+[23:04:37:477] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:38:023] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:38:029] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:38:035] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:38:038] is bug fixed? yes␍␊
+[23:04:38:047] ␊
+[23:04:38:047] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:38:605] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:38:611] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:38:617] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:38:625] is bug fixed? yes␍␊
+[23:04:38:625] ␊
+[23:04:38:625] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:39:193] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:39:196] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:39:199] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:39:205] is bug fixed? yes␍␊
+[23:04:39:205] ␊
+[23:04:39:205] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:39:739] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:39:749] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:39:749] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:39:758] is bug fixed? yes␍␊
+[23:04:39:758] ␊
+[23:04:39:758] $ trigger 0run test_func: 0x08002821␍␊
+[23:04:40:291] Event micro profile dynamic start -> cycle: 259 time(us): 1␍␊
+[23:04:40:301] Event micro profile dynamic start -> cycle: 5406 time(us): 30␍␊
+[23:04:40:301] Event micro profile dynamic start -> cycle: 116 time(us): 0␍␊
+[23:04:40:311] is bug fixed? yes␍␊
+[23:04:40:311] ␊
+[23:04:40:311] $ 

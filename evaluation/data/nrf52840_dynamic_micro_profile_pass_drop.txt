@@ -1,0 +1,1114 @@
+[00:43:56:448] pI<0x08><0xc3><0x90>9FwG<0xb8><0xa6><0x9c><0x82>F<0xe6><0x83>{<0xff><break>
+[00:43:56:448] <0xa7><0x84>9!<0xeb>}<0x8b><0x89>p>4ls$<0xee><0xbb>%y!<0x90>9FwG<0xb8><0xa6><0x9c>^<0x08><0x82>F<0xe6><0x83>{<0xff>^@<0xa7><0x84>9!<0xeb>}<0x8b><0x89>p>4ls$<0xee><0xbb><break>
+[00:44:00:542] IoTPatch Cli Usage: ru<0xa9> [i<0xa9>x] * tri*ger [cveB | oatcho[cvti␍␊
+[00:44:00:545] rng 0: Zestepog hyintr runOS: F z brepkpohyt test␍␊
+[00:44:00:593] rrn 2: Te-t C<0xd9><0x15><0x81>p1tch.␊
+[00:44:00:593] ru1 3:<0xd1>Run<0xb9>ebpf te1t␍␊
+[00:44:00:593] run <0x81>: Start*patch s<0xa9>rvice␍␊
+[00:44:00:593] * **␊
+[00:44:00:593] ␍IoTPatch Cli Usage: ru**[idx* | *rigg*r [ ve] B paoch [<0xbd><0xd9>Gu<0x95><0xe7><0xc9><0xd5><0xb9>u<0x07><0xd2><0x02><0xa2><0xa7>]<0x16><0x17>b<0x07><0x87><0x81>pryrt␍␊
+[00:58:25:120]  On 1S FPBzereaphoiny test␍␊
+[00:58:25:123] ru<0xc9><0x81>2:<0xb5>Tesv CV1 pa.ch␍<0xc5>run43: .un ebpf1test␍␊
+[00:58:25:127] r n 4: St*rt patc* servic*␍␊
+[00:58:25:131] $ **␊
+[00:58:25:131] ␍<break>
+[00:58:41:208] IoTPatch Cli Usage: ru*n*idx]*| t*igge* [c e] |Bpat<0xbd><0xa1><0x81>[cve]o␊
+[00:58:41:211] run 0: Test log print␍␊
+[00:58:41:219] run 1: FPB breakpoint test␍␊
+[00:58:41:219] ru<0xd1><0x81>2:iTesn CVg pa<0x81>ch␍i<0xc9><0xd5><0xb9>W<0xcd>: pun hbpf<0xe5><0xd1><0x95><0xcd>'5␊
+[00:58:41:226] r n 4O StSrt <0x81>atcz seevice␍␊
+[00:58:41:226] $ phyr-v1.14.1 *****␊
+[00:58:41:226] ␍patch 2␊
+[00:58:46:830] $ ***** USAGE FAULT *****␊
+[00:58:52:843] ␍  Illegal load of EXC_RETURN into PC␊
+[00:58:52:926] ␍***** Hardware exception *****␊
+[00:58:53:026] ␍Current thread ID = 0x20001f4c␊
+[00:58:53:109] Faulting instruction address = 0x20006508␊
+[00:58:53:116] ␍Fatal fault in essential thread! Spinning...␊
+[00:58:53:258] ␍<break>
+[01:00:44:137] IoTPatch Cli Usage: ru<0xa9> [i*x] * tri*ger [cveB | oatcho[c<0xd1><0x95>u5i<0xb9><0xd5><0xb9><0x81>g<0x81> TeZ<0x95><0x81>lop<0xa1><0xc1><0xc9><0xa5><0x97>%5␊
+[01:00:44:151] r =<0x81>1:S<0x81>PB z<0x95><0x95><0x85><0xad><0x07><0x85><0xa5><0xb9><0xd1><0x81><0xe5><0x95><0xcd><0xd1>')ru- 2:vTes1 CV<0xb9> pa1ch␍4run.3: Run <0xc5>bpf tes ␍␊
+[01:00:44:151] run 4<0xa9> Start *atch se<0xa9>vice␍␊
+[01:00:44:156] $**␊
+[01:00:44:156] ␍patch 2␊
+[01:00:57:082] $ <break>
+[01:01:59:831] IoTPatch Cli Usage: ru* [i*x] |*tri*ger  cveB | potch<0xff>o<0xd1><0x8d><0xd9><0x95>u<0x97><0xe7><0xc9><0xd5><0xb9>w<0x07><0xd2><0x02><0xa2><0xa7>]<0x16><0x17>b<0x07><0x87><0x81>pryrt␍␊
+[01:01:59:842]  On 1S FPBzereaphoint test␍␊
+[01:01:59:842] run 2: Test CVE patch␍␊
+[01:01:59:846] run 3: Run ebpf test␍␊
+[01:01:59:846] run 4: Start patch service␍␊
+[01:01:59:846] $ yr-v1.14.1 *****␊
+[01:01:59:853] ␍patch 2␊
+[01:02:05:603] $ <break>
+[01:03:06:435] IoTPatch Cli Usage: ru**[idx* | <0xa9>rigg<0xa9>r [ ve] B paoch [cv<0xbd>u5␊
+[01:03:06:438] t<0xa5><0xb9><0x81>0n<0x9d>Q<0x95><0xcd><0x07>J<0xc5><0xbd><0x9d>W<0x05><0xc9><0xa5><0xb9><0x87><0x95>)rur<0x81>1: OM⇥	<0x81>b <0xe9><0x85><0xad><0xc1>W<0x05><0xb9><0xd1><0x81>tesh␍␊
+[01:03:06:450] ryn 2<0xc9><0x81>Te-t CvE p1tch.␊
+[01:03:06:450] ru<0xc5> 3:4Run.ebpf te<0xc5>t␍␊
+[01:03:06:450] run  : Start*patch s*rvice␍␊
+[01:03:06:463] * **␊
+[01:03:06:463] ␍patch 2␊
+[01:03:19:609] $ <break>
+[01:04:08:281] IoTPatch Cli Usage: ru* [i*x] |*tri*ger  cve⇥	<0x81>| p<0xbd><0xd1><0x8d><0xa1><0xff>o[cvt<0xa5>5␊
+[01:04:08:284] rn<0x9d><0x81>0: i<0x95><0xcd><0xd1>W<0x05><0xbd><0x9d><0x81><0xa1><0x95><0xa5><0xb9><0xd1>'<0x05><0x92><0xd5><0xb9><0xf5>5<0xa5><0x02>2<0x05>J<0x81>br<0x95><0x05><0xad><0xc1><0xbd><0x85><0x95><0xd1><0x81>test␍␊
+[01:04:08:293] run 2: Test CVE patch␍␊
+[01:04:08:293] run 3: Run ebpf test␍␊
+[01:04:08:293] run 4: Start patch service␍␊
+[01:04:08:298] $ r-v1.14.1 *****␊
+[01:04:08:301] ␍<break>
+[01:06:00:118] IoTPatch Cli Usage: ru**[idx* | *rigg*r [ ve] B pa<0xbd><0x8d><0xa1><0x81>[cvo]␍␊
+[01:06:00:121] tin 0ngTes Zlogeprinhy␊
+[01:06:00:128] rur 1: OSB b zakpepnt thsy␍␊
+[01:06:00:128] rrn 2- Tevt C<0xc5>E p.tch1␊
+[01:06:00:135] ru4 3:.Run ebp1 test␍␊
+[01:06:00:135]  un 4: S*art pat*h servi<0xa9>e␍␊
+[01:06:00:135] $ **␊
+[01:06:00:135] ␍patch 2␊
+[01:06:05:205] $ ***** USAGE FAULT *****␊
+[01:06:12:615] ␍  Illegal load of EXC_RETURN into PC␊
+[01:06:12:698] ␍***** Hardware exception *****␊
+[01:06:12:798] ␍Current thread ID = 0x20001f4c␊
+[01:06:12:881] Faulting instruction address = 0x20006508␊
+[01:06:12:889] ␍Fatal fault in essential thread! Spinning...␊
+[01:06:13:030] ␍<break>
+[01:07:24:694] IoTPatch Cli Usage: ru<0xa9> [i*x] * tri*ger [cveB | oatcho<0xd1><0x8d><0x95><0xe5>u5␊
+[01:07:24:697] <0x9d><0x05>r<0x81>0iUQ<0x95><0xcd><0x05><0x87><0xb1><0xbd><0x9d><0x95>'<0xc9><0xa5><0xb9><0x05><0xee>JH<0xd5>7<0x1d><0x8a><0xd2><0x02>NW⇥	<0x81>bphakpyrnt te-t␍␊
+[01:07:24:706] run <0xd9><0xe9> T1st .VE 1atc4␍␊
+[01:07:24:706] r<0xb9>n 3: Ru1 ebpf t<0x81>st␍␊
+[01:07:24:706] run*4: Star* patch *ervice␍*$ *␊
+[01:07:24:718] ␍patch 2␊
+[01:07:37:915] $ ***** USAGE FAULT *****␊
+[01:07:43:529] ␍  Illegal load of EXC_RETURN into PC␊
+[01:07:43:612] ␍***** Hardware exception *****␊
+[01:07:43:712] ␍Current thread ID = 0x20001f4c␊
+[01:07:43:795] Faulting instruction address = 0x20005490␊
+[01:07:43:802] ␍Fatal fault in essential thread! Spinning...␊
+[01:07:43:944] ␍<break>
+[01:07:52:528] IoTPatch Cli Usage: ru*n *dx]*| tr*gge* [cv ] |⇥	<0xc1><0x85><0xd1><0x8d><0xf5><0x81>[ove]␍tr<0xa5><0xe7><0x81>0:<0x9d><0x07>*<0xcd><0xd1><0xa5>]<0xd6><0xeb><0x81><0xc1><0x87><0xa5><0xb9><0xd1><0x97>'<0xc9><0xd5><0xb9><0x07><0xee>J<0x02>27<0x1d><0x02><0x12><0xc9><0xa7>W<0xad><0xc1><0xbd><0x07><0x87><0xd1><0x81>tysr␍␊
+[01:07:52:538] r-n 2<0xd9><0x81>Te<0xc5>t C.E p1tch4␊
+[01:07:52:546] ru<0xb9> 3: Run1ebpf te t␍␊
+[01:07:52:546] run *: Start*patch s*rvice␍␊
+[01:07:52:546] * *␊
+[01:07:52:546] ␍patch 2␊
+[01:08:03:949] $ ***** USAGE FAULT *****␊
+[01:08:07:913] ␍  Illegal load of EXC_RETURN into PC␊
+[01:08:07:997] ␍***** Hardware exception *****␊
+[01:08:08:097] ␍Current thread ID = 0x20001f4c␊
+[01:08:08:180] Faulting instruction address = 0x20005490␊
+[01:08:08:186] ␍Fatal fault in essential thread! Spinning...␊
+[01:08:08:328] ␍<break>
+[01:08:53:867] IoTPatch Cli Usage: ru* [i*x] |*tri*ger  cveB | potch<0xff>o[cv<0xd1><0x95>5␊
+[01:08:53:870] r<0xb9>u<0x81>0:<0x81>i<0x95><0xcd><0xd1>U<0x05><0xbd><0x9d><0x81><0xa1><0x95><0xa5><0xb9><0xd1>%<0x05><0x92><0xd5><0xb9><0xf5>7<0xa5><0x02>2<0x05>N<0x81>brepkpohyt <0xc9><0x95><0xcd><0xd1>5␊
+[01:08:53:879] ru- 2:vTes<0xc5> CV. pa1ch␍4run.3: Run 1bpf tes ␍␊
+[01:08:53:879] run 4* Start *atch se<0xa9>vice␍␊
+[01:08:53:894] $**␊
+[01:08:53:894] ␍patch 2␊
+[01:08:58:644] $ ***** USAGE FAULT *****␊
+[01:09:40:060] ␍  Illegal load of EXC_RETURN into PC␊
+[01:09:40:143] ␍***** Hardware exception *****␊
+[01:09:40:244] ␍Current thread ID = 0x20001f4c␊
+[01:09:40:326] Faulting instruction address = 0x20005450␊
+[01:09:40:334] ␍Fatal fault in essential thread! Spinning...␊
+[01:09:40:475] ␍<break>
+[01:09:53:843] IoTPatch Cli Usage: ru* [i*x] * tri*ger [cveB | <0xbd><0x85><0xd1><0x8d><0xa1><0xfd>o[cv<0xd1><0x95>5␊
+[01:09:53:846] r<0xb9>u<0x81>0:<0x81>Zest<0x95><0x07><0xbd><0x9d><0x81><0xa1><0x97><0xa5><0xb9><0xd1>'<0x07><0x92><0xd5><0xb9><0xf7>7<0xa5><0x02>2<0x07>N<0x81>brepkpohyt testr␊
+[01:09:53:854] run 2:-Tes<0xd9><0x81>CV<0xc5> pa.ch␍1run43: <0xb9>un ebpf1test␍␊
+[01:09:53:858] r<0x81>n 4: St*rt patc* servic*␍␊
+[01:09:53:858] $ **␊
+[01:09:53:858] ␍patch 2␊
+[01:09:56:596] $ ***** USAGE FAULT *****␊
+[01:10:01:151] ␍  Illegal load of EXC_RETURN into PC␊
+[01:10:01:234] ␍***** Hardware exception *****␊
+[01:10:01:335] ␍Current thread ID = 0x20001f4c␊
+[01:10:01:417] Faulting instruction address = 0x2000c59c␊
+[01:10:01:424] ␍Fatal fault in essential thread! Spinning...␊
+[01:10:01:566] ␍<break>
+[01:10:33:522] IoTPatch Cli Usage: ru*n*idx* | t*igg*r [c e] B patoh [cvo]␍trin 0<0xb9><0x81>Tegt l g pZinte␊
+[01:10:33:527] ru<0xc1><0x81>1:hFPBybrerkpo nt {<0x95><0xcd><0xd1>5␊
+[01:10:33:532] run M<0xe9> T st zVE eatc<0xc1>5␊
+[01:10:33:537] r<0xa1><0xb9><0x81>3y Rur eb-f t<0xd9><0xcd><0xd1>5<0xc5>run.4: 1tar4 pa<0xb9>ch serv1ce␍␊
+[01:10:33:537] $  *****␊
+[01:10:33:541] ␍patch 2␊
+[01:10:37:335] $ ***** USAGE FAULT *****␊
+[01:10:44:035] ␍  Illegal load of EXC_RETURN into PC␊
+[01:10:44:118] ␍***** Hardware exception *****␊
+[01:10:44:218] ␍Current thread ID = 0x20001f4c␊
+[01:10:44:301] Faulting instruction address = 0x20005490␊
+[01:10:44:308] ␍Fatal fault in essential thread! Spinning...␊
+[01:10:44:450] ␍<break>
+[01:11:00:562] IoTPatch Cli Usage: ru* [i*x] |*tri*ger  cveB | potch<0xff>o[cv<0xd1><0x95>5␊
+[01:11:00:565] r<0xb9>u<0x81>0:<0x81>i<0x95><0xcd><0xd1>U<0x07><0xbd><0x9d><0x81><0xa1><0x97><0xa5><0xb9><0xd1>'<0x07><0x92><0xd5><0xb9><0xf7>7<0xa5><0x02>2<0x07>N<0x81>brepkpohyt <0xc9><0x95><0xcd><0xd1>5␊
+[01:11:00:576] ru- 2:vTes<0xc5> CV<0xb9> pa1ch␍4run.3: Run 1bpf tes ␍␊
+[01:11:00:576] run 4<0xa9> Start *atch se<0xa9>vice␍␊
+[01:11:00:581] $**␊
+[01:11:00:581] ␍patch 2␊
+[01:11:03:910] $ ***** USAGE FAULT *****␊
+[01:11:12:123] ␍  Illegal load of EXC_RETURN into PC␊
+[01:11:12:206] ␍***** Hardware exception *****␊
+[01:11:12:306] ␍Current thread ID = 0x20001f4c␊
+[01:11:12:389] Faulting instruction address = 0x20006508␊
+[01:11:12:397] ␍Fatal fault in essential thread! Spinning...␊
+[01:11:12:538] ␍<break>
+[01:11:18:338] IoTPatch Cli Usage: ru* [i*x] <0xa9> tri<0xa9>ger [cveB | oatcho[cte]␍inun g  TeZe lophpriyr␍␊
+[01:11:18:345] r O 1:S PB zeeakphint yestr␊
+[01:11:18:350] ru<0xb5> 2:<0xd9>Q<0x95><0xcd><0x17><0x02><0x1a>Y<0xe7><0x02><0x82><0x85><0x17><0x1a><0xa1>5<0xd1>run.3: Run 1bpf tes<0x81>␍␊
+[01:11:18:350] run 4* Start <0xa9>atch se*vice␍␊
+[01:11:18:354] $<0xa9>*␊
+[01:11:18:354] ␍patch 2␊
+[01:11:20:078] $ ***** USAGE FAULT *****␊
+[01:11:29:686] ␍  Illegal load of EXC_RETURN into PC␊
+[01:11:29:769] ␍***** Hardware exception *****␊
+[01:11:29:870] ␍Current thread ID = 0x20001f4c␊
+[01:11:29:953] Faulting instruction address = 0x20005450␊
+[01:11:29:961] ␍Fatal fault in essential thread! Spinning...␊
+[01:11:30:102] ␍<break>
+[01:11:34:549] IoTPatch Cli Usage: ru*n [*x] |*tri*ger *cve  | pBtcho[cve]␍␊
+[01:11:34:552] ron 0:tiest n<0x9d><0x9d><0x81>pr<0x81>i<0xd1>5␊
+[01:11:34:562] rep 1: hyB brr kpoiOM<0x81>t st␍␊
+[01:11:34:562] run z: Test CVEepatch␍␊
+[01:11:34:562] runp3: Run ebph test␍␊
+[01:11:34:562] runy4: Start p<0xc9><0xd1><0x8d><0xa1><0x81>servic<0xb5>␍␊
+[01:11:34:572] $ v1.14.1 *****␊
+[01:11:34:572] ␍patch 2␊
+[01:11:38:614] $ ***** USAGE FAULT *****␊
+[01:11:46:082] ␍  Illegal load of EXC_RETURN into PC␊
+[01:11:46:165] ␍***** Hardware exception *****␊
+[01:11:46:266] ␍Current thread ID = 0x20001f4c␊
+[01:11:46:348] Faulting instruction address = 0x20006508␊
+[01:11:46:356] ␍Fatal fault in essential thread! Spinning...␊
+[01:11:46:497] ␍<break>
+[01:11:53:139] IoTPatch Cli Usage: ru*n*idx<0xa9> | t<0xa9>igg*r [c e] B patoh [cvo]␍trin 0n Tegt l<0x81>g pi<0xa5><0xb9><0xd1>W)rup 1:hFPB<0xe5><0x89><0xc9><0x95>'<0xad><0xc1><0xbd><0x07>r<0xd1><0x81>Oest␍␊
+[01:11:53:153] run 2: Test CVE patch␍␊
+[01:11:53:153] run 3: Run ebpf test␍␊
+[01:11:53:153] run 4: Start patch service␍␊
+[01:11:53:158] $ S zephyr-v1.14.1 *****␊
+[01:11:53:158] ␍<break>
+[01:13:30:750] IoTPatch Cli Usage: ru<0xa9> [i*x] |*tri*ger  cveB | potch<0xff>o<0xd1><0x8d><0xd9><0x95>u<0x97><0xe7><0xc9><0xd5><0xb9>w<0x07><0xd2><0x02><0xa2><0xa7>]<0x16><0x17>b<0x07><0x87><0x81>pryrt␍␊
+[01:13:30:757]  On 1S FPBzereaphoint test␍␊
+[01:13:30:762] <0xe5><0xd5><0xb9><0x81>2: Trst -VE vatc<0xc5>␍␊
+[01:13:30:762] r.n 31 Ru4 eb.f test␍1run 4:  tart pa*ch serv*ce␍␊
+[01:13:30:769] $ ***␊
+[01:13:30:769] ␍<0xbc><0xde><0xc8><0xf8><0xe1><0x9f><0x97><0xef>;<0xca>ks<0x81>s<0xa3><0xc3><0xfb><0xfc><break>
+[11:31:45:466] <0x89>$<0xca><0xfd>!⇥	<0xe6>/<0x0c><0xa1>T<0xd8><0x93>bs<0xa3>IoTPatch Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[11:31:46:539] run 0: Test log print␍␊
+[11:31:46:549] run 1: FPB breakpoint test␍␊
+[11:31:46:549] run 2: Test CVE patch␍␊
+[11:31:46:549] run 3: Run ebpf test␍␊
+[11:31:46:549] run 4: Start patch service␍␊
+[11:31:46:563] $ <0xc8><0xf8><0xe1><0xff><0x86>patch 3␊
+[11:31:51:008] $ <break>
+[11:32:22:764] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[11:32:25:765] IoTPatch Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[11:32:25:768] run 0: Test log print␍␊
+[11:32:25:779] run 1: FPB breakpoint test␍␊
+[11:32:25:779] run 2: Test CVE patch␍␊
+[11:32:25:779] run 3: Run ebpf test␍␊
+[11:32:25:779] run 4: Start patch service␍␊
+[11:32:25:789] $ patch 3␊
+[11:32:33:780] $ ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:41:289] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:42:422] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:43:270] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:44:295] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:45:454] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:46:529] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:47:471] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:48:312] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:49:009] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:49:629] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:50:370] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:50:962] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:51:634] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:52:377] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:53:024] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:32:53:805] ***** MPU FAULT *****␍␊
+[11:32:53:805]   Data Access Violation␍␊
+[11:32:53:812]   MMFAR Address: 0x8␍␊
+[11:32:53:812] ***** Hardware exception *****␍␊
+[11:32:53:818] Current thread ID = 0x200035ac␍␊
+[11:32:53:818] Faulting instruction address = 0x2818␍␊
+[11:32:53:824] Fatal fault in ISR! Spinning...␍␊
+[11:33:43:047] <break>
+[11:33:43:212] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[11:33:46:213] IoTPatch Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[11:33:46:216] run 0: Test log print␍␊
+[11:33:46:221] run 1: FPB breakpoint test␍␊
+[11:33:46:226] run 2: Test CVE patch␍␊
+[11:33:46:226] run 3: Run ebpf test␍␊
+[11:33:46:226] run 4: Start patch service␍␊
+[11:33:46:231] $ patch 3␊
+[11:34:36:440] $ ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:47:029] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:48:137] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:48:908] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:51:533] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:52:167] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:52:680] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:53:189] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:53:698] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:54:207] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:54:716] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:55:224] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:55:733] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:34:56:242] ptr = 0x20006498 536896664 , val=536885040 0x20***** USAGE FAULT *****␍␊
+[11:34:56:248]   Illegal use of the EPSR␍␊
+[11:34:56:254] ***** Hardware exception *****␍␊
+[11:34:56:254] Current thread ID = 0x200035ac␍␊
+[11:34:56:260] Faulting instruction address = 0x0␍␊
+[11:34:56:260] Fatal fault in ISR! Spinning...␍␊
+[11:35:27:600] <break>
+[11:35:27:713] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[11:35:30:713] IoTPatch Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[11:35:30:716] run 0: Test log print␍␊
+[11:35:30:724] run 1: FPB breakpoint test␍␊
+[11:35:30:724] run 2: Test CVE patch␍␊
+[11:35:30:730] run 3: Run ebpf test␍␊
+[11:35:30:730] run 4: Start patch service␍␊
+[11:35:30:730] $ patch 3␊
+[11:35:36:330] $ ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:44:703] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:45:812] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:46:973] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:48:344] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:49:604] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:50:688] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:51:738] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:52:758] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:53:831] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:54:673] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:55:526] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:56:473] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:57:613] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:58:720] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:35:59:773] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:00:910] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:02:041] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:03:113] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:04:201] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:05:293] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:06:573] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:07:608] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:08:693] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:09:804] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:10:927] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:12:093] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:13:164] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:14:200] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:15:334] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:16:361] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:17:462] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:18:579] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:19:683] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:20:774] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:21:871] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:22:862] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:23:792] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:24:861] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:25:751] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:26:826] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:27:900] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:28:896] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:29:891] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:30:872] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:31:930] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:32:918] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:33:863] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:35:089] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:36:113] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:37:193] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:38:201] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:39:288] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:40:240] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:41:216] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:42:202] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:43:318] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:44:344] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:45:383] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:46:317] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:47:294] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:48:216] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:49:173] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:36:50:174] ***** MPU FAULT *****␍␊
+[11:36:50:174]   Data Access Violation␍␊
+[11:36:50:182]   MMFAR Address: 0x8␍␊
+[11:36:50:182] ***** Hardware exception *****␍␊
+[11:36:50:182] Current thread ID = 0x200035ac␍␊
+[11:36:50:188] Faulting instruction address = 0x2818␍␊
+[11:36:50:188] Fatal fault in ISR! Spinning...␍␊
+[11:37:13:102] <break>
+[11:37:13:261] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[11:37:16:263] IoTPatch Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[11:37:16:266] run 0: Test log print␍␊
+[11:37:16:278] run 1: FPB breakpoint test␍␊
+[11:37:16:278] run 2: Test CVE patch␍␊
+[11:37:16:278] run 3: Run ebpf test␍␊
+[11:37:16:278] run 4: Start patch service␍␊
+[11:37:16:291] $ patch 3␊
+[11:37:23:728] $ ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:31:370] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:32:532] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:33:589] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:34:698] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:35:787] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:36:849] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:38:015] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:39:114] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:40:172] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:41:446] ptr = 0x20006498 536896664 , val=536885040 0x20003730␍␍␊
+[11:37:45:339] <break>
+[11:37:45:490] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[11:37:48:492] IoTPatch Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[11:37:48:495] run 0: Test log print␍␊
+[11:37:48:509] run 1: FPB breakpoint test␍␊
+[11:37:48:509] run 2: Test CVE patch␍␊
+[11:37:48:509] run 3: Run ebpf test␍␊
+[11:37:48:509] run 4: Start patch service␍␊
+[11:37:48:509] $ <break>
+[11:38:39:873] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[11:38:42:875] IoTPatch Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[11:38:42:878] run 0: Test log print␍␊
+[11:38:42:889] run 1: FPB breakpoint test␍␊
+[11:38:42:889] run 2: Test CVE patch␍␊
+[11:38:42:889] run 3: Run ebpf test␍␊
+[11:38:42:889] run 4: Start patch service␍␊
+[11:38:42:901] $ <break>
+[11:51:12:197] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[11:51:15:198] IoTPatch Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[11:51:15:201] run 0: Test log print␍␊
+[11:51:15:207] run 1: FPB breakpoint test␍␊
+[11:51:15:207] run 2: Test CVE patch␍␊
+[11:51:15:214] run 3: Run ebpf test␍␊
+[11:51:15:214] run 4: Start patch service␍␊
+[11:51:15:214] $ IoTPatch Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[16:28:58:333] run 0: Test log print␍␊
+[16:28:58:338] run 1: FPB breakpoint test␍␊
+[16:28:58:341] run 2: Test CVE patch␍␊
+[16:28:58:346] run 3: Run ebpf test␍␊
+[16:28:58:346] run 4: Start patch service␍␊
+[16:28:58:349] $ ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[16:29:10:183] IoTPatch Cli iUsanit_patch<0xfa><0xe1>u<0x81>s trygger s1: 1 |␍pat␊
+[16:29:10:186] h pack]␍␊
+[16:29:10:186] et  0: sest Fizebrea<0xd3><0x82><0x03>J<0xb3><0xa2><0xa3><0x06>"<0x91>5␊
+[16:29:10:196] pat 1: ceht typ petch :1i gcro␊
+[16:29:10:196] dun e_lCleae n:5 6 kt aad pdtrh␍␊
+[16:29:10:196] r:0 3x 000 0bpf0t0s0␍0run 4: Start<0xa0><0xc3>aZ<0xb6>7<0x06>5<0x95><0xc9><0xd9><0xa5><0x0b><0xa3><0x1b>)$ h is OK!␍␊
+[16:29:34:473] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[16:29:37:471] IoTPatch Cli iUsne: ruit_patch_ sys1: 1 [cve␍␊
+[16:29:37:474] |paatch ckve]␍ertn 0:sTist Fze b:e kpoi64 apda␊
+[16:29:37:482] tun c: he t FPtypatphetrig<0xd3>*<0xc9>5␊
+[16:29:37:482] 1 cod: e_lar aelnb:5t an6 patc ␍␊
+[16:29:37:489] rua d: dr: ebp0 xes000r0n040 St0r0 ␍a␊
+[16:29:37:497] ch sNew Pe␍␊
+[16:29:37:497] $ atch is OK!␍␊
+[16:29:43:750] <break>
+[16:29:43:911] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[16:29:46:912] IoTPatch Cli nsage: run [idit_patch_syr s1:e] | pat1h␍[cve␊
+[16:29:46:915] ␍pack 0: ee<0xa3><0x03>6KA⇥	<0x81>bzeekpoi: 6a4 ␍␊
+[16:29:46:927] rpa 1: tecthFP  ptych trpe:er␍␊
+[16:29:46:927] 1 n 2:codear ale_lpkt end n:5c6 ␊
+[16:29:46:927] runaddrRun :bpf t0x000r00040 0tart␍␊
+[16:29:46:940] atNew ervicPat$ ch is OK!␍␊
+[16:29:53:855] patch 0␊
+[16:29:53:855] ebug_monitor_init setup dhcsr: 16842752␍␊
+[16:29:53:862] 0 -> my test cve␍␊
+[16:29:53:862] 1 -> zephyr_cve_2020_10063 attack_coap␍␊
+[16:29:53:869] 2 -> zephyr_cve_2020_10021 attack_usb_mass␍␊
+[16:29:53:869] 3 -> zephyr_cve_2020_10062 attack_mqtt␍␊
+[16:29:53:869] dynamic patch: pc=0x00009c84 inst=0x00009c80␍␊
+[16:29:53:876] load patch my test cve success!␍␊
+[16:29:53:883] Dump current hardware breakpoints, MODE-debug monitor:␍␊
+[16:29:53:889]   FP_COMP[0] Enabled 1, Replace: 1, Address 0x9c80␍␊
+[16:29:53:889]   FP_COMP[1] Enabled 0, Replace: 0, Address 0x0␍␊
+[16:29:53:894]   FP_COMP[2] Enabled 0, Replace: 0, Address 0x0␍␊
+[16:29:53:899]   FP_COMP[3] Enabled 0, Replace: 0, Address 0x0␍␊
+[16:29:53:904]   FP_COMP[4] Enabled 0, Replace: 0, Address 0x0␍␊
+[16:29:53:904]   FP_COMP[5] Enabled 0, Replace: 0, Address 0x0␍␊
+[16:29:53:908] Dynamic Patch List:␍␊
+[16:29:53:914] dpkt: inst_addr: 0x00009c80 pc_addr: 0x00009c84 is_active: 1␍␊
+[16:29:53:918] $ trigger 0␊
+[16:30:05:367] un test_func: 0x00009c81␍␊
+[16:30:05:373] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:30:05:379] Event micro profile dynamic start -> cycle: 6412 time(us): 100␍␊
+[16:30:05:385] Event micro profile dynamic start -> cycle: 43 time(us): 0␍␊
+[16:30:05:385] [0000] is bug fixed? yes␍␊
+[16:30:05:390] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:30:05:397] Event micro profile dynamic start -> cycle: 6405 time(us): 100␍␊
+[16:30:05:402] Event micro profile dynamic start -> cycle: 111 time(us): 1␍␊
+[16:30:05:406] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:30:05:412] [0001] is bug fixed? yes␍␊
+[16:30:05:412] $ trigger 0␊
+[16:31:33:540] un test_func: 0x00009c81␍␊
+[16:31:33:552] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:33:552] Event micro profile dynamic start -> cycle: 6406 time(us): 100␍␊
+[16:31:33:564] Event micro profile dynamic start -> cycle: 46 time(us): 0␍␊
+[16:31:33:564] [0000] is bug fixed? yes␍␊
+[16:31:33:564] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:33:573] Event micro profile dynamic start -> cycle: 6417 time(us): 100␍␊
+[16:31:33:573] Event micro profile dynamic start -> cycle: 111 time(us): 1␍␊
+[16:31:33:580] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:31:33:585] [0001] is bug fixed? yes␍␊
+[16:31:33:585] $ trigger 0␊
+[16:31:34:406] un test_func: 0x00009c81␍␊
+[16:31:34:413] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:34:419] Event micro profile dynamic start -> cycle: 6406 time(us): 100␍␊
+[16:31:34:428] Event micro profile dynamic start -> cycle: 43 time(us): 0␍␊
+[16:31:34:428] [0000] is bug fixed? yes␍␊
+[16:31:34:428] Event micro profile dynamic start -> cycle: 74 time(us): 1␍␊
+[16:31:34:434] Event micro profile dynamic start -> cycle: 6408 time(us): 100␍␊
+[16:31:34:438] Event micro profile dynamic start -> cycle: 111 time(us): 1␍␊
+[16:31:34:443] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:31:34:449] [0001] is bug fixed? yes␍␊
+[16:31:34:453] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:35:190] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:35:196] Event micro profile dynamic start -> cycle: 6406 time(us): 100␍␊
+[16:31:35:207] Event micro profile dynamic start -> cycle: 46 time(us): 0␍␊
+[16:31:35:207] [0000] is bug fixed? yes␍␊
+[16:31:35:212] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:35:217] Event micro profile dynamic start -> cycle: 6417 time(us): 100␍␊
+[16:31:35:222] Event micro profile dynamic start -> cycle: 111 time(us): 1␍␊
+[16:31:35:227] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:31:35:232] [0001] is bug fixed? yes␍␊
+[16:31:35:232] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:36:036] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:36:044] Event micro profile dynamic start -> cycle: 6406 time(us): 100␍␊
+[16:31:36:051] Event micro profile dynamic start -> cycle: 43 time(us): 0␍␊
+[16:31:36:051] [0000] is bug fixed? yes␍␊
+[16:31:36:060] Event micro profile dynamic start -> cycle: 74 time(us): 1␍␊
+[16:31:36:060] Event micro profile dynamic start -> cycle: 6408 time(us): 100␍␊
+[16:31:36:066] Event micro profile dynamic start -> cycle: 111 time(us): 1␍␊
+[16:31:36:071] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:31:36:077] [0001] is bug fixed? yes␍␊
+[16:31:36:081] $ trigger 0un test_func: 0x00009c81␍␊
+[16:31:36:740] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:36:746] Event micro profile dynamic start -> cycle: 6412 time(us): 100␍␊
+[16:31:36:752] Event micro profile dynamic start -> cycle: 43 time(us): 0␍␊
+[16:31:36:759] [0000] is bug fixed? yes␍␊
+[16:31:36:759] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:36:765] Event micro profile dynamic start -> cycle: 6405 time(us): 100␍␊
+[16:31:36:770] Event micro profile dynamic start -> cycle: 111 time(us): 1␍␊
+[16:31:36:776] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:31:36:781] [0001] is bug fixed? yes␍␊
+[16:31:36:785] $ trigger 0␊
+[16:31:37:388] un test_func: 0x00009c81␍␊
+[16:31:37:400] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:37:400] Event micro profile dynamic start -> cycle: 6412 time(us): 100␍␊
+[16:31:37:411] Event micro profile dynamic start -> cycle: 43 time(us): 0␍␊
+[16:31:37:411] [0000] is bug fixed? yes␍␊
+[16:31:37:411] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:37:420] Event micro profile dynamic start -> cycle: 6405 time(us): 100␍␊
+[16:31:37:420] Event micro profile dynamic start -> cycle: 111 time(us): 1␍␊
+[16:31:37:428] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:31:37:432] [0001] is bug fixed? yes␍␊
+[16:31:37:432] $ trigger 0␊
+[16:31:38:048] un test_func: 0x00009c81␍␊
+[16:31:38:054] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:38:060] Event micro profile dynamic start -> cycle: 6406 time(us): 100␍␊
+[16:31:38:066] Event micro profile dynamic start -> cycle: 43 time(us): 0␍␊
+[16:31:38:066] [0000] is bug fixed? yes␍␊
+[16:31:38:071] Event micro profile dynamic start -> cycle: 74 time(us): 1␍␊
+[16:31:38:077] Event micro profile dynamic start -> cycle: 6408 time(us): 100␍␊
+[16:31:38:081] Event micro profile dynamic start -> cycle: 1093 time(us): 17␍␊
+[16:31:38:086] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:31:38:091] [0001] is bug fixed? yes␍␊
+[16:31:38:096] $ trigger 0␊
+[16:31:38:746] un test_func: 0x00009c81␍␊
+[16:31:38:751] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:38:758] Event micro profile dynamic start -> cycle: 6412 time(us): 100␍␊
+[16:31:38:764] Event micro profile dynamic start -> cycle: 43 time(us): 0␍␊
+[16:31:38:764] [0000] is bug fixed? yes␍␊
+[16:31:38:769] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:38:775] Event micro profile dynamic start -> cycle: 6405 time(us): 100␍␊
+[16:31:38:779] Event micro profile dynamic start -> cycle: 111 time(us): 1␍␊
+[16:31:38:784] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:31:38:789] [0001] is bug fixed? yes␍␊
+[16:31:38:794] $ trigger 0␊
+[16:31:39:499] un test_func: 0x00009c81␍␊
+[16:31:39:505] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:39:512] Event micro profile dynamic start -> cycle: 6409 time(us): 100␍␊
+[16:31:39:518] Event micro profile dynamic start -> cycle: 46 time(us): 0␍␊
+[16:31:39:518] [0000] is bug fixed? yes␍␊
+[16:31:39:525] Event micro profile dynamic start -> cycle: 79 time(us): 1␍␊
+[16:31:39:525] Event micro profile dynamic start -> cycle: 6417 time(us): 100␍␊
+[16:31:39:531] Event micro profile dynamic start -> cycle: 111 time(us): 1␍␊
+[16:31:39:535] Event micro profile dynamic start -> cycle: 70 time(us): 1␍␊
+[16:31:39:541] [0001] is bug fixed? yes␍␊
+[16:31:39:546] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:40:185] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:40:192] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:31:40:198] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:40:198] [0000] is bug fixed? yes␍␊
+[16:31:40:203] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:40:209] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:31:40:209] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:40:214] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:40:219] [0001] is bug fixed? yes␍␊
+[16:31:40:225] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:43:274] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:43:283] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:43:283] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:31:43:293] [0000] is bug fixed? yes␍␊
+[16:31:43:293] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:43:303] Event dummy cve start -> cycle: 5665 time(us): 88␍␊
+[16:31:43:303] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:43:303] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:43:311] [0001] is bug fixed? yes␍␊
+[16:31:43:311] $ trigger 0␊
+[16:31:44:776] un test_func: 0x00009c81␍␊
+[16:31:44:786] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:44:786] Event dummy cve start -> cycle: 6409 time(us): 100␍␊
+[16:31:44:793] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:31:44:793] [0000] is bug fixed? yes␍␊
+[16:31:44:793] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:44:798] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:31:44:803] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:44:808] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:44:812] [0001] is bug fixed? yes␍␊
+[16:31:44:816] $ trigger 0␊
+[16:31:46:635] un test_func: 0x00009c81␍␊
+[16:31:46:647] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:46:647] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:31:46:647] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:46:659] [0000] is bug fixed? yes␍␊
+[16:31:46:659] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:46:659] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:31:46:666] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:46:671] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:46:671] [0001] is bug fixed? yes␍␊
+[16:31:46:676] $ trigger 0un test_func: 0x00009c81␍␊
+[16:31:49:917] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:49:924] Event dummy cve start -> cycle: 7385 time(us): 115␍␊
+[16:31:49:930] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:31:49:930] [0000] is bug fixed? yes␍␊
+[16:31:49:937] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:49:937] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:31:49:944] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:49:948] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:49:948] [0001] is bug fixed? yes␍␊
+[16:31:49:953] $ trigger 0␊
+[16:31:51:001] un test_func: 0x00009c81␍␊
+[16:31:51:008] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:51:008] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:51:015] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:51:015] [0000] is bug fixed? yes␍␊
+[16:31:51:022] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:31:51:028] Event dummy cve start -> cycle: 7405 time(us): 115␍␊
+[16:31:51:028] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:51:035] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:51:035] [0001] is bug fixed? yes␍␊
+[16:31:51:040] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:51:690] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:51:696] Event dummy cve start -> cycle: 6248 time(us): 97␍␊
+[16:31:51:702] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:51:702] [0000] is bug fixed? yes␍␊
+[16:31:51:709] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:51:709] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:31:51:716] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:51:722] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:51:722] [0001] is bug fixed? yes␍␊
+[16:31:51:726] $ trigger 0␊
+[16:31:52:466] un test_func: 0x00009c81␍␊
+[16:31:52:472] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:52:477] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:52:482] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:52:482] [0000] is bug fixed? yes␍␊
+[16:31:52:487] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:31:52:493] Event dummy cve start -> cycle: 6408 time(us): 100␍␊
+[16:31:52:493] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:52:497] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:52:502] [0001] is bug fixed? yes␍␊
+[16:31:52:506] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:53:158] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:53:169] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:53:169] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:53:179] [0000] is bug fixed? yes␍␊
+[16:31:53:179] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:31:53:179] Event dummy cve start -> cycle: 6408 time(us): 100␍␊
+[16:31:53:189] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:53:189] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:53:193] [0001] is bug fixed? yes␍␊
+[16:31:53:193] $ trigger 0un test_func: 0x00009c81␍␊
+[16:31:53:831] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:53:840] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:53:840] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:31:53:847] [0000] is bug fixed? yes␍␊
+[16:31:53:847] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:53:856] Event dummy cve start -> cycle: 7395 time(us): 115␍␊
+[16:31:53:856] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:53:863] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:53:863] [0001] is bug fixed? yes␍␊
+[16:31:53:867] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:54:470] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:54:482] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:54:482] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:31:54:482] [0000] is bug fixed? yes␍␊
+[16:31:54:493] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:54:493] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:31:54:493] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:54:499] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:54:505] [0001] is bug fixed? yes␍␊
+[16:31:54:505] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:55:083] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:55:092] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:31:55:092] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:55:101] [0000] is bug fixed? yes␍␊
+[16:31:55:101] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:55:111] Event dummy cve start -> cycle: 5971 time(us): 93␍␊
+[16:31:55:111] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:55:118] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:55:118] [0001] is bug fixed? yes␍␊
+[16:31:55:118] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:55:803] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:55:814] Event dummy cve start -> cycle: 7100 time(us): 110␍␊
+[16:31:55:814] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:31:55:814] [0000] is bug fixed? yes␍␊
+[16:31:55:825] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:55:825] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:31:55:832] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:55:832] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:55:838] [0001] is bug fixed? yes␍␊
+[16:31:55:838] $ trigger 0␊
+[16:31:56:448] un test_func: 0x00009c81␍␊
+[16:31:56:454] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:56:454] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:56:460] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:56:465] [0000] is bug fixed? yes␍␊
+[16:31:56:465] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:31:56:471] Event dummy cve start -> cycle: 6408 time(us): 100␍␊
+[16:31:56:476] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:56:481] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:56:487] [0001] is bug fixed? yes␍␊
+[16:31:56:487] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:57:079] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:57:086] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:57:093] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:57:093] [0000] is bug fixed? yes␍␊
+[16:31:57:100] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:31:57:100] Event dummy cve start -> cycle: 6408 time(us): 100␍␊
+[16:31:57:106] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:57:111] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:57:111] [0001] is bug fixed? yes␍␊
+[16:31:57:116] $ trigger 0␊
+[16:31:57:772] un test_func: 0x00009c81␍␊
+[16:31:57:783] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:57:783] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:31:57:783] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:57:793] [0000] is bug fixed? yes␍␊
+[16:31:57:793] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:57:803] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:31:57:803] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:57:803] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:57:809] [0001] is bug fixed? yes␍␊
+[16:31:57:809] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:58:432] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:58:439] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:58:446] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:31:58:446] [0000] is bug fixed? yes␍␊
+[16:31:58:446] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:58:454] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:31:58:459] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:58:459] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:58:464] [0001] is bug fixed? yes␍␊
+[16:31:58:469] $ trigger 0run test_func: 0x00009c81␍␊
+[16:31:59:027] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:59:033] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:31:59:041] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:31:59:041] [0000] is bug fixed? yes␍␊
+[16:31:59:047] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:59:047] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:31:59:055] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:59:061] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:59:061] [0001] is bug fixed? yes␍␊
+[16:31:59:065] $ trigger 0␊
+[16:31:59:627] un test_func: 0x00009c81␍␊
+[16:31:59:632] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:59:638] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:31:59:644] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:31:59:644] [0000] is bug fixed? yes␍␊
+[16:31:59:648] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:31:59:654] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:31:59:654] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:31:59:660] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:31:59:664] [0001] is bug fixed? yes␍␊
+[16:31:59:669] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:00:170] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:00:178] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:00:182] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:00:182] [0000] is bug fixed? yes␍␊
+[16:32:00:187] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:00:193] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:00:193] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:00:198] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:00:204] [0001] is bug fixed? yes␍␊
+[16:32:00:209] $ trigger 0␊
+[16:32:00:669] un test_func: 0x00009c81␍␊
+[16:32:00:681] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:00:681] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:00:681] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:00:692] [0000] is bug fixed? yes␍␊
+[16:32:00:692] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:32:00:692] Event dummy cve start -> cycle: 6408 time(us): 100␍␊
+[16:32:00:702] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:00:702] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:00:707] [0001] is bug fixed? yes␍␊
+[16:32:00:707] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:01:965] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:01:972] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:01:979] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:01:979] [0000] is bug fixed? yes␍␊
+[16:32:01:986] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:01:986] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:01:993] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:01:997] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:01:997] [0001] is bug fixed? yes␍␊
+[16:32:02:003] $ trigger 0␊
+[16:32:02:407] un test_func: 0x00009c81␍␊
+[16:32:02:411] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:02:415] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:02:420] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:02:426] [0000] is bug fixed? yes␍␊
+[16:32:02:426] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:02:432] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:02:432] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:02:438] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:02:443] [0001] is bug fixed? yes␍␊
+[16:32:02:447] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:02:897] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:02:908] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:02:908] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:02:908] [0000] is bug fixed? yes␍␊
+[16:32:02:918] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:32:02:918] Event dummy cve start -> cycle: 6408 time(us): 100␍␊
+[16:32:02:926] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:02:926] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:02:930] [0001] is bug fixed? yes␍␊
+[16:32:02:935] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:03:384] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:03:391] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:03:397] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:03:397] [0000] is bug fixed? yes␍␊
+[16:32:03:406] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:03:406] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:03:413] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:03:413] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:03:421] [0001] is bug fixed? yes␍␊
+[16:32:03:421] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:03:885] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:03:892] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:03:899] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:03:899] [0000] is bug fixed? yes␍␊
+[16:32:03:899] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:32:03:907] Event dummy cve start -> cycle: 7388 time(us): 115␍␊
+[16:32:03:907] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:03:914] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:03:919] [0001] is bug fixed? yes␍␊
+[16:32:03:923] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:04:381] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:04:393] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:04:393] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:04:393] [0000] is bug fixed? yes␍␊
+[16:32:04:405] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:04:405] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:04:405] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:04:413] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:04:413] [0001] is bug fixed? yes␍␊
+[16:32:04:419] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:04:870] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:04:881] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:04:881] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:04:881] [0000] is bug fixed? yes␍␊
+[16:32:04:893] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:04:893] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:04:893] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:04:902] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:04:902] [0001] is bug fixed? yes␍␊
+[16:32:04:908] $ trigger 0␊
+[16:32:05:366] un test_func: 0x00009c81␍␊
+[16:32:05:372] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:05:372] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:05:378] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:05:384] [0000] is bug fixed? yes␍␊
+[16:32:05:384] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:05:390] Event dummy cve start -> cycle: 7383 time(us): 115␍␊
+[16:32:05:396] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:05:401] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:05:401] [0001] is bug fixed? yes␍␊
+[16:32:05:406] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:05:893] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:05:900] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:05:910] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:05:910] [0000] is bug fixed? yes␍␊
+[16:32:05:910] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:05:919] Event dummy cve start -> cycle: 7395 time(us): 115␍␊
+[16:32:05:919] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:05:927] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:05:927] [0001] is bug fixed? yes␍␊
+[16:32:05:927] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:06:425] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:06:432] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:06:438] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:06:438] [0000] is bug fixed? yes␍␊
+[16:32:06:442] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:06:447] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:06:453] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:06:458] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:06:458] [0001] is bug fixed? yes␍␊
+[16:32:06:463] $ trigger 0␊
+[16:32:07:049] un test_func: 0x00009c81␍␊
+[16:32:07:061] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:07:061] Event dummy cve start -> cycle: 6409 time(us): 100␍␊
+[16:32:07:061] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:07:073] [0000] is bug fixed? yes␍␊
+[16:32:07:073] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:07:073] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:07:083] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:07:083] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:07:083] [0001] is bug fixed? yes␍␊
+[16:32:07:094] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:07:564] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:07:572] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:07:578] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:07:578] [0000] is bug fixed? yes␍␊
+[16:32:07:578] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:07:585] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:07:593] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:07:593] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:07:598] [0001] is bug fixed? yes␍␊
+[16:32:07:598] $ trigger 0␊
+[16:32:08:071] un test_func: 0x00009c81␍␊
+[16:32:08:077] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:08:077] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:08:083] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:08:088] [0000] is bug fixed? yes␍␊
+[16:32:08:088] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:08:094] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:08:099] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:08:104] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:08:104] [0001] is bug fixed? yes␍␊
+[16:32:08:109] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:08:602] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:08:614] Event dummy cve start -> cycle: 7392 time(us): 115␍␊
+[16:32:08:614] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:08:614] [0000] is bug fixed? yes␍␊
+[16:32:08:625] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:08:625] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:08:625] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:08:632] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:08:638] [0001] is bug fixed? yes␍␊
+[16:32:08:638] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:09:135] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:09:141] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:09:146] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:09:152] [0000] is bug fixed? yes␍␊
+[16:32:09:152] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:09:157] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:09:161] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:09:168] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:09:168] [0001] is bug fixed? yes␍␊
+[16:32:09:172] $ trigger 0␊
+[16:32:09:682] un test_func: 0x00009c81␍␊
+[16:32:09:694] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:09:694] Event dummy cve start -> cycle: 7387 time(us): 115␍␊
+[16:32:09:694] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:09:705] [0000] is bug fixed? yes␍␊
+[16:32:09:705] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:09:705] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:09:714] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:09:714] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:09:720] [0001] is bug fixed? yes␍␊
+[16:32:09:720] $ trigger 0␊
+[16:32:10:178] un test_func: 0x00009c81␍␊
+[16:32:10:184] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:10:184] Event dummy cve start -> cycle: 7392 time(us): 115␍␊
+[16:32:10:191] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:10:197] [0000] is bug fixed? yes␍␊
+[16:32:10:197] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:10:204] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:10:204] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:10:210] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:10:214] [0001] is bug fixed? yes␍␊
+[16:32:10:220] $ trigger 0␊
+[16:32:10:681] un test_func: 0x00009c81␍␊
+[16:32:10:693] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:10:693] Event dummy cve start -> cycle: 6409 time(us): 100␍␊
+[16:32:10:693] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:10:703] [0000] is bug fixed? yes␍␊
+[16:32:10:703] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:10:713] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:10:713] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:10:713] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:10:720] [0001] is bug fixed? yes␍␊
+[16:32:10:720] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:11:189] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:11:195] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:11:202] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:11:202] [0000] is bug fixed? yes␍␊
+[16:32:11:209] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:11:209] Event dummy cve start -> cycle: 7384 time(us): 115␍␊
+[16:32:11:216] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:11:222] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:11:222] [0001] is bug fixed? yes␍␊
+[16:32:11:227] $ trigger 0␊
+[16:32:11:689] un test_func: 0x00009c81␍␊
+[16:32:11:696] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:11:696] Event dummy cve start -> cycle: 6409 time(us): 100␍␊
+[16:32:11:703] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:11:709] [0000] is bug fixed? yes␍␊
+[16:32:11:709] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:11:716] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:11:716] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:11:722] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:11:727] [0001] is bug fixed? yes␍␊
+[16:32:11:727] $ trigger 0␊
+[16:32:12:198] un test_func: 0x00009c81␍␊
+[16:32:12:205] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:12:205] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:12:210] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:12:215] [0000] is bug fixed? yes␍␊
+[16:32:12:215] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:12:222] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:12:227] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:12:231] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:12:236] [0001] is bug fixed? yes␍␊
+[16:32:12:236] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:12:703] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:12:709] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:12:714] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:12:720] [0000] is bug fixed? yes␍␊
+[16:32:12:720] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:12:726] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:12:726] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:12:732] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:12:738] [0001] is bug fixed? yes␍␊
+[16:32:12:738] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:13:227] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:13:237] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:13:237] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:13:245] [0000] is bug fixed? yes␍␊
+[16:32:13:245] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:13:256] Event dummy cve start -> cycle: 7397 time(us): 115␍␊
+[16:32:13:256] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:13:256] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:13:262] [0001] is bug fixed? yes␍␊
+[16:32:13:262] $ trigger 0␊
+[16:32:13:766] un test_func: 0x00009c81␍␊
+[16:32:13:774] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:13:774] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:13:778] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:13:784] [0000] is bug fixed? yes␍␊
+[16:32:13:784] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:13:790] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:13:794] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:13:801] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:13:801] [0001] is bug fixed? yes␍␊
+[16:32:13:805] $ trigger 0␊
+[16:32:14:281] un test_func: 0x00009c81␍␊
+[16:32:14:288] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:14:288] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:14:293] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:14:299] [0000] is bug fixed? yes␍␊
+[16:32:14:299] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:14:306] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:14:311] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:14:316] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:14:316] [0001] is bug fixed? yes␍␊
+[16:32:14:321] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:14:795] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:14:806] Event dummy cve start -> cycle: 7384 time(us): 115␍␊
+[16:32:14:806] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:14:815] [0000] is bug fixed? yes␍␊
+[16:32:14:815] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:14:825] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:14:825] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:14:825] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:14:834] [0001] is bug fixed? yes␍␊
+[16:32:14:834] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:15:305] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:15:315] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:15:315] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:15:328] [0000] is bug fixed? yes␍␊
+[16:32:15:328] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:15:328] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:15:328] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:15:337] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:15:337] [0001] is bug fixed? yes␍␊
+[16:32:15:342] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:15:839] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:15:846] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:15:853] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:15:853] [0000] is bug fixed? yes␍␊
+[16:32:15:853] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:32:15:860] Event dummy cve start -> cycle: 6408 time(us): 100␍␊
+[16:32:15:867] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:15:872] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:15:872] [0001] is bug fixed? yes␍␊
+[16:32:15:877] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:16:356] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:16:367] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:16:367] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:16:378] [0000] is bug fixed? yes␍␊
+[16:32:16:378] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:16:378] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:16:387] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:16:387] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:16:392] [0001] is bug fixed? yes␍␊
+[16:32:16:392] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:16:890] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:16:901] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:16:901] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:16:912] [0000] is bug fixed? yes␍␊
+[16:32:16:912] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:16:912] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:16:921] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:16:921] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:16:921] [0001] is bug fixed? yes␍␊
+[16:32:16:927] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:17:417] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:17:429] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:17:429] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:17:429] [0000] is bug fixed? yes␍␊
+[16:32:17:436] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:17:441] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:17:441] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:17:445] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:17:450] [0001] is bug fixed? yes␍␊
+[16:32:17:455] $ trigger 0run test_func: 0x00009c81␍␊
+[16:32:17:915] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:17:923] Event dummy cve start -> cycle: 7384 time(us): 115␍␊
+[16:32:17:929] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:17:929] [0000] is bug fixed? yes␍␊
+[16:32:17:937] Event dummy cve start -> cycle: 74 time(us): 1␍␊
+[16:32:17:937] Event dummy cve start -> cycle: 6408 time(us): 100␍␊
+[16:32:17:944] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:17:944] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:17:950] [0001] is bug fixed? yes␍␊
+[16:32:17:950] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:18:440] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:18:447] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:18:454] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:18:454] [0000] is bug fixed? yes␍␊
+[16:32:18:460] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:18:460] Event dummy cve start -> cycle: 7385 time(us): 115␍␊
+[16:32:18:465] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:18:470] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:18:475] [0001] is bug fixed? yes␍␊
+[16:32:18:475] $ trigger 0␊
+[16:32:18:955] un test_func: 0x00009c81␍␊
+[16:32:18:965] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:18:965] Event dummy cve start -> cycle: 6412 time(us): 100␍␊
+[16:32:18:977] Event dummy cve start -> cycle: 43 time(us): 0␍␊
+[16:32:18:977] [0000] is bug fixed? yes␍␊
+[16:32:18:977] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:18:988] Event dummy cve start -> cycle: 6405 time(us): 100␍␊
+[16:32:18:988] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:18:988] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:18:993] [0001] is bug fixed? yes␍␊
+[16:32:18:993] $ trigger 0un test_func: 0x00009c81␍␊
+[16:32:19:472] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:19:483] Event dummy cve start -> cycle: 6406 time(us): 100␍␊
+[16:32:19:483] Event dummy cve start -> cycle: 46 time(us): 0␍␊
+[16:32:19:494] [0000] is bug fixed? yes␍␊
+[16:32:19:494] Event dummy cve start -> cycle: 79 time(us): 1␍␊
+[16:32:19:494] Event dummy cve start -> cycle: 6417 time(us): 100␍␊
+[16:32:19:503] Event dummy cve start -> cycle: 111 time(us): 1␍␊
+[16:32:19:503] Event dummy cve start -> cycle: 70 time(us): 1␍␊
+[16:32:19:503] [0001] is bug fixed? yes␍␊
+[16:32:19:508] $ 

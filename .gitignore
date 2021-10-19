@@ -1,0 +1,5 @@
+build/
+.device
+.vscode
+OBJ
+*.o

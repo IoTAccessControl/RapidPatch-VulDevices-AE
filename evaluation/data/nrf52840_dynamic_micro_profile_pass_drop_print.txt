@@ -1,0 +1,346 @@
+[17:34:43:503] <break>
+[17:34:43:658] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[17:34:46:661] IoTPatch Cli iUsage:nun [idx] | trigger [cvei | patch [cte]␍␊
+[17:34:46:663] run 0:_Test FPB brpakpoint ada␍␊
+[17:34:46:668] run 1: Tett FPB patcch_rigger␍␊
+[17:34:46:671] run 2: Clearsall bpkt and patch␍␊
+[17:34:46:674] run 3: Run ebpf test␍␊
+[17:34:46:674] ruy 4: Start patch services␊
+[17:34:46:678] $ 1: 1␍␊
+[17:34:46:678] packet size: 64 patch type:1 code_len:56 addr:0x00000000␍␊
+[17:34:46:684] New Patch is OK!␍␊
+[17:34:49:919] patch 0␊
+[17:34:49:919] ebug_monitor_init setup dhcsr: 16842752␍␊
+[17:34:49:922] 0 -> my test cve␍␊
+[17:34:49:925] 1 -> zephyr_cve_2020_10063 attack_coap␍␊
+[17:34:49:928] 2 -> zephyr_cve_2020_10021 attack_usb_mass␍␊
+[17:34:49:931] 3 -> zephyr_cve_2020_10062 attack_mqtt␍␊
+[17:34:49:934] dynamic patch: pc=0x00009c9c inst=0x00009c98␍␊
+[17:34:49:939] load patch my test cve success!␍␊
+[17:34:49:942] Dump current hardware breakpoints, MODE-debug monitor:␍␊
+[17:34:49:946]   FP_COMP[0] Enabled 1, Replace: 1, Address 0x9c98␍␊
+[17:34:49:950]   FP_COMP[1] Enabled 0, Replace: 0, Address 0x0␍␊
+[17:34:49:955]   FP_COMP[2] Enabled 0, Replace: 0, Address 0x0␍␊
+[17:34:49:959]   FP_COMP[3] Enabled 0, Replace: 0, Address 0x0␍␊
+[17:34:49:963]   FP_COMP[4] Enabled 0, Replace: 0, Address 0x0␍␊
+[17:34:49:967]   FP_COMP[5] Enabled 0, Replace: 0, Address 0x0␍␊
+[17:34:49:971] Dynamic Patch List:␍␊
+[17:34:49:977] dpkt: inst_addr: 0x00009c98 pc_addr: 0x00009c9c is_active: 1␍␊
+[17:34:49:981] $ trigger 0un test_func: 0x00009c99␍␊
+[17:34:56:587] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:34:56:598] Event micro profile dynamic start -> cycle: 6401 time(us): 100␍␊
+[17:34:56:598] Event micro profile dynamic start -> cycle: 50 time(us): 0␍␊
+[17:34:56:609] [0000] is bug fixed? yes␍␊
+[17:34:56:609] Event uart print profile start -> cycle: 144082 time(us): 2251␍␊
+[17:34:56:618] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:34:56:618] Event micro profile dynamic start -> cycle: 6413 time(us): 100␍␊
+[17:34:56:623] Event micro profile dynamic start -> cycle: 119 time(us): 1␍␊
+[17:34:56:627] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:34:56:631] [0001] is bug fixed? yes␍␊
+[17:34:56:636] Event uart print profile start -> cycle: 144630 time(us): 2259␍␊
+[17:34:56:642] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:17:345] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:17:352] Event micro profile dynamic start -> cycle: 6401 time(us): 100␍␊
+[17:35:17:360] Event micro profile dynamic start -> cycle: 53 time(us): 0␍␊
+[17:35:17:360] [0000] is bug fixed? yes␍␊
+[17:35:17:366] Event uart print profile start -> cycle: 143553 time(us): 2243␍␊
+[17:35:17:374] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:17:374] Event micro profile dynamic start -> cycle: 6423 time(us): 100␍␊
+[17:35:17:380] Event micro profile dynamic start -> cycle: 119 time(us): 1␍␊
+[17:35:17:385] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:35:17:390] [0001] is bug fixed? yes␍␊
+[17:35:17:395] Event uart print profile start -> cycle: 144066 time(us): 2251␍␊
+[17:35:17:399] $ trigger 0␊
+[17:35:20:103] un test_func: 0x00009c99␍␊
+[17:35:20:110] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:20:116] Event micro profile dynamic start -> cycle: 6401 time(us): 100␍␊
+[17:35:20:123] Event micro profile dynamic start -> cycle: 50 time(us): 0␍␊
+[17:35:20:123] [0000] is bug fixed? yes␍␊
+[17:35:20:123] Event uart print profile start -> cycle: 144069 time(us): 2251␍␊
+[17:35:20:130] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:20:136] Event micro profile dynamic start -> cycle: 6413 time(us): 100␍␊
+[17:35:20:141] Event micro profile dynamic start -> cycle: 119 time(us): 1␍␊
+[17:35:20:145] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:35:20:150] [0001] is bug fixed? yes␍␊
+[17:35:20:155] Event uart print profile start -> cycle: 143522 time(us): 2242␍␊
+[17:35:20:161] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:21:438] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:21:446] Event micro profile dynamic start -> cycle: 6401 time(us): 100␍␊
+[17:35:21:453] Event micro profile dynamic start -> cycle: 53 time(us): 0␍␊
+[17:35:21:453] [0000] is bug fixed? yes␍␊
+[17:35:21:460] Event uart print profile start -> cycle: 144622 time(us): 2259␍␊
+[17:35:21:467] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:21:467] Event micro profile dynamic start -> cycle: 6423 time(us): 100␍␊
+[17:35:21:473] Event micro profile dynamic start -> cycle: 119 time(us): 1␍␊
+[17:35:21:478] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:35:21:483] [0001] is bug fixed? yes␍␊
+[17:35:21:488] Event uart print profile start -> cycle: 144090 time(us): 2251␍␊
+[17:35:21:493] $ trigger 0␊
+[17:35:23:014] un test_func: 0x00009c99␍␊
+[17:35:23:020] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:23:025] Event micro profile dynamic start -> cycle: 7379 time(us): 115␍␊
+[17:35:23:032] Event micro profile dynamic start -> cycle: 50 time(us): 0␍␊
+[17:35:23:032] [0000] is bug fixed? yes␍␊
+[17:35:23:037] Event uart print profile start -> cycle: 144640 time(us): 2260␍␊
+[17:35:23:042] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:23:047] Event micro profile dynamic start -> cycle: 6413 time(us): 100␍␊
+[17:35:23:052] Event micro profile dynamic start -> cycle: 119 time(us): 1␍␊
+[17:35:23:057] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:35:23:062] [0001] is bug fixed? yes␍␊
+[17:35:23:066] Event uart print profile start -> cycle: 143514 time(us): 2242␍␊
+[17:35:23:071] $ trigger 0un test_func: 0x00009c99␍␊
+[17:35:23:721] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:23:728] Event micro profile dynamic start -> cycle: 6401 time(us): 100␍␊
+[17:35:23:735] Event micro profile dynamic start -> cycle: 50 time(us): 0␍␊
+[17:35:23:742] [0000] is bug fixed? yes␍␊
+[17:35:23:742] Event uart print profile start -> cycle: 143525 time(us): 2242␍␊
+[17:35:23:749] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:35:23:753] Event micro profile dynamic start -> cycle: 6413 time(us): 100␍␊
+[17:35:23:758] Event micro profile dynamic start -> cycle: 119 time(us): 1␍␊
+[17:35:23:763] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:35:23:767] [0001] is bug fixed? yes␍␊
+[17:35:23:772] Event uart print profile start -> cycle: 144646 time(us): 2260␍␊
+[17:35:23:777] $ trigger 0un test_func: 0x00009c99␍␊
+[17:35:24:375] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:24:381] Event micro profile dynamic start -> cycle: 6401 time(us): 100␍␊
+[17:35:24:388] Event micro profile dynamic start -> cycle: 50 time(us): 0␍␊
+[17:35:24:396] [0000] is bug fixed? yes␍␊
+[17:35:24:396] Event uart print profile start -> cycle: 143517 time(us): 2242␍␊
+[17:35:24:403] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:24:409] Event micro profile dynamic start -> cycle: 6413 time(us): 100␍␊
+[17:35:24:409] Event micro profile dynamic start -> cycle: 119 time(us): 1␍␊
+[17:35:24:414] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:35:24:420] [0001] is bug fixed? yes␍␊
+[17:35:24:426] Event uart print profile start -> cycle: 144634 time(us): 2259␍␊
+[17:35:24:432] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:25:041] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:25:047] Event micro profile dynamic start -> cycle: 6401 time(us): 100␍␊
+[17:35:25:054] Event micro profile dynamic start -> cycle: 53 time(us): 0␍␊
+[17:35:25:061] [0000] is bug fixed? yes␍␊
+[17:35:25:061] Event uart print profile start -> cycle: 144609 time(us): 2259␍␊
+[17:35:25:068] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:25:075] Event micro profile dynamic start -> cycle: 7392 time(us): 115␍␊
+[17:35:25:075] Event micro profile dynamic start -> cycle: 119 time(us): 1␍␊
+[17:35:25:080] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:35:25:086] [0001] is bug fixed? yes␍␊
+[17:35:25:091] Event uart print profile start -> cycle: 144643 time(us): 2260␍␊
+[17:35:25:096] $ trigger 0␊
+[17:35:25:697] un test_func: 0x00009c99␍␊
+[17:35:25:703] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:25:709] Event micro profile dynamic start -> cycle: 6401 time(us): 100␍␊
+[17:35:25:714] Event micro profile dynamic start -> cycle: 53 time(us): 0␍␊
+[17:35:25:715] [0000] is bug fixed? yes␍␊
+[17:35:25:720] Event uart print profile start -> cycle: 144633 time(us): 2259␍␊
+[17:35:25:726] Event micro profile dynamic start -> cycle: 84 time(us): 1␍␊
+[17:35:25:731] Event micro profile dynamic start -> cycle: 6137 time(us): 95␍␊
+[17:35:25:735] Event micro profile dynamic start -> cycle: 119 time(us): 1␍␊
+[17:35:25:741] Event micro profile dynamic start -> cycle: 82 time(us): 1␍␊
+[17:35:25:745] [0001] is bug fixed? yes␍␊
+[17:35:25:750] Event uart print profile start -> cycle: 144630 time(us): 2259␍␊
+[17:35:25:755] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:26:423] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:26:432] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:26:432] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:26:437] [0000] is bug fixed? yes␍␊
+[17:35:26:442] Event uart print profile start -> cycle: 144626 time(us): 2259␍␊
+[17:35:26:447] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:26:451] Event dummy cve start -> cycle: 6413 time(us): 100␍␊
+[17:35:26:457] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:26:462] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:26:462] [0001] is bug fixed? yes␍␊
+[17:35:26:466] Event uart print profile start -> cycle: 143547 time(us): 2242␍␊
+[17:35:26:471] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:27:150] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:27:159] Event dummy cve start -> cycle: 7078 time(us): 110␍␊
+[17:35:27:159] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:27:169] [0000] is bug fixed? yes␍␊
+[17:35:27:169] Event uart print profile start -> cycle: 144074 time(us): 2251␍␊
+[17:35:27:179] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:27:179] Event dummy cve start -> cycle: 6416 time(us): 100␍␊
+[17:35:27:179] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:27:185] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:27:191] [0001] is bug fixed? yes␍␊
+[17:35:27:191] Event uart print profile start -> cycle: 143551 time(us): 2242␍␊
+[17:35:27:196] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:27:901] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:27:907] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:27:914] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:27:914] [0000] is bug fixed? yes␍␊
+[17:35:27:921] Event dummy cve start -> cycle: 144641 time(us): 2260␍␊
+[17:35:27:921] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:27:929] Event dummy cve start -> cycle: 6413 time(us): 100␍␊
+[17:35:27:929] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:27:934] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:27:939] [0001] is bug fixed? yes␍␊
+[17:35:27:944] Event dummy cve start -> cycle: 144630 time(us): 2259␍␊
+[17:35:27:944] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:31:148] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:31:154] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:31:160] Event dummy cve start -> cycle: 53 time(us): 0␍␊
+[17:35:31:160] [0000] is bug fixed? yes␍␊
+[17:35:31:165] Event dummy cve start -> cycle: 144097 time(us): 2251␍␊
+[17:35:31:171] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:31:171] Event dummy cve start -> cycle: 6423 time(us): 100␍␊
+[17:35:31:177] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:31:182] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:31:186] [0001] is bug fixed? yes␍␊
+[17:35:31:191] Event dummy cve start -> cycle: 144614 time(us): 2259␍␊
+[17:35:31:191] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:32:038] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:32:045] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:32:051] Event dummy cve start -> cycle: 53 time(us): 0␍␊
+[17:35:32:051] [0000] is bug fixed? yes␍␊
+[17:35:32:058] Event dummy cve start -> cycle: 144637 time(us): 2259␍␊
+[17:35:32:058] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:32:065] Event dummy cve start -> cycle: 6423 time(us): 100␍␊
+[17:35:32:071] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:32:071] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:32:077] [0001] is bug fixed? yes␍␊
+[17:35:32:081] Event dummy cve start -> cycle: 143522 time(us): 2242␍␊
+[17:35:32:081] $ trigger 0un test_func: 0x00009c99␍␊
+[17:35:32:725] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:32:733] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:32:742] Event dummy cve start -> cycle: 53 time(us): 0␍␊
+[17:35:32:742] [0000] is bug fixed? yes␍␊
+[17:35:32:742] Event dummy cve start -> cycle: 144645 time(us): 2260␍␊
+[17:35:32:751] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:32:751] Event dummy cve start -> cycle: 6423 time(us): 100␍␊
+[17:35:32:759] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:32:759] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:32:764] [0001] is bug fixed? yes␍␊
+[17:35:32:764] Event dummy cve start -> cycle: 144098 time(us): 2251␍␊
+[17:35:32:769] $ trigger 0␊
+[17:35:33:399] un test_func: 0x00009c99␍␊
+[17:35:33:405] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:33:410] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:33:415] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:33:415] [0000] is bug fixed? yes␍␊
+[17:35:33:420] Event dummy cve start -> cycle: 144101 time(us): 2251␍␊
+[17:35:33:427] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:33:427] Event dummy cve start -> cycle: 6413 time(us): 100␍␊
+[17:35:33:432] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:33:436] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:33:441] [0001] is bug fixed? yes␍␊
+[17:35:33:441] Event dummy cve start -> cycle: 143546 time(us): 2242␍␊
+[17:35:33:446] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:34:080] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:34:086] Event dummy cve start -> cycle: 7369 time(us): 115␍␊
+[17:35:34:091] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:34:091] [0000] is bug fixed? yes␍␊
+[17:35:34:097] Event dummy cve start -> cycle: 143552 time(us): 2243␍␊
+[17:35:34:102] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:34:107] Event dummy cve start -> cycle: 7378 time(us): 115␍␊
+[17:35:34:113] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:34:113] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:34:118] [0001] is bug fixed? yes␍␊
+[17:35:34:122] Event dummy cve start -> cycle: 145745 time(us): 2277␍␊
+[17:35:34:122] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:34:700] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:34:711] Event dummy cve start -> cycle: 7365 time(us): 115␍␊
+[17:35:34:711] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:34:721] [0000] is bug fixed? yes␍␊
+[17:35:34:721] Event dummy cve start -> cycle: 143529 time(us): 2242␍␊
+[17:35:34:721] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:34:731] Event dummy cve start -> cycle: 6413 time(us): 100␍␊
+[17:35:34:731] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:34:731] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:34:737] [0001] is bug fixed? yes␍␊
+[17:35:34:743] Event dummy cve start -> cycle: 144621 time(us): 2259␍␊
+[17:35:34:743] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:35:369] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:35:376] Event dummy cve start -> cycle: 7364 time(us): 115␍␊
+[17:35:35:382] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:35:382] [0000] is bug fixed? yes␍␊
+[17:35:35:388] Event dummy cve start -> cycle: 144636 time(us): 2259␍␊
+[17:35:35:395] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:35:395] Event dummy cve start -> cycle: 6180 time(us): 96␍␊
+[17:35:35:401] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:35:401] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:35:407] [0001] is bug fixed? yes␍␊
+[17:35:35:412] Event dummy cve start -> cycle: 143537 time(us): 2242␍␊
+[17:35:35:412] $ trigger 0␊
+[17:35:36:015] un test_func: 0x00009c99␍␊
+[17:35:36:021] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:36:027] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:36:027] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:36:033] [0000] is bug fixed? yes␍␊
+[17:35:36:033] Event dummy cve start -> cycle: 145623 time(us): 2275␍␊
+[17:35:36:040] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:36:046] Event dummy cve start -> cycle: 7378 time(us): 115␍␊
+[17:35:36:046] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:36:051] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:36:055] [0001] is bug fixed? yes␍␊
+[17:35:36:060] Event dummy cve start -> cycle: 144086 time(us): 2251␍␊
+[17:35:36:060] $ trigger 0un test_func: 0x00009c99␍␊
+[17:35:36:690] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:36:697] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:36:703] Event dummy cve start -> cycle: 53 time(us): 0␍␊
+[17:35:36:703] [0000] is bug fixed? yes␍␊
+[17:35:36:710] Event dummy cve start -> cycle: 143553 time(us): 2243␍␊
+[17:35:36:710] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:36:716] Event dummy cve start -> cycle: 6423 time(us): 100␍␊
+[17:35:36:722] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:36:722] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:36:728] [0001] is bug fixed? yes␍␊
+[17:35:36:732] Event dummy cve start -> cycle: 143538 time(us): 2242␍␊
+[17:35:36:732] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:37:331] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:37:339] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:37:348] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:37:348] [0000] is bug fixed? yes␍␊
+[17:35:37:348] Event dummy cve start -> cycle: 145761 time(us): 2277␍␊
+[17:35:37:357] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:37:357] Event dummy cve start -> cycle: 6413 time(us): 100␍␊
+[17:35:37:365] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:37:365] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:37:369] [0001] is bug fixed? yes␍␊
+[17:35:37:374] Event dummy cve start -> cycle: 144063 time(us): 2250␍␊
+[17:35:37:374] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:37:941] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:37:948] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:37:954] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:35:37:954] [0000] is bug fixed? yes␍␊
+[17:35:37:961] Event dummy cve start -> cycle: 143553 time(us): 2243␍␊
+[17:35:37:961] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:37:968] Event dummy cve start -> cycle: 6413 time(us): 100␍␊
+[17:35:37:974] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:37:974] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:37:979] [0001] is bug fixed? yes␍␊
+[17:35:37:983] Event dummy cve start -> cycle: 144634 time(us): 2259␍␊
+[17:35:37:983] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:38:547] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:38:555] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:38:564] Event dummy cve start -> cycle: 53 time(us): 0␍␊
+[17:35:38:564] [0000] is bug fixed? yes␍␊
+[17:35:38:564] Event dummy cve start -> cycle: 143529 time(us): 2242␍␊
+[17:35:38:574] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:38:574] Event dummy cve start -> cycle: 6423 time(us): 100␍␊
+[17:35:38:581] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:38:581] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:38:586] [0001] is bug fixed? yes␍␊
+[17:35:38:591] Event dummy cve start -> cycle: 145585 time(us): 2274␍␊
+[17:35:38:591] $ trigger 0run test_func: 0x00009c99␍␊
+[17:35:39:166] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:39:172] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:35:39:177] Event dummy cve start -> cycle: 53 time(us): 0␍␊
+[17:35:39:177] [0000] is bug fixed? yes␍␊
+[17:35:39:182] Event dummy cve start -> cycle: 143533 time(us): 2242␍␊
+[17:35:39:187] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:35:39:193] Event dummy cve start -> cycle: 6423 time(us): 100␍␊
+[17:35:39:198] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:35:39:198] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:35:39:203] [0001] is bug fixed? yes␍␊
+[17:35:39:208] Event dummy cve start -> cycle: 145605 time(us): 2275␍␊
+[17:35:39:208] $ trigger 0run test_func: 0x00009c99␍␊
+[17:37:47:768] Event dummy cve start -> cycle: 84 time(us): 1␍␊
+[17:37:47:774] Event dummy cve start -> cycle: 6401 time(us): 100␍␊
+[17:37:47:779] Event dummy cve start -> cycle: 50 time(us): 0␍␊
+[17:37:47:779] [0000] is bug fixed? yes␍␊
+[17:37:47:784] Event dummy cve start -> cycle: 144097 time(us): 2251␍␊
+[17:37:47:789] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:37:47:794] Event dummy cve start -> cycle: 6413 time(us): 100␍␊
+[17:37:47:799] Event dummy cve start -> cycle: 119 time(us): 1␍␊
+[17:37:47:799] Event dummy cve start -> cycle: 82 time(us): 1␍␊
+[17:37:47:808] [0001] is bug fixed? yes␍␊
+[17:37:47:808] Event dummy cve start -> cycle: 144082 time(us): 2251␍␊
+[17:37:47:813] $ 

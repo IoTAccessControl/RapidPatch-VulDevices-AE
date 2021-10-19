@@ -1,0 +1,22 @@
+diff --git a/arch/arm/core/fault_s.S b/arch/arm/core/fault_s.S
+index 472fd01da7..5e7938dec6 100644
+--- a/arch/arm/core/fault_s.S
++++ b/arch/arm/core/fault_s.S
+@@ -29,7 +29,7 @@ GTEXT(__usage_fault)
+ #if defined(CONFIG_ARM_SECURE_FIRMWARE)
+ GTEXT(__secure_fault)
+ #endif /* CONFIG_ARM_SECURE_FIRMWARE*/
+-GTEXT(__debug_monitor)
++#GTEXT(__debug_monitor)
+ #else
+ #error Unknown ARM architecture
+ #endif /* CONFIG_ARMV6_M_ARMV8_M_BASELINE */
+@@ -69,7 +69,7 @@ SECTION_SUBSEC_FUNC(TEXT,__fault,__usage_fault)
+ #if defined(CONFIG_ARM_SECURE_FIRMWARE)
+ SECTION_SUBSEC_FUNC(TEXT,__fault,__secure_fault)
+ #endif /* CONFIG_ARM_SECURE_FIRMWARE */
+-SECTION_SUBSEC_FUNC(TEXT,__fault,__debug_monitor)
++#SECTION_SUBSEC_FUNC(TEXT,__fault,__debug_monitor)
+ #else
+ #error Unknown ARM architecture
+ #endif /* CONFIG_ARMV6_M_ARMV8_M_BASELINE */

@@ -1,0 +1,306 @@
+run 2␊
+[23:08:01:082] test cve in Linux␍␊
+[23:08:01:082] buf len cve␍␊
+[23:08:01:082] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:01:088] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:01:094] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:01:100] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:01:101] run cmd: 2 {Test CVE patch}␍␊
+[23:08:01:101] $ run 2␊
+[23:08:07:952] test cve in Linux␍␊
+[23:08:07:958] buf len cve␍␊
+[23:08:07:958] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:07:960] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:07:964] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:07:970] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:07:970] run cmd: 2 {Test CVE patch}␍␊
+[23:08:07:976] $ run 2␊
+[23:08:10:070] test cve in Linux␍␊
+[23:08:10:070] buf len cve␍␊
+[23:08:10:070] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:10:076] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:10:082] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:10:088] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:10:088] run cmd: 2 {Test CVE patch}␍␊
+[23:08:10:096] $ run 2␊
+[23:08:11:114] test cve in Linux␍␊
+[23:08:11:114] buf len cve␍␊
+[23:08:11:114] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:11:120] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:11:126] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:11:132] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:11:138] run cmd: 2 {Test CVE patch}␍␊
+[23:08:11:138] $ run 2␊
+[23:08:12:002] test cve in Linux␍␊
+[23:08:12:008] buf len cve␍␊
+[23:08:12:008] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:12:014] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:12:020] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:12:026] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:12:026] run cmd: 2 {Test CVE patch}␍␊
+[23:08:12:026] $ run 2␊
+[23:08:12:674] test cve in Linux␍␊
+[23:08:12:674] buf len cve␍␊
+[23:08:12:680] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:12:686] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:12:686] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:12:698] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:12:698] run cmd: 2 {Test CVE patch}␍␊
+[23:08:12:701] $ run 2␊
+[23:08:13:274] test cve in Linux␍␊
+[23:08:13:274] buf len cve␍␊
+[23:08:13:277] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:13:280] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:13:286] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:13:292] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:13:295] run cmd: 2 {Test CVE patch}␍␊
+[23:08:13:298] $ run 2␊
+[23:08:13:850] test cve in Linux␍␊
+[23:08:13:856] buf len cve␍␊
+[23:08:13:856] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:13:862] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:13:868] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:13:871] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:13:875] run cmd: 2 {Test CVE patch}␍␊
+[23:08:13:875] $ run 2␊
+[23:08:14:384] test cve in Linux␍␊
+[23:08:14:384] buf len cve␍␊
+[23:08:14:384] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:14:395] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:14:404] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:14:404] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:14:404] run cmd: 2 {Test CVE patch}␍␊
+[23:08:14:413] $ run 2␊
+[23:08:14:900] test cve in Linux␍␊
+[23:08:14:900] buf len cve␍␊
+[23:08:14:903] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:14:906] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:14:912] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:14:918] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:14:918] run cmd: 2 {Test CVE patch}␍␊
+[23:08:14:924] $ run 2␊
+[23:08:15:434] test cve in Linux␍␊
+[23:08:15:434] buf len cve␍␊
+[23:08:15:434] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:15:447] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:15:447] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:15:457] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:15:457] run cmd: 2 {Test CVE patch}␍␊
+[23:08:15:465] $ run 2␊
+[23:08:15:962] test cve in Linux␍␊
+[23:08:15:962] buf len cve␍␊
+[23:08:15:962] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:15:974] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:15:979] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:15:982] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:15:982] run cmd: 2 {Test CVE patch}␍␊
+[23:08:15:986] $ run 2␊
+[23:08:16:478] test cve in Linux␍␊
+[23:08:16:478] buf len cve␍␊
+[23:08:16:489] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:16:489] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:16:501] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:16:501] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:16:501] run cmd: 2 {Test CVE patch}␍␊
+[23:08:16:511] $ ␊
+[23:08:17:078] $ run 2␊
+[23:08:18:662] test cve in Linux␍␊
+[23:08:18:668] buf len cve␍␊
+[23:08:18:668] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:18:674] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:18:680] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:18:683] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:18:686] run cmd: 2 {Test CVE patch}␍␊
+[23:08:18:692] $ run 2␊
+[23:08:19:262] test cve in Linux␍␊
+[23:08:19:262] buf len cve␍␊
+[23:08:19:268] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:19:272] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:19:276] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:19:280] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:19:292] run cmd: 2 {Test CVE patch}␍␊
+[23:08:19:292] $ run 2␊
+[23:08:19:844] test cve in Linux␍␊
+[23:08:19:850] buf len cve␍␊
+[23:08:19:850] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:19:856] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:19:862] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:19:862] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:19:868] run cmd: 2 {Test CVE patch}␍␊
+[23:08:19:871] $ run 2␊
+[23:08:20:462] test cve in Linux␍␊
+[23:08:20:462] buf len cve␍␊
+[23:08:20:462] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:20:473] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:20:482] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:20:490] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:20:490] run cmd: 2 {Test CVE patch}␍␊
+[23:08:20:490] $ run 2␊
+[23:08:21:020] test cve in Linux␍␊
+[23:08:21:020] buf len cve␍␊
+[23:08:21:026] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:21:029] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:21:032] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:21:044] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:21:044] run cmd: 2 {Test CVE patch}␍␊
+[23:08:21:044] $ run 2␊
+[23:08:21:578] test cve in Linux␍␊
+[23:08:21:578] buf len cve␍␊
+[23:08:21:578] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:21:584] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:21:596] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:21:596] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:21:599] run cmd: 2 {Test CVE patch}␍␊
+[23:08:21:599] $ run 2␊
+[23:08:22:076] test cve in Linux␍␊
+[23:08:22:076] buf len cve␍␊
+[23:08:22:076] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:22:082] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:22:094] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:22:098] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:22:101] run cmd: 2 {Test CVE patch}␍␊
+[23:08:22:101] $ run 2␊
+[23:08:22:592] test cve in Linux␍␊
+[23:08:22:592] buf len cve␍␊
+[23:08:22:595] Event micro profile fixed start -> cycle: 245 time(us): 1␍␊
+[23:08:22:598] Event micro profile fixed start -> cycle: 5179 time(us): 28␍␊
+[23:08:22:605] Event micro profile fixed start -> cycle: 94 time(us): 0␍␊
+[23:08:22:610] Ebpf filter block Dummy-CVE1!␍␊
+[23:08:22:610] run cmd: 2 {Test CVE patch}␍␊
+[23:08:22:610] $ <0x10>7<0xe9>_<0x94>8<0x95>T/.p!<0x05><0x98><0xf3>,<0xb3><0xfc>^<break>
+[23:16:15:376] <break>
+[23:16:15:376] <break>
+[23:16:15:376] <break>
+[23:16:15:376] <break>
+[23:16:15:376] <break>
+[23:16:15:376] <break>
+[23:16:15:376] <break>
+[23:16:15:376] <0xff><break>
+[23:16:21:143] IoTPatch Cli Usage: riun [in]i|tt_ipgart[cvh]_|spytsh1[cve]␍␊
+[23:16:21:146] ru: 0: T1␍t ␊
+[23:16:21:150] og pranc␍krent1  sPi zrea:p i6t t4s p␊
+[23:16:21:155] rant2c he ttCyEppet:h1␊
+[23:16:21:155] run  c Rondeep_ leetn␊
+[23:16:21:155] :u5 6:  aard darc: 0exv0ce␍␊
+[23:16:21:159] $0000000␍␊
+[23:16:21:161] New Patch is OK!␍␊
+[23:16:21:161] ***** Booting Zephyr OS zephyr-v1.14.1 *****␊
+[23:16:21:166] ␍patch 00 -> my test cve␍␊
+[23:16:35:873] 1 -> zephyr_cve_2020_10063 attack_coap␍␊
+[23:16:35:878] 2 -> zephyr_cve_2020_10021 attack_usb_mass␍␊
+[23:16:35:882] dynamic patch: pc=0x0000287e inst=0x0000287c␍␊
+[23:16:35:884] load patch my test cve success!␍␊
+[23:16:35:887] Dump current hardware breakpoints, MODE-debug monitor:␍␊
+[23:16:35:892]   FP_COMP[0] Enabled 1, Replace: 1, Address 0x287c␍␊
+[23:16:35:902]   FP_COMP[1] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:16:35:902]   FP_COMP[2] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:16:35:911]   FP_COMP[3] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:16:35:911]   FP_COMP[4] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:16:35:919]   FP_COMP[5] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:16:35:919]   FP_COMP[6] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:16:35:924]   FP_COMP[7] Enabled 0, Replace: 0, Address 0x0␍␊
+[23:16:35:928] debug_monitor_init setup dhcsr: 16842752␍␊
+[23:16:35:932] Dynamic Patch List:␍␊
+[23:16:35:932] dpkt: inst_addr: 0x0000287c pc_addr: 0x0000287e is_active: 1␍␊
+[23:16:35:939] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:41:043] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:41:049] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:41:055] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:41:057] is bug fixed? yes␍␊
+[23:16:41:061] $ trigger 0<0xd5>s<0x81>test_func: 0x0000287d␍␊
+[23:16:46:919] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:46:926] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:46:928] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:46:933] is bug fixed? yes␍␊
+[23:16:46:937] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:47:880] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:47:886] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:47:892] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:47:895] is bug fixed? yes␍␊
+[23:16:47:898] $ trigger run test_func: 0x0000287d␍␊
+[23:16:48:488] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:48:495] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:48:496] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:48:502] is bug fixed? yes␍␊
+[23:16:48:505] $ trigger r0un test_func: 0x0000287d␍␊
+[23:16:49:073] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:49:078] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:49:085] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:49:086] is bug fixed? yes␍␊
+[23:16:49:090] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:49:610] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:49:615] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:49:622] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:49:623] is bug fixed? yes␍␊
+[23:16:49:627] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:50:167] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:50:173] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:50:181] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:50:182] is bug fixed? yes␍␊
+[23:16:50:185] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:50:688] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:50:693] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:50:700] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:50:702] is bug fixed? yes␍␊
+[23:16:50:705] $ trigger r0un test_func: 0x0000287d␍␊
+[23:16:51:184] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:51:189] Event micro profile dynamic start -> cycle: 3382 time(us): 52␍␊
+[23:16:51:197] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:51:198] is bug fixed? yes␍␊
+[23:16:51:201] $ trigger 0<0xd5>s<0x81>test_func: 0x0000287d␍␊
+[23:16:51:695] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:51:700] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:51:703] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:51:708] is bug fixed? yes␍␊
+[23:16:51:712] $ trigger r0un test_func: 0x0000287d␍␊
+[23:16:52:199] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:52:204] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:52:212] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:52:213] is bug fixed? yes␍␊
+[23:16:52:217] $ trigger r0un test_func: 0x0000287d␍␊
+[23:16:52:740] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:52:745] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:52:752] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:52:753] is bug fixed? yes␍␊
+[23:16:52:757] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:53:269] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:53:275] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:53:283] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:53:283] is bug fixed? yes␍␊
+[23:16:53:287] $ trigger r0un test_func: 0x0000287d␍␊
+[23:16:53:797] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:53:803] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:53:809] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:53:811] is bug fixed? yes␍␊
+[23:16:53:814] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:54:340] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:54:351] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:54:351] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:54:361] is bug fixed? yes␍␊
+[23:16:54:361] $ trigger u␊
+[23:16:54:936] n test_func: 0x0000287d␍␊
+[23:16:54:939] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:54:946] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:54:947] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:54:953] is bug fixed? yes␍␊
+[23:16:54:956] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:55:545] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:55:550] Event micro profile dynamic start -> cycle: 3448 time(us): 53␍␊
+[23:16:55:557] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:55:559] is bug fixed? yes␍␊
+[23:16:55:563] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:56:125] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:56:131] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:56:137] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:56:139] is bug fixed? yes␍␊
+[23:16:56:144] $ trigger r0un test_func: 0x0000287d␍␊
+[23:16:56:743] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:56:748] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:56:754] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:56:757] is bug fixed? yes␍␊
+[23:16:56:767] $ trigger 0run test_func: 0x0000287d␍␊
+[23:16:57:350] Event micro profile dynamic start -> cycle: 182 time(us): 2␍␊
+[23:16:57:356] Event micro profile dynamic start -> cycle: 2217 time(us): 34␍␊
+[23:16:57:365] Event micro profile dynamic start -> cycle: 83 time(us): 1␍␊
+[23:16:57:365] is bug fixed? yes␍␊
+[23:16:57:369] $ 

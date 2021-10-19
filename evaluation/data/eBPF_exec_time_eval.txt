@@ -1,0 +1,260 @@
+// cve-2020-10063
+[15:11:32:005] pPa bceakpoiet atd␍␊
+[15:11:32:005] run  : TsstiFPBzpatche:rig er␍64un 2  Clpar alt bpct ahd patth␍␊
+[15:11:32:005] yunp3: eun :bpf tes1 cruno4: dtare patch _ervlce␍␊
+[15:11:32:008] $ en:56 addr:0x00000000␍␊
+[15:11:32:011] New Patch is OK!␍␊
+[15:11:32:011] Event eBPF exec time evaluation start -> cycle: 7598 time(us): 118␍␊
+[15:11:34:158] <break>
+[15:11:34:320] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[15:11:37:322] IoTPatch Cli Uinge:irtn [_dp] |atrigtec [che] | patch [cve]_␊
+[15:11:37:324] rsny0: Tss1 FP: b eak1o␍n␊
+[15:11:37:331]  adp␍␊
+[15:11:37:331] aunc1:kTese FPt pa ch tsiggir␍␊
+[15:11:37:331] zun e: C:ea  al6 b4k  anp paacht␊
+[15:11:37:336] ruc 3:hRu  ebtf tyst␍prune4: :tart 1 cch oedvice␍␊
+[15:11:37:341] $_len:56 addr:0x00000000␍␊
+[15:11:37:345] New Patch is OK!␍␊
+[15:11:37:345] Event eBPF exec time evaluation start -> cycle: 6612 time(us): 103␍␊
+[15:11:38:814] <break>
+[15:11:38:967] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[15:11:41:969] IoTPatch Cli Uinge:irun ti_x] p taiggtrc[cvCu<0xfb><0xf1><0x9b><0xc1><0x85><0xd1><0xcb><0xa1><0x9b><0xdb><0x8d><0xd9><0x8b><0xea><0xd3>Rru  1: T␍st F␊
+[15:11:41:979] p braakpcintZ<0x85>+<0x91>5␊
+[15:11:41:979] tun  : Tess FPi pztche: igg64␍␊
+[15:11:41:979] ru  2:pCleaa alt bpcthand patthy␊
+[15:11:41:983] rup 3:eRu: eb1 coest␍␊
+[15:11:41:983] rdn 4e St_rl paech ne:vic5␍6  addr:0x00000000␍␊
+[15:11:41:988] New Patch is OK!␍␊
+[15:11:41:988] Event eBPF exec time evaluation start -> cycle: 7596 time(us): 118␍␊
+[15:11:44:742] <break>
+[15:11:44:886] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[15:11:47:887] IoTPatch Cli Uinge:irtn [idx_ p tragget ccveh _ patcs ycves␍␊
+[15:11:47:890] ru1 :: T st F1B␍b␊
+[15:11:47:897] eakpopntaadc␍␊
+[15:11:47:897] ruk 1:eTes<0xa2><0x81> PB satiz tregge:␍␊
+[15:11:47:897] r n62:4Cle r pll apkttand pacch␍hrun 3: tun ybpp teet␍␊
+[15:11:47:901] :un 4: 1 crt oatchdsereice␍␊
+[15:11:47:905] $ _len:56 addr:0x00000000␍␊
+[15:11:47:908] New Patch is OK!␍␊
+[15:11:47:908] Event eBPF exec time evaluation start -> cycle: 6612 time(us): 103
+
+
+// cve-2020-10021
+[15:26:15:264] NStart pewch servic P␊
+[15:26:15:264] $ atch is OK!␍␊
+[15:26:15:264] Event eBPF exec time evaluation start -> cycle: 6340 time(us): 99␍␊
+[15:26:18:230] <break>
+[15:26:18:367] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[15:26:21:369] IoTPatch Cli Uniget_runpatdc] h_srigys1 [c: 1␍| p␊
+[15:26:21:372] tph [cve]␍␊
+[15:26:21:372] racket sizt FPB breake: 6t add␍␊
+[15:26:21:382] r4n patch t FPB patyh trigger␍␊
+[15:26:21:382] runpe:1C code_llen:5t 6 a ddr:0x00un 30 R0n 0bpf 0es0␍␊
+[15:26:21:384] 0un 4: ␍t␊
+[15:26:21:384] Nt pew h service␍P$ atch is OK!␍␊
+[15:26:21:387] Event eBPF exec time evaluation start -> cycle: 6340 time(us): 99␍␊
+[15:26:22:682] <break>
+[15:26:22:808] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[15:26:25:810] IoTPatch Cli Unige:tru_p[idatc| th_sgerys1:e] 1 p␍t␊
+[15:26:25:812] h pcvacket s ize: 6t FPB4 patch tnt add␍␊
+[15:26:25:820] run 1ype:1 code _atch trigler␍␊
+[15:26:25:820] run 2: en:56 addr:0x00a0d 0at0h␍0ru0 30 ␍u␊
+[15:26:25:824] Nebpf test␍␊
+[15:26:25:824] run 4: Sewrt patch  Prvice␍␊
+[15:26:25:828] $ atch is OK!␍␊
+[15:26:25:828] Event eBPF exec time evaluation start -> cycle: 6340 time(us): 99␍
+
+// cve-2020-10023
+
+
+// cve-2020-10024
+[20:48:05:496] Event eBPF exec time evaluation start -> cycle: 6145 time(us): 96␍␊
+[20:48:10:909] <break>
+[20:48:11:079] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[20:48:14:936] IoTPatch Cli Uisne: itn_padx]tcht_igsys [c1: 1␍ patch [cv␊
+[20:48:14:939] ]p␊
+[20:48:14:939] run 0: Test FPB breacket sizdd␍␊
+[20:48:14:947] run 1: Tee: 6PB4 ptatch type:␍␊
+[20:48:14:947] 1 n 2: Cleacode_len:t and patch␍␊
+[20:48:14:950] 5un6 a Rundebpf test␍␊
+[20:48:14:953] rdr:0x0Star0 p0tc0 s000ic0␍␊
+[20:48:14:955] ␍ ␊
+[20:48:14:955] New Patch is OK!␍␊
+[20:48:14:957] Event eBPF exec time evaluation start -> cycle: 6145 time(us): 96␍␊
+[20:48:15:999] <break>
+[20:48:16:151] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[20:48:19:152] IoTPatch Cli Uisani rut_patx] ch_riggsr [ys1] | : 1␍h [cve]␊
+[20:48:19:155] ␊
+[20:48:19:155] pun 0: Teacket sizeak: 6n4  dd␍patch typ+<0xcd><0xd1><0xd3><0x16><0x06><0x12><0x81>pacch trigger␍␊
+[20:48:19:162] runo2de_learn:56  add r:0x00t0h000un03:0Ru␍ ␊
+[20:48:19:166] Npf test␍␊
+[20:48:19:166] ren 4: Start w Pch seratch␍␊
+[20:48:19:169] $  is OK!␍␊
+[20:48:19:169] Event eBPF exec time evaluation start -> cycle: 6145 time(us): 96␍
+
+// cve-2020-10028
+[21:16:29:418] Event eBPF exec time evaluation start -> cycle: 6481 time(us): 101␍␊
+[21:16:31:623] <break>
+[21:16:31:776] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[21:16:34:777] IoTPatch Cli Unagi:tru_ pida]t| tcihge_ scvey s p1t:h [c e1␍␊
+[21:16:34:780] rpn a: cekt ePt b eskiozne:ad ␍6ru4 1: Tpsa tPc hatch trtgyer␍pren:21 Clcao adlebp_t lne pnt:h5␊
+[21:16:34:789] 6un  :aRdn dbrf :e0t␍xr0004:0Sta0t 0at0h se0vi␍␊
+[21:16:34:795] ␍N$ ew Patch is OK!␍␊
+[21:16:34:797] Event eBPF exec time evaluation start -> cycle: 6481 time(us): 101␍␊
+[21:16:35:719] <break>
+[21:16:35:896] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[21:16:38:897] IoTPatch Cli Uniget _unp[atx]c|htr_gsey scv1]:| pa c1␍␊
+[21:16:38:900] cpe]a␊
+[21:16:38:900] rcnk0:eTtst FsBibzee:po n6 a4d␍␊
+[21:16:38:909]  up a:tTcsthF B tytcp tei:g1 ␍␊
+[21:16:38:909] cuno2d el_al aelnb:k56 nd aadcd␍rru: 0: xu0 0bpf0t0st0␊
+[21:16:38:919] r<0x83>r<0x83><0xa2><0xd2><0x06><0x9a><0xd1>k␊
+[21:16:38:919] t pNewh sePviaet␊
+[21:16:38:919] c h is OK!␍␊
+[21:16:38:919] Event eBPF exec time evaluation start -> cycle: 6481 time(us): 101␍
+
+// cve-2020-10062
+[21:43:27:667] Event eBPF exec time evaluation start -> cycle: 6603 time(us): 103␍␊
+[21:43:31:744] <break>
+[21:43:31:892] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[21:43:34:893] IoTPatch Cli Unagi:trun _ipx]a|ttcihge_ scvys 1 p:t h 1␍ve␊
+[21:43:34:896] ␍pran 0c keettF B bseikzoen: a d64 pna1:tTecthFP  patyhptreg:er1 ruc o: Cldae a_llbpet nn: p5tch6␊
+[21:43:34:908] r na3d Rud rb:f0txs000ru0 40 S0ar0 p0tc␍(Neeviwe ␊
+[21:43:34:917] $<0x82><0x85><0xd1><0x8d><0xa1><0x81>is OK!␍␊
+[21:43:34:917] Event eBPF exec time evaluation start -> cycle: 6603 time(us): 103␍␊
+[21:43:37:084] <break>
+[21:43:37:266] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[21:43:40:267] IoTPatch Cli Unagi:tru_ piaxt c thi_gsry[sve1 : p t1h k␊
+[21:43:40:270] vp]a␊
+[21:43:40:270] rcnke: te t sPi zreak:o nt a64 pran tc Ths  FtBypatcp tei:ger␍1 unc2o Cldae a_llbpke nnd:p5tch␍6ru  a:dRdnre:p0 xe000␊
+[21:43:40:283] r0n 0: <0x83><0xa2><0x83><0x92><0xd1><0x83><0x82><0x85>k␊
+[21:43:40:292] h sNewi e␍P$ atch is OK!␍␊
+[21:43:40:292] Event eBPF exec time evaluation start -> cycle: 6603 time(us): 103
+
+// cve-2018-16524
+[22:02:19:601] Nh␍␊
+[22:02:19:601] ew  3: Run ebPattest␍␊
+[22:02:19:601] ch  4: Staris atch servOce␍␊
+[22:02:19:604] $ K!␍␊
+[22:02:19:604] Event eBPF exec time evaluation start -> cycle: 6313 time(us): 98␍␊
+[22:02:25:374] <break>
+[22:02:25:511] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:02:28:512] IoTPatch Cli Uinie:t_un patx] c trh_ser <0xcb><0x8d><0xd9><0x95>u<0x9b><0x8b><0xa6><0x82><0x85><0xd1>␍B<0x81>[c1e]␍␊
+[22:02:28:515] run␍0: Test FPB␊
+[22:02:28:522] bpaakpoicket size: 61:4 patchP tpaych tripe:1␍ code2_len:5r all6 addr:0x0p0tc0␍␊
+[22:02:28:525] 0un<0x82><0x06><0x06><0x02><0x92><0x83>r<0x81>␍b␊
+[22:02:28:528] fNtest␍␊
+[22:02:28:528] run 4ew tart patch service␍Patch is OK!␍␊
+[22:02:28:531] Event eBPF exec time evaluation start -> cycle: 6313 time(us): 98␍␊
+[22:02:29:445] <break>
+[22:02:29:574] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:02:32:575] IoTPatch Cli Unit_: pun atcx] |h_siggys1[:ve] 1 p␍t␊
+[22:02:32:578] pa[cve]␍␊
+[22:02:32:578] run cket sizePB breakpoint add␍␊
+[22:02:32:586] run 1:: 6st4 pa tch type:<0x8b><0x06>6{#+<0xfb>c+s<0xd3><0xd2><0x02>Vb<0xb3>␊
+[22:02:32:588] <0x03><0x02>␊
+[22:02:32:588] <0xb1><0xb1><0x81>addr:0x00patch0␊
+[22:02:32:588] r0n 00 0un0eb␍f␊
+[22:02:32:592] Nesw␍␊
+[22:02:32:592] run 4: Ptart patch atcvice␍␊
+[22:02:32:595] h is OK!␍␊
+[22:02:32:595] Event eBPF exec time evaluation start -> cycle: 6313 time(us): 98␍␊
+
+// cve-2018-16603
+[22:12:31:864] FPp baeakcoink ade␍␊
+[22:12:31:864] rtn 1 sTesi FPz paech :rig er␍␊
+[22:12:31:869] r6n 4: C<0x02>*<0x85><0xc9><0x83><0x85><0xb1><0xb1><0x0b><0x89><0xc1><0xad><0xa3><0x81>anc pahch␍ runt3: yun ebpf test␍:run1 c Stodt petch_servicl␍␊
+[22:12:31:875] $en:56 addr:0x00000000␍␊
+[22:12:31:880] New Patch is OK!␍␊
+[22:12:31:880] Event eBPF exec time evaluation start -> cycle: 6380 time(us): 99␍␊
+[22:12:36:272] <break>
+[22:12:36:448] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:12:39:449] IoTPatch Cli Uisnei run [td_] |ptragget ccve] |hp_tchs[yvs]␍␊
+[22:12:39:452] 1u: 0:  e1t␍FPB ␊
+[22:12:39:459] reappaictkedd␍trun 1: Test FiB pztce: rig64r␍␊
+[22:12:39:459]  un p: Caeartallcbpkt hnd  atct␍yrunp3: eun ebp: te1 corund4: etart_patlh sernice:␊
+[22:12:39:466] $ 56 addr:0x00000000␍␊
+[22:12:39:470] New Patch is OK!␍␊
+[22:12:39:470] Event eBPF exec time evaluation start -> cycle: 6380 time(us): 99␍␊
+[22:12:40:470] <break>
+[22:12:40:609] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:12:43:611] IoTPatch Cli Uinge: runi[tdx]_| tpiagert[cve]h|_patsh [yvs]␍␊
+[22:12:43:613] 1u: 0: 1e␍t␊
+[22:12:43:621] FPpabrcakpeint atd␍␊
+[22:12:43:621]  un 1: sestiFPBzpate: tr gger6␊
+[22:12:43:621] r4n 2 pClear atl bpkc anh pa th␍␊
+[22:12:43:624] yun p: Ren e:pf 1est␍␊
+[22:12:43:628] run 4: St rt pctoh serdiee␍␊
+[22:12:43:628] _ len:56 addr:0x00000000␍␊
+[22:12:43:631] New Patch is OK!␍␊
+[22:12:43:631] Event eBPF exec time evaluation start -> cycle: 6380 time(us): 99␍␊
+
+// cve-2020-17443
+[22:24:27:627] IoTPatch Cli Uisnei tu_ pi␊
+[22:24:27:627] <0xa3>u<0x1b><0xf1><0x81>hr_ggers[yves 1 p:t h 1c␍e␊
+[22:24:27:630] ␍␊
+[22:24:27:630] pan c:kTeet tP  bseikzoent:a d␍␊
+[22:24:27:633] r6n41:  ept aPt cathh  rtgyep␍erun:21 Clcao adlebp_tlane pnt:h␍5r6n  :aRdnder:f 0ext␍000n 40 0ta0t pa0ch0se␍␊
+[22:24:27:644] icN␍␊
+[22:24:27:644] e w Patch is OK!␍␊
+[22:24:27:647] Event eBPF exec time evaluation start -> cycle: 6430 time(us): 100␍␊
+[22:24:28:511] <break>
+[22:24:28:666] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:24:31:666] IoTPatch Cli Uisnei rtn_[ipxa | trcgghr_[cse]y|spa1ch:[c e1␍␊
+[22:24:31:669] ␍un␊
+[22:24:31:672] 0p Tasc FkB ertak osntiazde␊
+[22:24:31:672] :u 61:4Te tpFat pctch  rigtey␍pren:2: 1 eac oll"+<0xc1><0xad><0xfb><0x81>lndepatnh:␊
+[22:24:31:678] r5n63:  ua dbdfrt:st0␊
+[22:24:31:681] xun0000St0rt0pa0ch0se␍␊
+[22:24:31:683] iNe␍e$ w Patch is OK!␍␊
+[22:24:31:686] Event eBPF exec time evaluation start -> cycle: 6430 time(us): 100␍␊
+[22:24:32:499] <break>
+[22:24:32:652] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:24:35:653] IoTPatch Cli Unaie: tu_ [pda] t tcihge_ [svy] s 1atch:[ v1␍␊
+[22:24:35:655] ␊
+[22:24:35:655] pun a:cTekteFPt  rsaipzent:a d␍6r4n 1 pTeattFPBcp<0xa1><0x03><0x1a><0xa3><0x81>yripger␍:r1 c2o dleer_alb+<0x89><0xc1>s<0xd1><0xd3>␊
+[22:24:35:665] <0xb9><0xab><0x02><0x06><0x85><0xb3><0x1a><0xa1><0x03>Raud 3d ru: 0bxf t000␍␊
+[22:24:35:668] 0un04:0S0ar0 p␍t␊
+[22:24:35:670] hNewr icP␍␊
+[22:24:35:670] a tch is OK!␍␊
+[22:24:35:670] Event eBPF exec time evaluation start -> cycle: 6430 time(us): 100␍
+
+// cve-2020-17445
+p0txh00erv0ce␍0$ 0000␍␊
+[22:51:52:468] New Patch is OK!␍␊
+[22:51:52:472] Event eBPF exec time evaluation start -> cycle: 9679 time(us): 151␍␊
+[22:51:53:165] <break>
+[22:51:53:331] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:51:56:332] IoTPatch Cli Uisage: run [idx] | trigger [cve] | patch [cve]␍␊
+[22:51:56:335] run 0: Test ni bte_kppintaatd␍crhn _:sTeytsFP1:p tc1 tr␍␊
+[22:51:56:343] gpr␍arcn 2k eletr al<0x9a><0x81>bikz aed:pa c6␍␊
+[22:51:56:346] r4n 3  Rup abpt cesth␊
+[22:51:56:348]  unt4y Spaet :a1 c seovdcee␊
+[22:51:56:351] $_len:56 addr:0x00000000␍␊
+[22:51:56:353] New Patch is OK!␍␊
+[22:51:56:353] Event eBPF exec time evaluation start -> cycle: 9679 time(us): 151␍␊
+[22:51:57:104] <break>
+[22:51:57:270] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:52:00:271] IoTPatch Cli Uisagnirtn [_dp] a tritgcr hc_e] s yatsh1[cv:] ␊
+[22:52:00:274] r1n j: ␊
+[22:52:00:286] estpFPB braacpokne tdd ␊
+[22:52:00:286] suni1<0xd3><0x81>Tes: F B6pa4 p aritger␍crhn  :tCleay plleb:kt1 nd caoch␍dren _:lRen enp: t5st␍6run 4a Sdartdprtc: 0ervxc0␍␊
+[22:52:00:297] $ 0000000␍␊
+[22:52:00:297] New Patch is OK!␍␊
+[22:52:00:297] Event eBPF exec time evaluation start -> cycle: 9679 time(us): 151␍␊
+[22:52:00:805] <break>
+[22:52:00:965] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:52:03:965] IoTPatch Cli Uisni: tun_[pdxa t tchg_ers[yve] |sp1tc:  cv1]␍␍r␊
+[22:52:03:968] p 0acTksteFtB bre ksoiitzade␍:ru  6: Te4t F Bppatctctrihg r␍tryn p:eCl:ar1al  cpktoadd ea_ch␍lren n::Ru5 eb6f t sa␍␊
+[22:52:03:981] rdnd4:rS:ar0 xat0h 0erv0ce␍0$ 0000␍␊
+[22:52:03:984] New Patch is OK!␍␊
+[22:52:03:988] Event eBPF exec time evaluation start -> cycle: 9679 time(us): 151␍␊
+[22:52:05:460] <break>
+[22:52:05:631] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[22:52:08:632] IoTPatch Cli Uisani tun_[pdxa t tcihg_s ycvs]1| pat:h [c1e]␍␊
+[22:52:08:635] ␊
+[22:52:08:635] pn 0: Teat FcBkbreatpo ns aidz␊
+[22:52:08:643] ren:1: T6st 4PB  apah tticgeh␍ runt2y Cpeer :l1 bp tcand oadche␊
+[22:52:08:646] _ul 3:eRnn :b5f t6st␍ rand4d Sra:t pa0cx s0rv0ce␍0$ 00000␍␊
+[22:52:08:649] New Patch is OK!␍␊
+[22:52:08:652] Event eBPF exec time evaluation start -> cycle: 9679 time(us): 151␍␊

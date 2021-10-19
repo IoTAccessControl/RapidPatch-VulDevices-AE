@@ -1,0 +1,268 @@
+***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[19:32:37:066] ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[19:32:40:073] IoTPatcinit_patch_sys1: 1␍␊
+[19:32:40:079] packet size: 64 patch type:1 code_len:56 addr:0x00000000␍␊
+[19:32:40:079] New Patch is OK!␍␊
+[19:32:40:085] h Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[19:32:40:085] run 0: Test FPB breakpoint add␍␊
+[19:32:40:091] run 1: Test FPB patch trigger␍␊
+[19:32:40:097] run 2: Clear all bpkt and patch␍␊
+[19:32:40:097] run 3: Run ebpf test␍␊
+[19:32:40:097] run 4: Start patch service␍␊
+[19:32:40:103] $ ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[19:35:12:137] IoTPatcinit_patch_sys1: 1␍␊
+[19:35:12:137] packet size: 64 patch type:1 code_len:56 addr:0x00000000␍␊
+[19:35:12:143] New Patch is OK!␍␊
+[19:35:12:143] h Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[19:35:12:152] run 0: Test FPB breakpoint add␍␊
+[19:35:12:152] run 1: Test FPB patch trigger␍␊
+[19:35:12:161] run 2: Clear all bpkt and patch␍␊
+[19:35:12:161] run 3: Run ebpf test␍␊
+[19:35:12:166] run 4: Start patch service␍␊
+[19:35:12:166] $ patch 0Halting Debug Enabled - Can't Enable Monitor Mode Debug!0 -> my test cve␍␊
+[19:35:16:879] 1 -> zephyr_cve_2020_10063 attack_coap␍␊
+[19:35:16:879] 2 -> zephyr_cve_2020_10021 attack_usb_mass␍␊
+[19:35:16:888] 3 -> zephyr_cve_2020_10062 attack_mqtt␍␊
+[19:35:16:888] dynamic patch: pc=0x080072e4 inst=0x080072e0␍␊
+[19:35:16:900] load patch my test cve success!␍␊
+[19:35:16:900] Dump current hardware breakpoints, MODE-debug monitor:␍␊
+[19:35:16:908]   FP_COMP[0] Enabled 1, Replace: 1, Address 0x80072e0␍␊
+[19:35:16:908]   FP_COMP[1] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:35:16:914]   FP_COMP[2] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:35:16:914]   FP_COMP[3] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:35:16:919]   FP_COMP[4] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:35:16:922]   FP_COMP[5] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:35:16:922] Dynamic Patch List:␍␊
+[19:35:16:928] dpkt: inst_addr: 0x080072e0 pc_addr: 0x080072e4 is_active: 1␍␊
+[19:35:16:933] ␊
+[19:35:16:933] $ trigger 0run test_func: 0x080072e1␍␊
+[19:35:19:610] Event micro profile dynamic start -> cycle: 62 time(us): 0␍␊
+[19:35:19:610] [0000] is bug fixed? no␍␊
+[19:35:19:622] Event uart print profile start -> cycle: 364498 time(us): 2024␍␊
+[19:35:19:622] Event micro profile dynamic start -> cycle: 62 time(us): 0␍␊
+[19:35:19:633] [0001] is bug fixed? yes␍␊
+[19:35:19:633] Event uart print profile start -> cycle: 379084 time(us): 2106␍␊
+[19:35:19:641] ␊
+[19:35:19:641] $ ***** Booting Zephyr OS zephyr-v1.14.1 *****␍␊
+[19:36:27:398] IoTPatcinit_patch_sys1: 1␍␊
+[19:36:27:398] packet size: 64 patch type:1 code_len:56 addr:0x00000000␍␊
+[19:36:27:406] New Patch is OK!␍␊
+[19:36:27:406] h Cli Usage: run [idx] | trigger [cve] | patch [cve]␍␊
+[19:36:27:412] run 0: Test FPB breakpoint add␍␊
+[19:36:27:417] run 1: Test FPB patch trigger␍␊
+[19:36:27:417] run 2: Clear all bpkt and patch␍␊
+[19:36:27:428] run 3: Run ebpf test␍␊
+[19:36:27:428] run 4: Start patch service␍␊
+[19:36:27:434] $ patch 0debug_monitor_init setup dhcsr: 16842752␍␊
+[19:36:38:205] 0 -> my test cve␍␊
+[19:36:38:205] 1 -> zephyr_cve_2020_10063 attack_coap␍␊
+[19:36:38:215] 2 -> zephyr_cve_2020_10021 attack_usb_mass␍␊
+[19:36:38:215] 3 -> zephyr_cve_2020_10062 attack_mqtt␍␊
+[19:36:38:223] dynamic patch: pc=0x080072e4 inst=0x080072e0␍␊
+[19:36:38:223] load patch my test cve success!␍␊
+[19:36:38:223] Dump current hardware breakpoints, MODE-debug monitor:␍␊
+[19:36:38:229]   FP_COMP[0] Enabled 1, Replace: 1, Address 0x80072e0␍␊
+[19:36:38:235]   FP_COMP[1] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:36:38:235]   FP_COMP[2] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:36:38:247]   FP_COMP[3] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:36:38:257]   FP_COMP[4] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:36:38:257]   FP_COMP[5] Enabled 0, Replace: 0, Address 0x0␍␊
+[19:36:38:257] Dynamic Patch List:␍␊
+[19:36:38:265] dpkt: inst_addr: 0x080072e0 pc_addr: 0x080072e4 is_active: 1␍␊
+[19:36:38:265] ␊
+[19:36:38:265] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:43:055] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:43:065] Event micro profile dynamic start -> cycle: 11902 time(us): 66␍␊
+[19:36:43:075] Event micro profile dynamic start -> cycle: 65 time(us): 0␍␊
+[19:36:43:075] [0000] is bug fixed? yes␍␊
+[19:36:43:085] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:43:085] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:43:090] Event micro profile dynamic start -> cycle: 11972 time(us): 66␍␊
+[19:36:43:095] Event micro profile dynamic start -> cycle: 163 time(us): 0␍␊
+[19:36:43:095] Event micro profile dynamic start -> cycle: 106 time(us): 0␍␊
+[19:36:43:100] [0001] is bug fixed? yes␍␊
+[19:36:43:106] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:43:111] ␊
+[19:36:43:111] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:46:658] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:46:665] Event micro profile dynamic start -> cycle: 11902 time(us): 66␍␊
+[19:36:46:671] Event micro profile dynamic start -> cycle: 65 time(us): 0␍␊
+[19:36:46:677] [0000] is bug fixed? yes␍␊
+[19:36:46:677] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:46:685] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:46:694] Event micro profile dynamic start -> cycle: 11972 time(us): 66␍␊
+[19:36:46:694] Event micro profile dynamic start -> cycle: 163 time(us): 0␍␊
+[19:36:46:703] Event micro profile dynamic start -> cycle: 106 time(us): 0␍␊
+[19:36:46:710] [0001] is bug fixed? yes␍␊
+[19:36:46:710] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:46:718] ␊
+[19:36:46:718] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:47:760] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:47:767] Event micro profile dynamic start -> cycle: 11902 time(us): 66␍␊
+[19:36:47:775] Event micro profile dynamic start -> cycle: 65 time(us): 0␍␊
+[19:36:47:791] [0000] is bug fixed? yes␍␊
+[19:36:47:791] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:47:791] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:47:791] Event micro profile dynamic start -> cycle: 11972 time(us): 66␍␊
+[19:36:47:798] Event micro profile dynamic start -> cycle: 163 time(us): 0␍␊
+[19:36:47:803] Event micro profile dynamic start -> cycle: 106 time(us): 0␍␊
+[19:36:47:803] [0001] is bug fixed? yes␍␊
+[19:36:47:811] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:47:816] ␊
+[19:36:47:816] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:48:598] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:48:610] Event micro profile dynamic start -> cycle: 11902 time(us): 66␍␊
+[19:36:48:616] Event micro profile dynamic start -> cycle: 65 time(us): 0␍␊
+[19:36:48:616] [0000] is bug fixed? yes␍␊
+[19:36:48:622] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:48:622] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:48:628] Event micro profile dynamic start -> cycle: 11972 time(us): 66␍␊
+[19:36:48:634] Event micro profile dynamic start -> cycle: 163 time(us): 0␍␊
+[19:36:48:640] Event micro profile dynamic start -> cycle: 106 time(us): 0␍␊
+[19:36:48:646] [0001] is bug fixed? yes␍␊
+[19:36:48:646] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:48:652] ␊
+[19:36:48:652] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:49:353] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:49:359] Event micro profile dynamic start -> cycle: 11902 time(us): 66␍␊
+[19:36:49:365] Event micro profile dynamic start -> cycle: 65 time(us): 0␍␊
+[19:36:49:377] [0000] is bug fixed? yes␍␊
+[19:36:49:377] Event uart print profile start -> cycle: 379084 time(us): 2106␍␊
+[19:36:49:384] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:49:384] Event micro profile dynamic start -> cycle: 11972 time(us): 66␍␊
+[19:36:49:390] Event micro profile dynamic start -> cycle: 163 time(us): 0␍␊
+[19:36:49:397] Event micro profile dynamic start -> cycle: 106 time(us): 0␍␊
+[19:36:49:401] [0001] is bug fixed? yes␍␊
+[19:36:49:401] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:49:407] ␊
+[19:36:49:407] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:50:089] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:50:100] Event micro profile dynamic start -> cycle: 11902 time(us): 66␍␊
+[19:36:50:100] Event micro profile dynamic start -> cycle: 65 time(us): 0␍␊
+[19:36:50:111] [0000] is bug fixed? yes␍␊
+[19:36:50:111] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:50:120] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:50:120] Event micro profile dynamic start -> cycle: 11972 time(us): 66␍␊
+[19:36:50:120] Event micro profile dynamic start -> cycle: 163 time(us): 0␍␊
+[19:36:50:126] Event micro profile dynamic start -> cycle: 106 time(us): 0␍␊
+[19:36:50:131] [0001] is bug fixed? yes␍␊
+[19:36:50:137] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:50:141] ␊
+[19:36:50:141] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:50:796] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:50:805] Event micro profile dynamic start -> cycle: 11902 time(us): 66␍␊
+[19:36:50:815] Event micro profile dynamic start -> cycle: 65 time(us): 0␍␊
+[19:36:50:815] [0000] is bug fixed? yes␍␊
+[19:36:50:815] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:50:825] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:50:832] Event micro profile dynamic start -> cycle: 11972 time(us): 66␍␊
+[19:36:50:832] Event micro profile dynamic start -> cycle: 163 time(us): 0␍␊
+[19:36:50:832] Event micro profile dynamic start -> cycle: 106 time(us): 0␍␊
+[19:36:50:838] [0001] is bug fixed? yes␍␊
+[19:36:50:844] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:50:850] ␊
+[19:36:50:850] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:51:485] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:51:496] Event micro profile dynamic start -> cycle: 11902 time(us): 66␍␊
+[19:36:51:506] Event micro profile dynamic start -> cycle: 65 time(us): 0␍␊
+[19:36:51:506] [0000] is bug fixed? yes␍␊
+[19:36:51:506] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:51:515] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:51:515] Event micro profile dynamic start -> cycle: 11972 time(us): 66␍␊
+[19:36:51:522] Event micro profile dynamic start -> cycle: 163 time(us): 0␍␊
+[19:36:51:526] Event micro profile dynamic start -> cycle: 106 time(us): 0␍␊
+[19:36:51:533] [0001] is bug fixed? yes␍␊
+[19:36:51:538] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:51:542] ␊
+[19:36:51:542] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:52:185] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:52:197] Event micro profile dynamic start -> cycle: 11902 time(us): 66␍␊
+[19:36:52:207] Event micro profile dynamic start -> cycle: 65 time(us): 0␍␊
+[19:36:52:207] [0000] is bug fixed? yes␍␊
+[19:36:52:207] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:52:217] Event micro profile dynamic start -> cycle: 105 time(us): 0␍␊
+[19:36:52:217] Event micro profile dynamic start -> cycle: 11972 time(us): 66␍␊
+[19:36:52:227] Event micro profile dynamic start -> cycle: 163 time(us): 0␍␊
+[19:36:52:233] Event micro profile dynamic start -> cycle: 106 time(us): 0␍␊
+[19:36:52:237] [0001] is bug fixed? yes␍␊
+[19:36:52:237] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:52:241] ␊
+[19:36:52:241] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:52:868] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:52:868] Event dummy cve start -> cycle: 11902 time(us): 66␍␊
+[19:36:52:868] Event dummy cve start -> cycle: 65 time(us): 0␍␊
+[19:36:52:882] [0000] is bug fixed? yes␍␊
+[19:36:52:882] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:52:892] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:52:892] Event dummy cve start -> cycle: 11972 time(us): 66␍␊
+[19:36:52:892] Event dummy cve start -> cycle: 163 time(us): 0␍␊
+[19:36:52:892] Event dummy cve start -> cycle: 106 time(us): 0␍␊
+[19:36:52:902] [0001] is bug fixed? yes␍␊
+[19:36:52:907] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:52:913] ␊
+[19:36:52:913] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:53:497] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:53:509] Event dummy cve start -> cycle: 11902 time(us): 66␍␊
+[19:36:53:522] Event dummy cve start -> cycle: 65 time(us): 0␍␊
+[19:36:53:522] [0000] is bug fixed? yes␍␊
+[19:36:53:522] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:53:522] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:53:530] Event dummy cve start -> cycle: 11972 time(us): 66␍␊
+[19:36:53:530] Event dummy cve start -> cycle: 163 time(us): 0␍␊
+[19:36:53:536] Event dummy cve start -> cycle: 106 time(us): 0␍␊
+[19:36:53:545] [0001] is bug fixed? yes␍␊
+[19:36:53:545] Event uart print profile start -> cycle: 379074 time(us): 2105␍␊
+[19:36:53:545] ␊
+[19:36:53:545] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:54:180] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:54:188] Event dummy cve start -> cycle: 11902 time(us): 66␍␊
+[19:36:54:188] Event dummy cve start -> cycle: 65 time(us): 0␍␊
+[19:36:54:198] [0000] is bug fixed? yes␍␊
+[19:36:54:198] Event dummy cve start -> cycle: 379074 time(us): 2105␍␊
+[19:36:54:207] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:54:207] Event dummy cve start -> cycle: 11972 time(us): 66␍␊
+[19:36:54:215] Event dummy cve start -> cycle: 163 time(us): 0␍␊
+[19:36:54:215] Event dummy cve start -> cycle: 106 time(us): 0␍␊
+[19:36:54:220] [0001] is bug fixed? yes␍␊
+[19:36:54:220] Event dummy cve start -> cycle: 379074 time(us): 2105␍␊
+[19:36:54:225] ␊
+[19:36:54:225] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:54:827] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:54:835] Event dummy cve start -> cycle: 11902 time(us): 66␍␊
+[19:36:54:845] Event dummy cve start -> cycle: 65 time(us): 0␍␊
+[19:36:54:845] [0000] is bug fixed? yes␍␊
+[19:36:54:845] Event dummy cve start -> cycle: 379074 time(us): 2105␍␊
+[19:36:54:856] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:54:856] Event dummy cve start -> cycle: 11972 time(us): 66␍␊
+[19:36:54:863] Event dummy cve start -> cycle: 163 time(us): 0␍␊
+[19:36:54:863] Event dummy cve start -> cycle: 106 time(us): 0␍␊
+[19:36:54:869] [0001] is bug fixed? yes␍␊
+[19:36:54:869] Event dummy cve start -> cycle: 379074 time(us): 2105␍␊
+[19:36:54:875] ␊
+[19:36:54:875] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:55:588] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:55:588] Event dummy cve start -> cycle: 11902 time(us): 66␍␊
+[19:36:55:597] Event dummy cve start -> cycle: 65 time(us): 0␍␊
+[19:36:55:605] [0000] is bug fixed? yes␍␊
+[19:36:55:605] Event dummy cve start -> cycle: 379074 time(us): 2105␍␊
+[19:36:55:615] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:55:615] Event dummy cve start -> cycle: 11972 time(us): 66␍␊
+[19:36:55:623] Event dummy cve start -> cycle: 163 time(us): 0␍␊
+[19:36:55:623] Event dummy cve start -> cycle: 106 time(us): 0␍␊
+[19:36:55:629] [0001] is bug fixed? yes␍␊
+[19:36:55:629] Event dummy cve start -> cycle: 379074 time(us): 2105␍␊
+[19:36:55:633] ␊
+[19:36:55:633] $ trigger 0run test_func: 0x080072e1␍␊
+[19:36:56:325] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:56:333] Event dummy cve start -> cycle: 11902 time(us): 66␍␊
+[19:36:56:333] Event dummy cve start -> cycle: 65 time(us): 0␍␊
+[19:36:56:342] [0000] is bug fixed? yes␍␊
+[19:36:56:342] Event dummy cve start -> cycle: 379074 time(us): 2105␍␊
+[19:36:56:351] Event dummy cve start -> cycle: 105 time(us): 0␍␊
+[19:36:56:359] Event dummy cve start -> cycle: 11972 time(us): 66␍␊
+[19:36:56:359] Event dummy cve start -> cycle: 163 time(us): 0␍␊
+[19:36:56:359] Event dummy cve start -> cycle: 106 time(us): 0␍␊
+[19:36:56:364] [0001] is bug fixed? yes␍␊
+[19:36:56:364] Event dummy cve start -> cycle: 379084 time(us): 2106␍␊
+[19:36:56:369] ␊
+[19:36:56:369] $ 
