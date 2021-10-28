@@ -82,7 +82,7 @@ void main(void)
 	// myfunc func = my_func_test;
 	// func(1, 2, 3);
 
-	// run_shell_cli();
+	run_shell_cli();
 	//run_test_by_id(3);
 	// float t = 1.5;
 	// my_printf("%f\n", t);
@@ -91,22 +91,22 @@ void main(void)
 
 	//nrf_conn(pkt);
 
-	while (true) {
-		char c = uart_getchar();
-		char str[5] = {0};
-		str[0] = c;
-		my_printf("char uart_get_char(): %s %d\n", str, c);
-		show_fixed_patch_desc();
-		if (c == 'l') {
-			load_local_fixed_patch(0);
-		} else if (c == 'r') {
-			test_fixed_patch_point();
-		}
+	// while (true) {
+	// 	char c = uart_getchar();
+	// 	char str[5] = {0};
+	// 	str[0] = c;
+	// 	my_printf("char uart_get_char(): %s %d\n", str, c);
+	// 	show_fixed_patch_desc();
+	// 	if (c == 'l') {
+	// 		load_local_fixed_patch(0);
+	// 	} else if (c == 'r') {
+	// 		test_fixed_patch_point();
+	// 	}
 
-		if (c == 'q') {
-			break;
-		}
-	}
+	// 	if (c == 'q') {
+	// 		break;
+	// 	}
+	// }
 	print_str("Looping...\n");
 	while (1);
 }

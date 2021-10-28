@@ -1,0 +1,3 @@
+# 手动修改
+- SECTION_SUBSEC_FUNC(TEXT,__fault,__debug_monitor)
++ # SECTION_SUBSEC_FUNC(TEXT,__fault,__debug_monitor)

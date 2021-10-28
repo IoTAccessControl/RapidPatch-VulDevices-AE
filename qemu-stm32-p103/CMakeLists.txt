@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.6)
 #---------------------------------------------------------------------------------------
 # Set toolchain paths
 #---------------------------------------------------------------------------------------
-set(TOOLCHAIN_PREFIX /mnt/f/IoT/Tools/gcc-arm-none-eabi-9-2020-q2-update/)
-set(TOOLCHAIN_PREFIX /Applications/ARM/)
+set(TOOLCHAIN_PREFIX /opt/gcc-arm-none-eabi-9-2020-q2-update/)
+# set(TOOLCHAIN_PREFIX /Applications/ARM/)
 
 set(TOOLCHAIN arm-none-eabi)
 if(NOT DEFINED TOOLCHAIN_PREFIX)
@@ -57,7 +57,7 @@ set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)
 SET(CMAKE_GENERATOR "Unix Makefiles")
 project(arm-start VERSION 0.1 LANGUAGES C ASM)
 
-set(IOTPATCH_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../PatchCore/)
+set(IOTPATCH_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../Runtime/)
 
 
 # set(CMAKE_C_FLAGS -fno-common -ffreestanding -O2 -gdwarf-2 -g3 -Wall -Werror -mcpu=cortex-m4 -mthumb -Wl,-Tstart.ld -nostartfiles CACHE INTERNAL "C compiler flags")
