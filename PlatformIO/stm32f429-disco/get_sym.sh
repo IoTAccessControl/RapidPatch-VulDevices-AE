@@ -1,0 +1,1 @@
+arm-none-eabi-objdump -S .pio/build/disco_f429zi/firmware.elf > .pio/build/disco_f429zi/firmware.list

@@ -1,0 +1,979 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: snk fripSide, SNK, LIC=HN0AE-5V4PH-X7TRZ-JDN3Q-KIDFA-PZ5D6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+G:\Research\RapidPatch\ArtifactEvaluation\RapidPatch-VulDevices-AE\Keil-Baremetal-Projs\NRF52840\project\mdk5\IoTPatch.uvprojx
+Project File Date:  10/19/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin'
+Rebuild target 'IK-52840DK'
+compiling nrf_assert.c...
+compiling app_util_platform.c...
+compiling app_error.c...
+compiling nrf_drv_uart.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\integration\nrfx\legacy\nrf_drv_uart.c: 2 warnings, 0 errors
+compiling nrfx_atomic.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\modules\nrfx\soc\nrfx_atomic.c: 2 warnings, 0 errors
+compiling app_error_handler_keil.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_error_handler_keil.c: 2 warnings, 0 errors
+compiling nrfx_prs.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\modules\nrfx\drivers\src\prs\nrfx_prs.c: 2 warnings, 0 errors
+compiling nrfx_uart.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\modules\nrfx\drivers\src\nrfx_uart.c: 2 warnings, 0 errors
+compiling app_error_weak.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_error_weak.c: 2 warnings, 0 errors
+compiling boards.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\boards\boards.c: 2 warnings, 0 errors
+compiling nrfx_uarte.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\modules\nrfx\drivers\src\nrfx_uarte.c: 2 warnings, 0 errors
+compiling main.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\app\main.c(201): warning:  #188-D: enumerated type mixed with another type
+  	run_test_by_id(c);
+..\..\app\main.c: 3 warnings, 0 errors
+compiling nrf_fprintf.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\external\fprintf\nrf_fprintf.c: 2 warnings, 0 errors
+compiling nrf_strerror.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\strerror\nrf_strerror.c: 2 warnings, 0 errors
+compiling mem_manager.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\mem_manager\mem_manager.c: 2 warnings, 0 errors
+compiling nrf_atomic.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\atomic\nrf_atomic.c: 2 warnings, 0 errors
+compiling nrf_fprintf_format.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\external\fprintf\nrf_fprintf_format.c: 2 warnings, 0 errors
+compiling nrf_balloc.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\balloc\nrf_balloc.c: 2 warnings, 0 errors
+compiling nrf_ringbuf.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\ringbuf\nrf_ringbuf.c: 2 warnings, 0 errors
+compiling app_fifo.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\fifo\app_fifo.c: 2 warnings, 0 errors
+compiling retarget.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\uart\retarget.c: 2 warnings, 0 errors
+compiling nrf_memobj.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\memobj\nrf_memobj.c: 2 warnings, 0 errors
+compiling SEGGER_RTT_Syscalls_KEIL.c...
+compiling ihp_cli.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/iotpatch.h(90): warning:  #1295-D: Deprecated declaration save_patch_list_to_flash - give arg types
+  void save_patch_list_to_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/iotpatch.h(91): warning:  #1295-D: Deprecated declaration load_patch_list_from_flash - give arg types
+  void load_patch_list_from_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_service.h(38): warning:  #1276-D: a reduction in alignment without the "packed" attribute is ignored
+  typedef struct __attribute__((aligned(2))) patch_payload {
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_service.h(48): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/ebpf_test.h(5): warning:  #1295-D: Deprecated declaration run_ebpf_test - give arg types
+  void run_ebpf_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/ebpf_test.h(7): warning:  #1295-D: Deprecated declaration jit_dummy_cve - give arg types
+  uint64_t jit_dummy_cve();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/fixed_patch_points.h(21): warning:  #1295-D: Deprecated declaration fixed_patch_point_hanlder - give arg types
+  int fixed_patch_point_hanlder();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/fixed_patch_points.h(25): warning:  #1295-D: Deprecated declaration test_fixed_patch_point - give arg types
+  void test_fixed_patch_point();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_point.h(16): warning:  #1295-D: Deprecated declaration get_hw_bkpt_num - give arg types
+  int get_hw_bkpt_num();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_point.h(21): warning:  #1295-D: Deprecated declaration clear_all_hw_bkpt - give arg types
+  void clear_all_hw_bkpt();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_point.h(32): warning:  #1295-D: Deprecated declaration show_local_patch_desc - give arg types
+  void show_local_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_point.h(36): warning:  #1295-D: Deprecated declaration show_fixed_patch_desc - give arg types
+  void show_fixed_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\app\rt_app.h(8): warning:  #1295-D: Deprecated declaration init_rt_task_shrump - give arg types
+  int init_rt_task_shrump();
+..\..\..\..\..\RapidPatch-Runtime-AE\app\rt_app.h(10): warning:  #1295-D: Deprecated declaration init_rt_task_servo_motor - give arg types
+  int init_rt_task_servo_motor();
+..\..\..\..\..\RapidPatch-Runtime-AE\app\rt_app.h(13): warning:  #1295-D: Deprecated declaration init_rt_task_pid - give arg types
+  int init_rt_task_pid();
+..\..\..\..\..\RapidPatch-Runtime-AE\app\ihp_cli.c(17): warning:  #1295-D: Deprecated declaration shell_get_char - give arg types
+  extern char shell_get_char();
+..\..\..\..\..\RapidPatch-Runtime-AE\app\ihp_cli.c(19): warning:  #1295-D: Deprecated declaration cli_print_help - give arg types
+  static void cli_print_help();
+..\..\..\..\..\RapidPatch-Runtime-AE\app\ihp_cli.c(21): warning:  #1295-D: Deprecated declaration show_patch_list - give arg types
+  static void show_patch_list();
+..\..\..\..\..\RapidPatch-Runtime-AE\app\ihp_cli.c(73): warning:  #188-D: enumerated type mixed with another type
+  			run_test_by_id(rid);
+..\..\..\..\..\RapidPatch-Runtime-AE\app\ihp_cli.c(205): warning:  #144-D: a value of type "_Bool (*)(void)" cannot be used to initialize an entity of type "void (*)(void)"
+  	{TEST_SVR, start_patch_service, "Start patch service"},
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(9): warning:  #1295-D: Deprecated declaration get_start_tick - give arg types
+  int get_start_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(10): warning:  #1295-D: Deprecated declaration get_cur_tick - give arg types
+  int get_cur_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(22): warning:  #1295-D: Deprecated declaration init_multiple_step_profiling - give arg types
+  void init_multiple_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(24): warning:  #1295-D: Deprecated declaration show_mulprf_steps_result - give arg types
+  void show_mulprf_steps_result();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(25): warning:  #1295-D: Deprecated declaration clear_mulprf_step_profiling - give arg types
+  void clear_mulprf_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\app\cve_trigger.h(116): warning:  #1-D: last line of file ends without a newline
+  #endif // CVE_TRIGGER_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\app\ihp_cli.c(150): warning:  #177-D: function "test_rt_task"  was declared but never referenced
+  static void test_rt_task(void) {
+..\..\..\..\..\RapidPatch-Runtime-AE\app\ihp_cli.c: 28 warnings, 0 errors
+compiling dummy_cve.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/fixed_patch_points.h(21): warning:  #1295-D: Deprecated declaration fixed_patch_point_hanlder - give arg types
+  int fixed_patch_point_hanlder();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/fixed_patch_points.h(25): warning:  #1295-D: Deprecated declaration test_fixed_patch_point - give arg types
+  void test_fixed_patch_point();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_point.h(16): warning:  #1295-D: Deprecated declaration get_hw_bkpt_num - give arg types
+  int get_hw_bkpt_num();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_point.h(21): warning:  #1295-D: Deprecated declaration clear_all_hw_bkpt - give arg types
+  void clear_all_hw_bkpt();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_point.h(32): warning:  #1295-D: Deprecated declaration show_local_patch_desc - give arg types
+  void show_local_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_point.h(36): warning:  #1295-D: Deprecated declaration show_fixed_patch_desc - give arg types
+  void show_fixed_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/iotpatch.h(90): warning:  #1295-D: Deprecated declaration save_patch_list_to_flash - give arg types
+  void save_patch_list_to_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/iotpatch.h(91): warning:  #1295-D: Deprecated declaration load_patch_list_from_flash - give arg types
+  void load_patch_list_from_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_service.h(38): warning:  #1276-D: a reduction in alignment without the "packed" attribute is ignored
+  typedef struct __attribute__((aligned(2))) patch_payload {
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_service.h(48): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(9): warning:  #1295-D: Deprecated declaration get_start_tick - give arg types
+  int get_start_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(10): warning:  #1295-D: Deprecated declaration get_cur_tick - give arg types
+  int get_cur_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(22): warning:  #1295-D: Deprecated declaration init_multiple_step_profiling - give arg types
+  void init_multiple_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(24): warning:  #1295-D: Deprecated declaration show_mulprf_steps_result - give arg types
+  void show_mulprf_steps_result();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(25): warning:  #1295-D: Deprecated declaration clear_mulprf_step_profiling - give arg types
+  void clear_mulprf_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/ebpf_test.h(5): warning:  #1295-D: Deprecated declaration run_ebpf_test - give arg types
+  void run_ebpf_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/ebpf_test.h(7): warning:  #1295-D: Deprecated declaration jit_dummy_cve - give arg types
+  uint64_t jit_dummy_cve();
+..\..\..\..\..\RapidPatch-Runtime-AE\app\dummy_cve.c(82): warning:  #177-D: variable "len"  was declared but never referenced
+  	int len = 12;
+..\..\..\..\..\RapidPatch-Runtime-AE\app\dummy_cve.c(99): warning:  #223-D: function "ebpf_malloc" declared implicitly
+  	paylod.pkt = ebpf_malloc(pkt_len);
+..\..\..\..\..\RapidPatch-Runtime-AE\app\dummy_cve.c(99): warning:  #513-D: a value of type "int" cannot be assigned to an entity of type "uint8_t *"
+  	paylod.pkt = ebpf_malloc(pkt_len);
+..\..\..\..\..\RapidPatch-Runtime-AE\app\dummy_cve.c(100): warning:  #223-D: function "memcpy" declared implicitly
+  	memcpy(paylod.sign, sign_0, sizeof(sign_0));
+..\..\..\..\..\RapidPatch-Runtime-AE\app\dummy_cve.c: 22 warnings, 0 errors
+compiling rt_app.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\app\rt_app.c(224): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\app\rt_app.c: 1 warning, 0 errors
+compiling app_uart_fifo.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\uart\app_uart_fifo.c: 2 warnings, 0 errors
+compiling iotpatch.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(90): warning:  #1295-D: Deprecated declaration save_patch_list_to_flash - give arg types
+  void save_patch_list_to_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(91): warning:  #1295-D: Deprecated declaration load_patch_list_from_flash - give arg types
+  void load_patch_list_from_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(21): warning:  #1295-D: Deprecated declaration fixed_patch_point_hanlder - give arg types
+  int fixed_patch_point_hanlder();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(25): warning:  #1295-D: Deprecated declaration test_fixed_patch_point - give arg types
+  void test_fixed_patch_point();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(16): warning:  #1295-D: Deprecated declaration get_hw_bkpt_num - give arg types
+  int get_hw_bkpt_num();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(21): warning:  #1295-D: Deprecated declaration clear_all_hw_bkpt - give arg types
+  void clear_all_hw_bkpt();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(32): warning:  #1295-D: Deprecated declaration show_local_patch_desc - give arg types
+  void show_local_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(36): warning:  #1295-D: Deprecated declaration show_fixed_patch_desc - give arg types
+  void show_fixed_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_service.h(38): warning:  #1276-D: a reduction in alignment without the "packed" attribute is ignored
+  typedef struct __attribute__((aligned(2))) patch_payload {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_service.h(48): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/ebpf_vm.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(12): warning:  #1295-D: Deprecated declaration jit_run_test - give arg types
+  void jit_run_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(13): warning:  #1295-D: Deprecated declaration run_all_tests - give arg types
+  void run_all_tests();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf_allocator.h(10): warning:  #1295-D: Deprecated declaration get_ebpf_alloc_size - give arg types
+  int get_ebpf_alloc_size();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf_allocator.h(12): warning:  #1-D: last line of file ends without a newline
+  // heap memory manager
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\iotpatch.c(90): warning:  #167-D: argument of type "uint32_t" is incompatible with parameter of type "void *"
+  	arraymap_set(pctx.fpatch_list.fiexed_patches, patch->desc->fixed_id, patch);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\iotpatch.c(110): warning:  #177-D: variable "init_size"  was declared but never referenced
+  	const int init_size = 8;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\iotpatch.c(167): warning:  #167-D: argument of type "uint32_t" is incompatible with parameter of type "void *"
+  	ebpf_patch *patch = arraymap_get(pctx.fpatch_list.fiexed_patches, lr);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\iotpatch.c(249): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\iotpatch.c: 21 warnings, 0 errors
+compiling nrf_log_backend_rtt.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\log\src\nrf_log_backend_rtt.c: 2 warnings, 0 errors
+compiling utils.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\utils.c(50): warning:  #111-D: statement is unreachable
+  	return inst_addr;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\utils.c(71): warning:  #111-D: statement is unreachable
+  	return next_inst;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\utils.c: 3 warnings, 0 errors
+compiling ebpf_test.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/ebpf_test.h(5): warning:  #1295-D: Deprecated declaration run_ebpf_test - give arg types
+  void run_ebpf_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/ebpf_test.h(7): warning:  #1295-D: Deprecated declaration jit_dummy_cve - give arg types
+  uint64_t jit_dummy_cve();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(90): warning:  #1295-D: Deprecated declaration save_patch_list_to_flash - give arg types
+  void save_patch_list_to_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(91): warning:  #1295-D: Deprecated declaration load_patch_list_from_flash - give arg types
+  void load_patch_list_from_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(21): warning:  #1295-D: Deprecated declaration fixed_patch_point_hanlder - give arg types
+  int fixed_patch_point_hanlder();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(25): warning:  #1295-D: Deprecated declaration test_fixed_patch_point - give arg types
+  void test_fixed_patch_point();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(16): warning:  #1295-D: Deprecated declaration get_hw_bkpt_num - give arg types
+  int get_hw_bkpt_num();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(21): warning:  #1295-D: Deprecated declaration clear_all_hw_bkpt - give arg types
+  void clear_all_hw_bkpt();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(32): warning:  #1295-D: Deprecated declaration show_local_patch_desc - give arg types
+  void show_local_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(36): warning:  #1295-D: Deprecated declaration show_fixed_patch_desc - give arg types
+  void show_fixed_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(9): warning:  #1295-D: Deprecated declaration get_start_tick - give arg types
+  int get_start_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(10): warning:  #1295-D: Deprecated declaration get_cur_tick - give arg types
+  int get_cur_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(22): warning:  #1295-D: Deprecated declaration init_multiple_step_profiling - give arg types
+  void init_multiple_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(24): warning:  #1295-D: Deprecated declaration show_mulprf_steps_result - give arg types
+  void show_mulprf_steps_result();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(25): warning:  #1295-D: Deprecated declaration clear_mulprf_step_profiling - give arg types
+  void clear_mulprf_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/ebpf_vm.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(12): warning:  #1295-D: Deprecated declaration jit_run_test - give arg types
+  void jit_run_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(13): warning:  #1295-D: Deprecated declaration run_all_tests - give arg types
+  void run_all_tests();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(73): warning:  #167-D: argument of type "uint32_t" is incompatible with parameter of type "void *"
+  		arraymap_set(map, i, &arr[i]);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(76): warning:  #167-D: argument of type "uint32_t" is incompatible with parameter of type "void *"
+  			arraymap_set(map, i, &arr[i]);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(78): warning:  #167-D: argument of type "uint32_t" is incompatible with parameter of type "void *"
+  		void *val = arraymap_get(map, i);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(87): warning:  #167-D: argument of type "int" is incompatible with parameter of type "void *"
+  			arraymap_del(map, i);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(95): warning:  #1276-D: a reduction in alignment without the "packed" attribute is ignored
+  struct __attribute__((aligned(2))) mydata1 {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(353): warning:  #177-D: variable "addr"  was declared but never referenced
+  	uint32_t addr = args_frame.r1;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(384): warning:  #171-D: invalid type conversion
+  	char *dst = (char *) arg1;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(385): warning:  #171-D: invalid type conversion
+  	char *src = (char *) arg2;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(397): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint32_t"
+  	args_frame.r0 = test_str;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(401): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code3, sizeof(code3), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(409): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code4, sizeof(code4), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(414): warning:  #1000-D: a storage class may not be specified here
+  	static struct gpio_struct2 {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(422): warning:  #1000-D: a storage class may not be specified here
+  	static struct gpio_struct1 {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(441): warning:  #144-D: a value of type "struct gpio_struct1 *" cannot be used to initialize an entity of type "uint32_t"
+  		.r1 = &g1,
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(449): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code5, sizeof(code5), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(461): warning:  #170-D: pointer points outside of underlying object
+  		.end = mqtt_buf + 10,
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(465): warning:  #144-D: a value of type "struct mqtt_buf_ctx *" cannot be used to initialize an entity of type "uint32_t"
+  		.r0 = &mbc,
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(467): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code6, sizeof(code6), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(472): warning:  #1000-D: a storage class may not be specified here
+  	static struct IPPacket {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(477): warning:  #1000-D: a storage class may not be specified here
+  	static struct TCPPacket {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(487): warning:  #144-D: a value of type "struct TCPPacket *" cannot be used to initialize an entity of type "unsigned char *"
+  		.tcpptr = &tcppkt,
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(492): warning:  #144-D: a value of type "struct IPPacket *" cannot be used to initialize an entity of type "uint32_t"
+  		.r1 = &ippkt,
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(494): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code7, sizeof(code7), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(503): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code8_1, sizeof(code8_1), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(504): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code8_2, sizeof(code8_2), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(510): warning:  #1000-D: a storage class may not be specified here
+  	static struct ETHPacket {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(519): warning:  #144-D: a value of type "struct ETHPacket *" cannot be used to initialize an entity of type "uint32_t"
+  		.r0 = &ethpkt
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(521): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code9, sizeof(code9), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(528): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code10, sizeof(code10), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(533): warning:  #1000-D: a storage class may not be specified here
+  	static struct PicoFrame {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(542): warning:  #144-D: a value of type "struct PicoFrame *" cannot be used to initialize an entity of type "uint32_t"
+  		.r0 = &pf,
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(544): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code11, sizeof(code11), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(550): warning:  #68-D: integer conversion resulted in a change of sign
+  	uint8_t destopt[50] = {1, -2, -2, -2, -2, -2};
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(550): warning:  #68-D: integer conversion resulted in a change of sign
+  	uint8_t destopt[50] = {1, -2, -2, -2, -2, -2};
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(550): warning:  #68-D: integer conversion resulted in a change of sign
+  	uint8_t destopt[50] = {1, -2, -2, -2, -2, -2};
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(550): warning:  #68-D: integer conversion resulted in a change of sign
+  	uint8_t destopt[50] = {1, -2, -2, -2, -2, -2};
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(550): warning:  #68-D: integer conversion resulted in a change of sign
+  	uint8_t destopt[50] = {1, -2, -2, -2, -2, -2};
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(552): warning:  #144-D: a value of type "uint8_t *" cannot be used to initialize an entity of type "uint32_t"
+  		.r0 = destopt,
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(556): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	ebpf_eva(code12, sizeof(code12), &args_frame, sizeof(args_frame));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(585): warning:  #223-D: function "get_ebpf_alloc_size" declared implicitly
+  	int total_mem = jit_mem_statistic(&vm) + get_ebpf_alloc_size();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(640): warning:  #167-D: argument of type "int" is incompatible with parameter of type "void *"
+  		arraymap_set(plist->patches, i, 1);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(640): warning:  #167-D: argument of type "int" is incompatible with parameter of type "void *"
+  		arraymap_set(plist->patches, i, 1);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(640): warning:  #152-D: conversion of nonzero integer to pointer
+  		arraymap_set(plist->patches, i, 1);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(645): warning:  #167-D: argument of type "int" is incompatible with parameter of type "void *"
+  			int val = arraymap_get(plist->patches, i);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(645): warning:  #144-D: a value of type "void *" cannot be used to initialize an entity of type "int"
+  			int val = arraymap_get(plist->patches, i);
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf_lock.h(38): warning:  #177-D: variable "tmp"  was declared but never referenced
+  	unsigned int tmp;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(711): warning:  #177-D: variable "t"  was declared but never referenced
+  	int t;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(748): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(31): warning:  #177-D: function "test_darray"  was declared but never referenced
+  static void test_darray() {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(64): warning:  #177-D: function "test_arraymap"  was declared but never referenced
+  static void test_arraymap() {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(119): warning:  #177-D: function "test_struct_serialize"  was declared but never referenced
+  static void test_struct_serialize() {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c(379): warning:  #177-D: function "ebpf_call_c"  was declared but never referenced
+  static void ebpf_call_c(int a1, int a2, char *a3, short a4) {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\ebpf_test.c: 72 warnings, 0 errors
+compiling patch_service.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_service.h(38): warning:  #1276-D: a reduction in alignment without the "packed" attribute is ignored
+  typedef struct __attribute__((aligned(2))) patch_payload {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_service.h(48): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(90): warning:  #1295-D: Deprecated declaration save_patch_list_to_flash - give arg types
+  void save_patch_list_to_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(91): warning:  #1295-D: Deprecated declaration load_patch_list_from_flash - give arg types
+  void load_patch_list_from_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf_allocator.h(10): warning:  #1295-D: Deprecated declaration get_ebpf_alloc_size - give arg types
+  int get_ebpf_alloc_size();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf_allocator.h(12): warning:  #1-D: last line of file ends without a newline
+  // heap memory manager
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\patch_service.c(26): warning:  #177-D: function "wait_for_patch"  was declared but never referenced
+  static void wait_for_patch() {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\patch_service.c(46): warning:  #177-D: function "debug_dump_patch"  was declared but never referenced
+  static void debug_dump_patch(uint8_t *buf, int len) {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\patch_service.c: 9 warnings, 0 errors
+compiling profiling.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(9): warning:  #1295-D: Deprecated declaration get_start_tick - give arg types
+  int get_start_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(10): warning:  #1295-D: Deprecated declaration get_cur_tick - give arg types
+  int get_cur_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(22): warning:  #1295-D: Deprecated declaration init_multiple_step_profiling - give arg types
+  void init_multiple_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(24): warning:  #1295-D: Deprecated declaration show_mulprf_steps_result - give arg types
+  void show_mulprf_steps_result();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/profiling.h(25): warning:  #1295-D: Deprecated declaration clear_mulprf_step_profiling - give arg types
+  void clear_mulprf_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\profiling.c(182): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\profiling.c: 7 warnings, 0 errors
+compiling cortex-m4_fbp.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(21): warning:  #1295-D: Deprecated declaration fixed_patch_point_hanlder - give arg types
+  int fixed_patch_point_hanlder();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(25): warning:  #1295-D: Deprecated declaration test_fixed_patch_point - give arg types
+  void test_fixed_patch_point();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(16): warning:  #1295-D: Deprecated declaration get_hw_bkpt_num - give arg types
+  int get_hw_bkpt_num();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(21): warning:  #1295-D: Deprecated declaration clear_all_hw_bkpt - give arg types
+  void clear_all_hw_bkpt();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(32): warning:  #1295-D: Deprecated declaration show_local_patch_desc - give arg types
+  void show_local_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(36): warning:  #1295-D: Deprecated declaration show_fixed_patch_desc - give arg types
+  void show_fixed_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(90): warning:  #1295-D: Deprecated declaration save_patch_list_to_flash - give arg types
+  void save_patch_list_to_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(91): warning:  #1295-D: Deprecated declaration load_patch_list_from_flash - give arg types
+  void load_patch_list_from_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(9): warning:  #1295-D: Deprecated declaration get_start_tick - give arg types
+  int get_start_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(10): warning:  #1295-D: Deprecated declaration get_cur_tick - give arg types
+  int get_cur_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(22): warning:  #1295-D: Deprecated declaration init_multiple_step_profiling - give arg types
+  void init_multiple_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(24): warning:  #1295-D: Deprecated declaration show_mulprf_steps_result - give arg types
+  void show_mulprf_steps_result();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(25): warning:  #1295-D: Deprecated declaration clear_mulprf_step_profiling - give arg types
+  void clear_mulprf_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(16): warning:  #1295-D: Deprecated declaration hera_fix_func - give arg types
+  int hera_fix_func();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(635): warning:  #61-D: integer operation result is out of range
+  	*scb_hfsr = (1 << 31);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(635): warning:  #68-D: integer conversion resulted in a change of sign
+  	*scb_hfsr = (1 << 31);
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(659): warning:  #68-D: integer conversion resulted in a change of sign
+  	*shp8 = -1;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(1020): warning:  #177-D: variable "uxHeaderLength"  was declared but never referenced
+  	uint32_t uxHeaderLength = ( uint32_t ) ( ( pxIPHeader->ucVersionHeaderLength & 0x0Fu ) << 2 );
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(1021): warning:  #177-D: variable "ucProtocol"  was declared but never referenced
+  	uint8_t ucProtocol;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(1039): warning:  #177-D: variable "ucProtocol"  was declared but never referenced
+  	uint8_t ucProtocol;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(307): warning:  #177-D: function "fpb_set_comp_reg"  was declared but never referenced
+  static void fpb_set_comp_reg(uint8_t idx, uint32_t comp_addr)
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(669): warning:  #177-D: function "dump_context"  was declared but never referenced
+  static inline void dump_context(stack_context *ctx) {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(925): warning:  #177-D: function "test_func"  was declared but never referenced
+  static void test_func() {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(931): warning:  #177-D: function "add_breakpoint"  was declared but never referenced
+  static void add_breakpoint(uint32_t inst) {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(72): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(185): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c(664): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c: 25 warnings, 0 errors
+compiling flash_api.c...
+compiling ihp_porting.c...
+compiling dynamic_patch_load.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(21): warning:  #1295-D: Deprecated declaration fixed_patch_point_hanlder - give arg types
+  int fixed_patch_point_hanlder();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(25): warning:  #1295-D: Deprecated declaration test_fixed_patch_point - give arg types
+  void test_fixed_patch_point();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(16): warning:  #1295-D: Deprecated declaration get_hw_bkpt_num - give arg types
+  int get_hw_bkpt_num();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(21): warning:  #1295-D: Deprecated declaration clear_all_hw_bkpt - give arg types
+  void clear_all_hw_bkpt();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(32): warning:  #1295-D: Deprecated declaration show_local_patch_desc - give arg types
+  void show_local_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(36): warning:  #1295-D: Deprecated declaration show_fixed_patch_desc - give arg types
+  void show_fixed_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(90): warning:  #1295-D: Deprecated declaration save_patch_list_to_flash - give arg types
+  void save_patch_list_to_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(91): warning:  #1295-D: Deprecated declaration load_patch_list_from_flash - give arg types
+  void load_patch_list_from_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_service.h(38): warning:  #1276-D: a reduction in alignment without the "packed" attribute is ignored
+  typedef struct __attribute__((aligned(2))) patch_payload {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_service.h(48): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/ebpf_vm.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(12): warning:  #1295-D: Deprecated declaration jit_run_test - give arg types
+  void jit_run_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(13): warning:  #1295-D: Deprecated declaration run_all_tests - give arg types
+  void run_all_tests();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf_allocator.h(10): warning:  #1295-D: Deprecated declaration get_ebpf_alloc_size - give arg types
+  int get_ebpf_alloc_size();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf_allocator.h(12): warning:  #1-D: last line of file ends without a newline
+  // heap memory manager
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\dynamic_patch_load.c(23): warning:  #1295-D: Deprecated declaration setup_cve_list - give arg types
+  static void setup_cve_list();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\dynamic_patch_load.c(27): warning:  #177-D: variable "rt_task_pwm"  was declared but never referenced
+  static uint8_t rt_task_pwm[] = ""
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\dynamic_patch_load.c: 19 warnings, 0 errors
+compiling fixed_patch_load.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(21): warning:  #1295-D: Deprecated declaration fixed_patch_point_hanlder - give arg types
+  int fixed_patch_point_hanlder();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(25): warning:  #1295-D: Deprecated declaration test_fixed_patch_point - give arg types
+  void test_fixed_patch_point();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(16): warning:  #1295-D: Deprecated declaration get_hw_bkpt_num - give arg types
+  int get_hw_bkpt_num();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(21): warning:  #1295-D: Deprecated declaration clear_all_hw_bkpt - give arg types
+  void clear_all_hw_bkpt();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(32): warning:  #1295-D: Deprecated declaration show_local_patch_desc - give arg types
+  void show_local_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h(36): warning:  #1295-D: Deprecated declaration show_fixed_patch_desc - give arg types
+  void show_fixed_patch_desc();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(90): warning:  #1295-D: Deprecated declaration save_patch_list_to_flash - give arg types
+  void save_patch_list_to_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h(91): warning:  #1295-D: Deprecated declaration load_patch_list_from_flash - give arg types
+  void load_patch_list_from_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_service.h(38): warning:  #1276-D: a reduction in alignment without the "packed" attribute is ignored
+  typedef struct __attribute__((aligned(2))) patch_payload {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_service.h(48): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/ebpf_vm.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(12): warning:  #1295-D: Deprecated declaration jit_run_test - give arg types
+  void jit_run_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(13): warning:  #1295-D: Deprecated declaration run_all_tests - give arg types
+  void run_all_tests();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf_allocator.h(10): warning:  #1295-D: Deprecated declaration get_ebpf_alloc_size - give arg types
+  int get_ebpf_alloc_size();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf_allocator.h(12): warning:  #1-D: last line of file ends without a newline
+  // heap memory manager
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_load.c(20): warning:  #1295-D: Deprecated declaration setup_cve_list - give arg types
+  static void setup_cve_list();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_load.c(114): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_load.c: 19 warnings, 0 errors
+compiling jit_dev_test.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/ebpf_test.h(5): warning:  #1295-D: Deprecated declaration run_ebpf_test - give arg types
+  void run_ebpf_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/ebpf_test.h(7): warning:  #1295-D: Deprecated declaration jit_dummy_cve - give arg types
+  uint64_t jit_dummy_cve();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\jit_dev_test.c(45): warning:  #940-D: missing return statement at end of non-void function "jit_dummy_cve" 
+  }
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\jit_dev_test.c(74): warning:  #177-D: variable "src"  was declared but never referenced
+      int src = 1;
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\jit_dev_test.c(75): warning:  #177-D: variable "dst"  was declared but never referenced
+      int dst;   
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\jit_dev_test.c(99): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\jit_dev_test.c(85): warning:  #177-D: function "my_jit_func2"  was declared but never referenced
+  static uint16_t my_jit_func2(void *ctx) {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\jit_dev_test.c: 8 warnings, 0 errors
+compiling fixed_patch_points.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(21): warning:  #1295-D: Deprecated declaration fixed_patch_point_hanlder - give arg types
+  int fixed_patch_point_hanlder();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h(25): warning:  #1295-D: Deprecated declaration test_fixed_patch_point - give arg types
+  void test_fixed_patch_point();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/ebpf_vm.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(12): warning:  #1295-D: Deprecated declaration jit_run_test - give arg types
+  void jit_run_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(13): warning:  #1295-D: Deprecated declaration run_all_tests - give arg types
+  void run_all_tests();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/ebpf.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/iotpatch.h(90): warning:  #1295-D: Deprecated declaration save_patch_list_to_flash - give arg types
+  void save_patch_list_to_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/iotpatch.h(91): warning:  #1295-D: Deprecated declaration load_patch_list_from_flash - give arg types
+  void load_patch_list_from_flash();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(9): warning:  #1295-D: Deprecated declaration get_start_tick - give arg types
+  int get_start_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(10): warning:  #1295-D: Deprecated declaration get_cur_tick - give arg types
+  int get_cur_tick();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(22): warning:  #1295-D: Deprecated declaration init_multiple_step_profiling - give arg types
+  void init_multiple_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(24): warning:  #1295-D: Deprecated declaration show_mulprf_steps_result - give arg types
+  void show_mulprf_steps_result();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h(25): warning:  #1295-D: Deprecated declaration clear_mulprf_step_profiling - give arg types
+  void clear_mulprf_step_profiling();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/fixed_patch_point_def.h(20): warning:  #1295-D: Deprecated declaration fixed_patch_point_hanlder - give arg types
+  extern int fixed_patch_point_hanlder();
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/fixed_patch_point_def.h(53): warning:  #1-D: last line of file ends without a newline
+  #endif // FIXED_PATCH_POINT_DEFINE_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_points.c(135): warning:  #1000-D: a storage class may not be specified here
+  static struct dummy_MQTT_buf_ctx {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_points.c(139): warning:  #1295-D: Deprecated declaration call_dummy_buggy_MQTT_function - give arg types
+  static void call_dummy_buggy_MQTT_function();
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_points.c(143): warning:  #1000-D: a storage class may not be specified here
+  static struct func_args {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_points.c(179): warning:  #223-D: function "ebpf_malloc" declared implicitly
+  	struct func_args *p2 = ebpf_malloc(sizeof(struct func_args));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_points.c(179): warning:  #144-D: a value of type "int" cannot be used to initialize an entity of type "struct func_args *"
+  	struct func_args *p2 = ebpf_malloc(sizeof(struct func_args));
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_points.c(168): warning:  #177-D: function "bug2_function"  was declared but never referenced
+  static void bug2_function(int t) {
+..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\fixed_patch_points.c: 22 warnings, 0 errors
+compiling hashmap.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_allocator.h(10): warning:  #1295-D: Deprecated declaration get_ebpf_alloc_size - give arg types
+  int get_ebpf_alloc_size();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_allocator.h(12): warning:  #1-D: last line of file ends without a newline
+  // heap memory manager
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\hashmap.c(141): warning:  #117-D: non-void function "arraymap_set"  should return a value
+  		return;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\hashmap.c(44): warning:  #177-D: function "upper_bound"  was declared but never referenced
+  static int upper_bound(void **arr, int size, uint32_t val) {
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\hashmap.c: 4 warnings, 0 errors
+compiling ebpf_allocator.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_allocator.h(10): warning:  #1295-D: Deprecated declaration get_ebpf_alloc_size - give arg types
+  int get_ebpf_alloc_size();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_allocator.h(12): warning:  #1-D: last line of file ends without a newline
+  // heap memory manager
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_allocator.c(12): warning:  #223-D: function "malloc" declared implicitly
+  	return (void *) my_os_malloc(size);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_allocator.c(43): warning:  #223-D: function "calloc" declared implicitly
+  	return (void*) my_os_calloc(nelem, elmsize);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_allocator.c(47): warning:  #223-D: function "free" declared implicitly
+  	my_os_free(rmem);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_allocator.c(52): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_allocator.c: 6 warnings, 0 errors
+compiling jit.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit.h(12): warning:  #1295-D: Deprecated declaration jit_run_test - give arg types
+  void jit_run_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit.h(13): warning:  #1295-D: Deprecated declaration run_all_tests - give arg types
+  void run_all_tests();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_allocator.h(10): warning:  #1295-D: Deprecated declaration get_ebpf_alloc_size - give arg types
+  int get_ebpf_alloc_size();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_allocator.h(12): warning:  #1-D: last line of file ends without a newline
+  // heap memory manager
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit.c(84): warning:  #177-D: variable "mem"  was declared but never referenced
+  	int mem = code_size + jit_size + offset_size;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit.c: 6 warnings, 0 errors
+assembling arm_startup_nrf52840.s...
+compiling SEGGER_RTT.c...
+compiling nrf_log_default_backends.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\log\src\nrf_log_default_backends.c: 2 warnings, 0 errors
+compiling nrf_log_backend_uart.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\log\src\nrf_log_backend_uart.c: 2 warnings, 0 errors
+compiling SEGGER_RTT_printf.c...
+compiling nrf_log_str_formatter.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\log\src\nrf_log_str_formatter.c: 2 warnings, 0 errors
+compiling ebpf_vm.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_allocator.h(10): warning:  #1295-D: Deprecated declaration get_ebpf_alloc_size - give arg types
+  int get_ebpf_alloc_size();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_allocator.h(12): warning:  #1-D: last line of file ends without a newline
+  // heap memory manager
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(12): warning:  #1295-D: Deprecated declaration jit_run_test - give arg types
+  void jit_run_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src/jit.h(13): warning:  #1295-D: Deprecated declaration run_all_tests - give arg types
+  void run_all_tests();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_helper_impl.h(42): warning:  #167-D: argument of type "uint64_t" is incompatible with parameter of type "void *"
+  	arraymap_set(mp, key, val);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_helper_impl.h(42): warning:  #167-D: argument of type "uint64_t" is incompatible with parameter of type "void *"
+  	arraymap_set(mp, key, val);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_helper_impl.h(46): warning:  #167-D: argument of type "uint64_t" is incompatible with parameter of type "void *"
+  	return arraymap_get(mp, key);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_helper_impl.h(46): warning:  #120-D: return value type does not match the function type
+  	return arraymap_get(mp, key);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(13): warning:  #1295-D: Deprecated declaration use_default_helper_func - give arg types
+  static ebpf_helper_env* use_default_helper_func();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+  				return -1;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(201): warning:  #68-D: integer conversion resulted in a change of sign
+  				return -1;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+  				return -1;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(311): warning:  #68-D: integer conversion resulted in a change of sign
+  				return -1;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(335): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_LOAD(8);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(335): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_LOAD(8);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(347): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_LOAD(2);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(347): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_LOAD(2);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(351): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_LOAD(1);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(351): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_LOAD(1);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(356): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_STORE(8);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(356): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_STORE(8);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(360): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_STORE(4);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(360): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_STORE(4);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(364): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_STORE(2);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(364): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_STORE(2);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(368): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_STORE(1);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(368): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_STORE(1);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(373): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_STORE(8);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(373): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_STORE(8);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(377): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_STORE(4);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(377): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_STORE(4);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(381): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_STORE(2);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(381): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_STORE(2);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(385): warning:  #167-D: argument of type "unsigned long long" is incompatible with parameter of type "void *"
+  			BOUNDS_CHECK_STORE(1);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(385): warning:  #68-D: integer conversion resulted in a change of sign
+  			BOUNDS_CHECK_STORE(1);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(525): warning:  #111-D: statement is unreachable
+  	return ret;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(532): warning:  #940-D: missing return statement at end of non-void function "iters_check" 
+  }
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c(549): warning:  #111-D: statement is unreachable
+  	return true;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.c: 41 warnings, 0 errors
+compiling nrf_log_backend_serial.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\log\src\nrf_log_backend_serial.c: 2 warnings, 0 errors
+compiling jit_thumb2.c...
+..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif // end DEFS_H_
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.h(408): warning:  #68-D: integer conversion resulted in a change of sign
+          return -1;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.h(434): warning:  #68-D: integer conversion resulted in a change of sign
+          return -1;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit.h(12): warning:  #1295-D: Deprecated declaration jit_run_test - give arg types
+  void jit_run_test();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit.h(13): warning:  #1295-D: Deprecated declaration run_all_tests - give arg types
+  void run_all_tests();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(13): warning:  #1295-D: Deprecated declaration first_jit_func - give arg types
+  static void first_jit_func();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(14): warning:  #1295-D: Deprecated declaration gen_code_for_ebpf1 - give arg types
+  static void gen_code_for_ebpf1();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(319): warning:  #167-D: argument of type "const s8 *" is incompatible with parameter of type "s8 *"
+      emit4(state, _thumb32_LDRD_IMM_T1(Rt, Rn, off));
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(353): warning:  #167-D: argument of type "const s8 *" is incompatible with parameter of type "s8 *"
+      emit4(state, _thumb32_STRD_IMM_T1(RnSrc, RtDst, off));
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(414): warning:  #177-D: variable "inst"  was declared but never referenced
+          uint32_t inst = (0xeb600000) | (src << 16) | (dst << 8) | (dst);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(592): warning:  #177-D: variable "tmp"  was declared but never referenced
+      const s8 *tmp = bpf2a32[TMP_REG_1];
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1162): warning:  #177-D: variable "inst"  was declared but never referenced
+      u16 inst = 0;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1230): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if (val <= imm8 && val >= 0 && rd < 8) {
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1226): warning:  #177-D: variable "imm13"  was declared but never referenced
+      u16 imm8 = 0xff, imm13 = 0xff, imm16 = 0xffff;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1226): warning:  #177-D: variable "imm16"  was declared but never referenced
+      u16 imm8 = 0xff, imm13 = 0xff, imm16 = 0xffff;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1290): warning:  #144-D: a value of type "const int8_t *" cannot be used to initialize an entity of type "const u8 *"
+          const u8 *tmp = bpf2a32[TMP_REG_1];
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1292): warning:  #167-D: argument of type "const u8 *" is incompatible with parameter of type "const s8 *"
+          _emit_ldrd_i(state, tmp, ARM_FP, EBPF_SCRATCH_TO_ARM_FP(src_lo));
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1294): warning:  #167-D: argument of type "const u8 *" is incompatible with parameter of type "const s8 *"
+          _emit_strd_i(state, tmp, ARM_FP, EBPF_SCRATCH_TO_ARM_FP(dst_lo));
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1339): warning:  #61-D: integer operation result is out of range
+          if (is64 && (val & (1<<31))) // < 0
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1339): warning:  #68-D: integer conversion resulted in a change of sign
+          if (is64 && (val & (1<<31))) // < 0
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1572): warning:  #111-D: statement is unreachable
+          break;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1668): warning:  #177-D: variable "start_delta"  was declared but never referenced
+          int start_delta = state->idx;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1714): warning:  #1254-D: arithmetic on pointer to void or function type
+          const u32 func = *(u32 *) (state->__bpf_call_base + imm * 4);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1719): warning:  #167-D: argument of type "const s8 *" is incompatible with parameter of type "s8 *"
+          emit_push_r64(state, r5);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1720): warning:  #167-D: argument of type "const s8 *" is incompatible with parameter of type "s8 *"
+          emit_push_r64(state, r4);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1721): warning:  #167-D: argument of type "const s8 *" is incompatible with parameter of type "s8 *"
+          emit_push_r64(state, r3);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1401): warning:  #177-D: variable "target_pc"  was declared but never referenced
+      uint32_t target_pc = pc + inst->offset + 1;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1403): warning:  #177-D: variable "rd_lo"  was declared but never referenced
+      int8_t rd_lo, rt, rm, rn;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1403): warning:  #177-D: variable "rt"  was declared but never referenced
+      int8_t rd_lo, rt, rm, rn;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1755): warning:  #177-D: label "notyet"  was declared but never referenced
+  notyet:
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1908): warning:  #177-D: variable "op"  was declared but never referenced
+      uint32_t op = ret >> 32;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1909): warning:  #177-D: variable "lr"  was declared but never referenced
+      uint32_t lr = (uint32_t) (ret & 0x00000000FFFFFFFF);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1946): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "uint32_t *"
+      state->offsets = offset_mem;
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1992): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+      run_jit_func(code_t1, sizeof(code_t1), &ctx1);
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(13): warning:  #177-D: function "first_jit_func"  was declared but never referenced
+  static void first_jit_func();
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(740): warning:  #177-D: function "_emit_jump_sfi"  was declared but never referenced
+  static void _emit_jump_sfi(jit_state *state, s32 jmp_off, s8 op) {
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1348): warning:  #177-D: function "test_mov"  was declared but never referenced
+  static void test_mov(jit_state *state) {
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1383): warning:  #177-D: function "gen_return"  was declared but never referenced
+  static void gen_return(jit_state *state) {
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1389): warning:  #177-D: function "gen_bound_checks"  was declared but never referenced
+  static void gen_bound_checks(jit_state *state, int end) {
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c(1872): warning:  #177-D: function "test_branch"  was declared but never referenced
+  static void test_branch(jit_state *state) {
+..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit_thumb2.c: 40 warnings, 0 errors
+compiling nrf_log_frontend.c...
+..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\components\libraries\log\src\nrf_log_frontend.c: 2 warnings, 0 errors
+compiling system_nrf52840.c...
+linking...
+Program Size: Code=33920 RO-data=1816 RW-data=4140 ZI-data=22924  
+FromELF: creating hex file...
+".\Objects\nrf52840_qiaa.axf" - 0 Error(s), 409 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.27.1.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.27.1
+                Nordic Semiconductor nRF ARM devices Device Family Pack with BSD license.
+   * Component: Startup Version: 8.27.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_IK-52840DK
+  D:\dev\keli\keli_v5\MDK\Packs\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\dev\keli\keli_v5\MDK\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.27.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: NordicSemiconductor::Device:Startup:8.27.1
+      Source file:   Device\Source\arm\arm_startup_nrf52840.s
+      Include file:  Device\Include\system_nrf.h
+      Source file:   Device\Source\system_nrf52840.c
+      Include file:  Device\Include\system_nrf52840.h
+Build Time Elapsed:  00:00:13
+</pre>
+</body>
+</html>

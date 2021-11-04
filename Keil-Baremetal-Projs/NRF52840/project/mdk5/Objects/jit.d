@@ -1,0 +1,11 @@
+.\objects\jit.o: ..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit.c
+.\objects\jit.o: ..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\jit.h
+.\objects\jit.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jit.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\jit.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\jit.o: ..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_allocator.h
+.\objects\jit.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jit.o: ..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_vm.h
+.\objects\jit.o: ..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_types.h
+.\objects\jit.o: ..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\include/ebpf_porting.h
+.\objects\jit.o: ..\..\..\..\..\RapidPatch-Runtime-AE\libebpf\src\ebpf_inst.h
