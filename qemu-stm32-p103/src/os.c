@@ -82,8 +82,8 @@ void main(void)
 	// myfunc func = my_func_test;
 	// func(1, 2, 3);
 
-	// run_shell_cli();
-	//run_test_by_id(3);
+	run_shell_cli();
+	// run_test_by_id(3);
 	// float t = 1.5;
 	// my_printf("%f\n", t);
 	// 3 6
