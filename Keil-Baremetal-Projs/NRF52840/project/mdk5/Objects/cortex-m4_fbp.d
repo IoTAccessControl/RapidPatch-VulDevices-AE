@@ -1,0 +1,12 @@
+.\objects\cortex-m4_fbp.o: ..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\src\cortex-m4_fbp.c
+.\objects\cortex-m4_fbp.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cortex-m4_fbp.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\cortex-m4_fbp.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\cortex-m4_fbp.o: ..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/patch_point.h
+.\objects\cortex-m4_fbp.o: ..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/fixed_patch_points.h
+.\objects\cortex-m4_fbp.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/hashmap.h
+.\objects\cortex-m4_fbp.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\cortex-m4_fbp.o: ..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/defs.h
+.\objects\cortex-m4_fbp.o: ..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/utils.h
+.\objects\cortex-m4_fbp.o: ..\..\..\..\..\RapidPatch-Runtime-AE\hotpatch\include/iotpatch.h
+.\objects\cortex-m4_fbp.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h

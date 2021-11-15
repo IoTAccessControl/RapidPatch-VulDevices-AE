@@ -1,0 +1,14 @@
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\app\dummy_cve.c
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\app\dummy_cve.h
+.\objects\dummy_cve.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dummy_cve.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/utils.h
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/defs.h
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_point.h
+.\objects\dummy_cve.o: D:\dev\keli\keli_v5\MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/fixed_patch_points.h
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\libebpf/include/hashmap.h
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/iotpatch.h
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/patch_service.h
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/profiling.h
+.\objects\dummy_cve.o: ..\..\..\..\..\RapidPatch-Runtime-AE\.\hotpatch/include/ebpf_test.h
