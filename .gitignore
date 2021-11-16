@@ -3,3 +3,5 @@ build/
 .vscode
 OBJ
 *.o
+*.d
+.DS_Store

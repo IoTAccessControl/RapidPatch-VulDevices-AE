@@ -170,7 +170,7 @@ def update_uv_proj_code_list(uvoptx, uvprojx, codes):
 		if orig_defines == None:
 			orig_defines = define_sep
 		orig_defines = orig_defines.split(define_sep)[0]
-		orig_defines += define_sep
+		orig_defines += " " + define_sep
 		for define in defines:
 			define = os.path.basename(define)
 			# if define not in orig_defines:
