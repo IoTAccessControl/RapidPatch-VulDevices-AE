@@ -20,4 +20,3 @@ If you use Windows and have a NRF52840 or STM32L475 devices, you can use Keil to
 If you use Linux/Mac or you have other devices with Cortex-M3/M4, you can use Platform-IO.  
 
 If you have experiments with ZephyrOS, you can directly use the zephyr-app project(in RTOS-Projs directory). 
-

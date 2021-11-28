@@ -5,9 +5,9 @@ cmake_minimum_required(VERSION 3.6)
 #---------------------------------------------------------------------------------------
 # Set toolchain paths
 #---------------------------------------------------------------------------------------
+# set(TOOLCHAIN_PREFIX /mnt/f/IoT/Tools/gcc-arm-none-eabi-9-2020-q2-update/)
 set(TOOLCHAIN_PREFIX /work/gcc-arm-none-eabi-9-2020-q2-update/)
 # set(TOOLCHAIN_PREFIX /Applications/ARM/)
-set(TOOLCHAIN_PREFIX /mnt/f/IoT/Tools/gcc-arm-none-eabi-9-2020-q2-update/)
 
 set(TOOLCHAIN arm-none-eabi)
 if(NOT DEFINED TOOLCHAIN_PREFIX)
