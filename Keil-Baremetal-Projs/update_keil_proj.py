@@ -11,8 +11,12 @@ tutorial:
 https://yeonghoey.com/lxml/element/
 """
 
-def parse_yaml_conf(conf, dir_prefix):
+# convert to relateive path
+def parse_yaml_conf(conf, uv_dir):
 	codes = {}
+	conf_dir = os.path.dirname(conf)
+	rel_path = os.path.relpath(conf_dir, uv_dir)
+	#print(rel_path)
 	with open(conf, "r") as stream:
 		try:
 			groups = yaml.safe_load(stream)
@@ -22,15 +26,16 @@ def parse_yaml_conf(conf, dir_prefix):
 					continue
 				for fi in fis:
 					if "*" in fi:
-						#fi = os.path.join(os.path.abspath(dir_prefix), fi)
+						fi = os.path.join(os.path.abspath(conf_dir), fi)
 						all_fi = glob.glob(fi)
-						#print("Glob=================", all_fi, fi)
+						# print("Glob=================", rel_path, os.path.abspath(rel_path), all_fi, fi)
 						for m in all_fi:
-							code = os.path.join(dir_prefix, m)
+							fi_suffix = os.path.relpath(m, conf_dir)
+							code = os.path.join(rel_path, fi_suffix)
 							code = code.replace("/", "\\")
 							codes[gp].append(code)
 					else:
-						code = os.path.join(dir_prefix, fi)
+						code = os.path.join(rel_path, fi)
 						code = code.replace("/", "\\")
 						codes[gp].append(code)
 		except yaml.YAMLError as exc:
@@ -199,8 +204,7 @@ def main(uv_proj, file_list):
 	work_dir = os.path.dirname(flst_path)
 	print("UV Project Dir", uv_dir)
 	print("File list: ", flst_path)
-	rel_path = os.path.relpath(work_dir, uv_dir)
-	codes = parse_yaml_conf(flst_path, rel_path)
+	codes = parse_yaml_conf(flst_path, uv_dir)
 	write_uv_proj_conf(uv_dir, codes)
 
 if __name__ == "__main__":

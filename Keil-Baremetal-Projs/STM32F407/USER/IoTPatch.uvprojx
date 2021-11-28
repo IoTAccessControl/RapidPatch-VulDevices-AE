@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>..\OBJ\</OutputDirectory>
-          <OutputName>MALLOC</OutputName>
+          <OutputName>IoTPatch</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -134,7 +134,7 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4099</DriverSelection>
+            <DriverSelection>4100</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>Segger\JL2CM3.dll</Flash2>
@@ -337,7 +337,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER   CUSTOM_DEFINE SYS_CORTEX_M4 STM32F407_NO_OS USE_KEIL</Define>
+              <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER            CUSTOM_DEFINE SYS_CORTEX_M4 STM32F407_NO_OS USE_KEIL</Define>
               <Undefine></Undefine>
               <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\HARDWARE\LED;..\HARDWARE\LCD;..\HARDWARE\KEY;..\HARDWARE\SRAM;..\MALLOC;..\FWLIB\inc;MY_SEP;..\..\..\..\Runtime\libebpf;..\..\..\..\Runtime\app;..\..\..\..\Runtime\hotpatch;..\..\..\..\Runtime\.</IncludePath>
             </VariousControls>
@@ -569,29 +569,19 @@
           <GroupName>HotPatch</GroupName>
           <Files>
             <File>
-              <FileName>iotpatch.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\include\iotpatch.h</FilePath>
-            </File>
-            <File>
-              <FileName>iotpatch.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\src\iotpatch.c</FilePath>
-            </File>
-            <File>
-              <FileName>patch_point.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\include\patch_point.h</FilePath>
-            </File>
-            <File>
-              <FileName>utils.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\include\utils.h</FilePath>
-            </File>
-            <File>
               <FileName>defs.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\..\..\Runtime\hotpatch\include\defs.h</FilePath>
+            </File>
+            <File>
+              <FileName>ebpf_test.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\ebpf_test.h</FilePath>
+            </File>
+            <File>
+              <FileName>fixed_patch_points.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\fixed_patch_points.h</FilePath>
             </File>
             <File>
               <FileName>fixed_patch_point_def.h</FileName>
@@ -599,14 +589,44 @@
               <FilePath>..\..\..\..\Runtime\hotpatch\include\fixed_patch_point_def.h</FilePath>
             </File>
             <File>
-              <FileName>utils.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\src\utils.c</FilePath>
+              <FileName>flash_api.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\flash_api.h</FilePath>
             </File>
             <File>
-              <FileName>ebpf_test.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\src\ebpf_test.c</FilePath>
+              <FileName>iotpatch.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\iotpatch.h</FilePath>
+            </File>
+            <File>
+              <FileName>patch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\patch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>patch_service.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\patch_service.h</FilePath>
+            </File>
+            <File>
+              <FileName>patch_verify.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\patch_verify.h</FilePath>
+            </File>
+            <File>
+              <FileName>profiling.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\profiling.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_free_rtos.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\test_free_rtos.h</FilePath>
+            </File>
+            <File>
+              <FileName>utils.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\include\utils.h</FilePath>
             </File>
             <File>
               <FileName>cortex-m4_fbp.c</FileName>
@@ -614,29 +634,14 @@
               <FilePath>..\..\..\..\Runtime\hotpatch\src\cortex-m4_fbp.c</FilePath>
             </File>
             <File>
-              <FileName>patch_service.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\src\patch_service.c</FilePath>
-            </File>
-            <File>
-              <FileName>profiling.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\src\profiling.c</FilePath>
-            </File>
-            <File>
-              <FileName>flash_api.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\src\flash_api.c</FilePath>
-            </File>
-            <File>
-              <FileName>fixed_patch_points.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\Runtime\hotpatch\src\fixed_patch_points.c</FilePath>
-            </File>
-            <File>
               <FileName>dynamic_patch_load.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\Runtime\hotpatch\src\dynamic_patch_load.c</FilePath>
+            </File>
+            <File>
+              <FileName>ebpf_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\src\ebpf_test.c</FilePath>
             </File>
             <File>
               <FileName>fixed_patch_load.c</FileName>
@@ -644,9 +649,49 @@
               <FilePath>..\..\..\..\Runtime\hotpatch\src\fixed_patch_load.c</FilePath>
             </File>
             <File>
+              <FileName>fixed_patch_points.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\src\fixed_patch_points.c</FilePath>
+            </File>
+            <File>
+              <FileName>flash_api.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\src\flash_api.c</FilePath>
+            </File>
+            <File>
+              <FileName>hw_bp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\src\hw_bp.c</FilePath>
+            </File>
+            <File>
+              <FileName>iotpatch.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\src\iotpatch.c</FilePath>
+            </File>
+            <File>
               <FileName>jit_dev_test.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\Runtime\hotpatch\src\jit_dev_test.c</FilePath>
+            </File>
+            <File>
+              <FileName>patch_service.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\src\patch_service.c</FilePath>
+            </File>
+            <File>
+              <FileName>patch_verify.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\src\patch_verify.c</FilePath>
+            </File>
+            <File>
+              <FileName>profiling.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\src\profiling.c</FilePath>
+            </File>
+            <File>
+              <FileName>utils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Runtime\hotpatch\src\utils.c</FilePath>
             </File>
           </Files>
         </Group>
