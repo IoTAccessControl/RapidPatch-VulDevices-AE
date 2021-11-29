@@ -58,7 +58,7 @@ __asm int fixed_patch_point_hanlder(void) {
 // TODO: inline the fixed_patch_point_handler
 __NAKE int fixed_patch_point_hanlder(void) {
 	// __asm("nop");
-	__asm volatile("PUSH {r0, lr}");
+	__asm volatile("PUSH {r0, r1, r2, r3, lr}");
 	__asm volatile("MRS r0, CONTROL");
 	__asm volatile("TST r0, #2");
 	__asm volatile("ITE EQ");
@@ -66,7 +66,7 @@ __NAKE int fixed_patch_point_hanlder(void) {
 	__asm volatile("MRSNE r0, PSP");
 //	asm volatile("ADD r0, #8"); // set to origin sp (push {r0, lr})
 	__asm volatile("BL dispatch_fixed_patch_point");
-	__asm volatile("POP {r0, pc}");
+	__asm volatile("POP {r0, r1, r2, r3, pc}");
 //	asm volatile("ADDS r7, #16");
 //	asm volatile("MOV  sp, r7");
 //	asm volatile("pop {r7, pc}");
@@ -275,7 +275,7 @@ void dispatch_fixed_patch_point(uint32_t sp) {
 
 static int dummy_buggy_MQTT_packet_length_decode(struct dummy_MQTT_buf_ctx *buf, uint32_t *length)
 {
-	// PATCH_FUNCTION_ERR_CODE;
+	PATCH_FUNCTION_ERR_CODE;
 
 	uint8_t shift = 0U;
 	uint8_t bytes = 0U;
@@ -326,7 +326,7 @@ static void call_dummy_buggy_MQTT_function() {
 	DEBUG_LOG("Decoded MQTT packet length is %d\n", pkt_len);
 
 	DEBUG_LOG("Bug function return %d ", ret);
-	if (ret == 0 && pkt_len < 0) { // the correct resutl is 5
+	if (pkt_len != 0) { // should be 0
 		DEBUG_LOG("is still vulnerable! The packet length is overflow: %d.\n\n", pkt_len);
 	} else {
 		DEBUG_LOG("is fixed!\n");

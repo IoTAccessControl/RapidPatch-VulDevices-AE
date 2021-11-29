@@ -241,7 +241,7 @@ static bool is_ldst_imm(s16 off, const u8 size) {
 Thumb2 decode
 */
 void jit_dump_inst(jit_state *state) {
-    DEBUG_LOG("\nDecode:\n");
+    DEBUG_LOG("\nJIT Decode:\n");
     for (int i = 0; i < state->idx; i++) {
         DEBUG_LOG("%02x", state->jit_code[i]);
     }

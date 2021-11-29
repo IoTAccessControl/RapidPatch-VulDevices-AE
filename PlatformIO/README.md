@@ -6,11 +6,11 @@ If you have real-devices and want to run the RapidPatch on this devices, please 
 
 
 
-Here is a sample PlatformIO project for STM32F429 with libopencm3.
+Here is a sample PlatformIO project for STM32F429 and STM32F407 with libopencm3.
 
 ### Run the Project
 
-1. Use vscode Platform-IO to open the folder (VulDevices\PlatformIO\stm32f429-disco)   
+1. Use vscode Platform-IO to open the folder (VulDevices\PlatformIO\stm32f4xx)   
 2. Wait for the vscode to install the toolchains and libopencm3 (may need several minutes)  
 
 ```
@@ -36,33 +36,8 @@ remap: 0x200011c0 inst addr: 0xbff8f7ff
 Call buggy func after fpb patch!
 run FixedBuggyFunc
 
-# use DebugMonitor without active patch
+# use DebugMonitor, installing patch 0
 $ run 1
-run cmd: 1 {Test FPB DebugMonitor(KProbe) patch trigger}
-debug_monitor_init success dhcsr: 65536
-Call buggy func before kprobe patch!
-run test_func: 0x08002895
-is bug fixed? no
-add dynamic point to: 0x08002895
-Dump current hardware breakpoints, MODE-debug monitor:
-  FP_COMP[0] Enabled 1, Replace: 1, Address 0x8002894
-  FP_COMP[1] Enabled 0, Replace: 0, Address 0x0
-  FP_COMP[2] Enabled 0, Replace: 0, Address 0x0
-  FP_COMP[3] Enabled 0, Replace: 0, Address 0x0
-  FP_COMP[4] Enabled 0, Replace: 0, Address 0x0
-  FP_COMP[5] Enabled 0, Replace: 0, Address 0x0
-Call buggy func after kprobe patch!
-run test_func: 0x08002895
-debug_monitor_handler_c lr:0x0800213b pc:0x08002894
-do not find patch for pc addr: 0x08002894 
-is_bkpt_dbg_evt
-debug_monitor_handler_c lr:0x0800213b pc:0x08002898
-is_halt_dbg_evt
-is bug fixed? no
-
-# install the patch and run again
-$ patch 0 
-$ trigger 0
 run test_func: 0x08002895
 Event 0 -> cycle: 40 time(us): 0
 debug_monitor_handler_c lr:0x08000485 pc:0x08002894

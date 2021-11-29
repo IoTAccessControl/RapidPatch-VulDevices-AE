@@ -4,14 +4,13 @@
 #include <stdint.h>
 #include <setjmp.h>
 #include <stdbool.h>
-#include "clock.h"
 #include "ihp_cli.h"
 #include "ihp_porting.h"
 
+
 // should implement in xxxdev_init.c, e.g., stm32_f429_init.c
-extern void init_dev(void);
-extern char console_getc(int);
-extern void console_putc(char);
+#include "port.h"
+
 
 // to support printf
 int _write(int file, char *ptr, int len);

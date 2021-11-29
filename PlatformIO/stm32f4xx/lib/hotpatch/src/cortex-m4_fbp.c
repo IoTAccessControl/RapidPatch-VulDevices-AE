@@ -1109,6 +1109,7 @@ void trigger_fpb_patch() {
 
 void trigger_debugmon_patch(void) {
 	set_patch_mode(CORTEX_DEB_MON_PATCH);
+	
 	DEBUG_LOG("Call buggy func before kprobe patch!\n");
 	test_func();
 

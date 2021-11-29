@@ -36,12 +36,10 @@
 #include <libopencm3/stm32/iwdg.h>
 #include <libopencm3/cm3/scb.h>
 #include <libopencm3/cm3/cortex.h>
-#include "clock.h"
 #include <malloc.h>
 #include <stdarg.h>
+#include "port.h"
 
-#include <libopencm3/stm32/rcc.h>
-#include <libopencm3/cm3/nvic.h>
 #include <libopencm3/cm3/systick.h>
 
 /*
@@ -62,10 +60,13 @@
 
 #define CONSOLE_UART	USART1
 
-void console_putc(char c);
-char console_getc(int wait);
+// void console_putc(char c);
+// char console_getc(int wait);
+// void clock_setup(void);
+
 void console_puts(char *s);
 int console_gets(char *s, int len);
+
 
 /* this is for fun, if you type ^C to this example it will reset */
 #define RESET_ON_CTRLC
@@ -364,4 +365,24 @@ int init_dev(void)
 	return 0;
 }
 
+/*
+ * clock_setup(void)
+ *
+ * This function sets up both the base board clock rate
+ * and a 1khz "system tick" count. The SYSTICK counter is
+ * a standard feature of the Cortex-M series.
+ */
+void clock_setup(void)
+{
+	/* Base board frequency, set to 168Mhz */
+	rcc_clock_setup_pll(&rcc_hse_8mhz_3v3[RCC_CLOCK_3V3_168MHZ]);
+
+	/* clock rate / 168000 to get 1mS interrupt rate */
+	systick_set_reload(168000);
+	systick_set_clocksource(STK_CSR_CLKSOURCE_AHB);
+	systick_counter_enable();
+
+	/* this done last */
+	systick_interrupt_enable();
+}
 #endif

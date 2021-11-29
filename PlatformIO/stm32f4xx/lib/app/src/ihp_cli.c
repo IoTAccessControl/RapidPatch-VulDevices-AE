@@ -163,6 +163,9 @@ static void test_kprob_patch(void) {
 	//add_hw_bkpt((uintptr_t) dev_test);
 	//show_dynamic_patch_points();
 #ifndef LINUX_TEST
+
+	read_local_patch(0);
+
 	trigger_debugmon_patch();
 #endif
 }
