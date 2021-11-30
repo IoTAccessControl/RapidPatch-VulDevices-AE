@@ -173,6 +173,10 @@ char console_getc(int wait) {
 	// return usart_recv_blocking(CONSOLE_UART);
 }
 
+void console_clear() {
+	recv_ndx_nxt = 0;
+	recv_ndx_cur = 0;
+}
 
 void console_putc(char c) {
 	uint32_t	reg;

@@ -275,6 +275,10 @@ void countdown(void)
 	}
 }
 
+void console_clear() {
+	recv_ndx_nxt = 0;
+	recv_ndx_cur = 0;
+}
 
 /*
  * Set up the GPIO subsystem with an "Alternate Function"

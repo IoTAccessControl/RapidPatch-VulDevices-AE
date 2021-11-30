@@ -16,6 +16,7 @@
 // getchar from uart or linux-stdio
 extern char shell_get_char();
 extern void shell_put_char(char c);
+extern void shell_reset();
 static void cli_print_help();
 static void handle_trigger_func(int tid);
 static void show_patch_list();
@@ -94,7 +95,24 @@ static void shell_dispatch_cmd(char *argv[], int argc) {
 		} else {
 			shell_printf("Usage: vm [cve]\n");
 		}
-	}else {
+	} else if (strcmp(argv[0], "install") == 0) {
+		uint8_t ps[5] = {0};
+		for (int i = 0; i < 2; i++) {
+			ps[i] = shell_get_char();
+		}
+		int len = byte2int(ps, 2);
+		int pkt_len = len;
+		DEBUG_LOG("[IoT]: patch conf: %s size: %d\n", argv[1], pkt_len);
+		patch_payload paylod;
+		paylod.pkt = ebpf_malloc(pkt_len);
+		for (int i = 0; i < pkt_len; i++) {
+			paylod.pkt[i] = shell_get_char();
+		}
+		patch_desc *patch = (patch_desc*) paylod.pkt;
+		DEBUG_LOG("type: %d size:%d 0x%08x\n", patch->type, patch->code_len, patch->inst_addr);
+		notify_new_patch(patch);
+		shell_reset();
+	} else {
 		DEBUG_LOG("Command not find: %s argc: %d\n", argv[0], argc);
 	}
 }
@@ -135,10 +153,14 @@ static void shell_receive_char(char c) {
 
 #ifdef DEV_QEMU
 	if (shell_cli.rx_pos >= SHELL_BUFFER_SIZE) {
+		memset(&shell_cli, 0, sizeof(shell_cli));
 		return;
 	}
 #else
 	if (c == '\r' || shell_cli.rx_pos >= SHELL_BUFFER_SIZE) {
+		if (shell_cli.rx_pos >= SHELL_BUFFER_SIZE) {
+			memset(&shell_cli, 0, sizeof(shell_cli));
+		}
 		return;
 	}
 #endif
@@ -215,6 +237,9 @@ static void cli_print_help() {
 	for (int i = 0; i < ncmd; i++) {
 		shell_printf("run %d: %s\n", cmds[i].idx, cmds[i].help);
 	}
+	shell_printf("Usart install patch:\n");
+	shell_printf("install test-files/bin/test_cve1.json\n");
+	shell_printf("install test-files/bin/test_cve2.json\n");
 }
 
 void run_test_by_id(run_test_t cid) {

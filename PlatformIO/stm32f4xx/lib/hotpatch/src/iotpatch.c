@@ -34,6 +34,12 @@ ebpf_patch *ebpf_patch_setup(patch_desc *desc) {
 	if (vm == NULL) {
 		return NULL;
 	}
+
+	bool use_jit = true;
+	if (use_jit) {
+		// gen_jit_code(vm);
+	}
+
 	ebpf_patch *patch = ebpf_malloc(sizeof(ebpf_patch));
 	patch->vm = vm;
 	patch->desc = desc;
@@ -52,7 +58,7 @@ static void active_patch(ebpf_patch *patch) {
 		// pctx.dbits_filter |= calc_bpkt_pc(patch->desc->inst_addr);
 		add_hw_bkpt(patch->desc->inst_addr);
 	}
-	
+	// DEBUG_LOG("active_patch patch: %d\n", patch->desc->type);
 	patch->is_active = true;
 }
 
@@ -157,10 +163,22 @@ void show_all_patches(void) {
 
 void notify_new_patch(struct patch_desc *desc) {
 	DEBUG_LOG("New Patch is OK!\n");
+	if (desc->type == 1) {
+		return;
+	}
+	init_patch_sys();
+	if (desc->type == 3) {
+		set_patch_mode(CORTEX_FPB_PATCH);
+	} else if (desc->type == 2) {
+		set_patch_mode(CORTEX_DEB_MON_PATCH);
+	} 
+	desc->type = DynamicPatchPoint;
 	// TODO: only save patch to flash
 	ebpf_patch *patch = add_ebpf_patch(desc);
 	// TODO: use lock to load to memory and active patch
 	active_patch(patch);
+	show_hw_bkpt();
+	DEBUG_LOG("New Patch Installing Success!\n");
 }
 
 ebpf_patch* get_fixed_patch_by_lr(uint32_t lr) {

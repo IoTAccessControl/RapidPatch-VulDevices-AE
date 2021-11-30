@@ -63,7 +63,9 @@ void dispatch_patch_command(int cmd) {
 		svr.receive_buf(&svr_ctx, paylod.pkt, pkt_len);
 		patch_desc *patch = (patch_desc*) paylod.pkt;
 		DEBUG_LOG("packet size: %d patch type:%d code_len:%d addr:0x%08x\n", pkt_len, patch->type, patch->code_len, patch->inst_addr);
-
+		for (int i = 0; i < patch->code_len; i++) {
+			DEBUG_LOG("%02x", patch->code[i]);
+		}
 		notify_new_patch(patch);
 	} else if (cmd == HEARTBEAT) {
 		svr_ctx.status = RUNNING;

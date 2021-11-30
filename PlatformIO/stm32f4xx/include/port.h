@@ -19,4 +19,6 @@ void console_putc(char c);
 //
 char console_getc(int wait);
 
+void console_clear();
+
 #endif

@@ -18,6 +18,7 @@ int _write(int file, char *ptr, int len);
 // to support shell 
 char shell_get_char();
 void shell_put_char(char c);
+void shell_reset();
 void log_print_porting(const char *fmt, va_list *args);
 
 int main() {
@@ -57,6 +58,10 @@ char shell_get_char() {
 
 void shell_put_char(char c) {
 	console_putc(c);
+}
+
+void shell_reset() {
+	console_clear();
 }
 
 void log_print_porting(const char *fmt, va_list *args) {
