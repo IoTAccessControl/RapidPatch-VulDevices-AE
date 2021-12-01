@@ -7,7 +7,7 @@
 #include "utils.h"
 #include "ebpf_helper_impl.h"
 
-#define MAX_ITERS 12960
+#define MAX_ITERS 0x8000
 
 static ebpf_helper_env *g_helper_func = NULL;
 static ebpf_helper_env* use_default_helper_func();
@@ -131,6 +131,8 @@ u64 ebpf_vm_exec(const struct ebpf_vm *vm, void *mem, u32 mem_len) {
 			return -1; \
 		} \
 	} while(0)
+	
+	int tick = 0;
 
 	while (true) {
 		const u16 cur_pc = pc;
@@ -517,18 +519,21 @@ u64 ebpf_vm_exec(const struct ebpf_vm *vm, void *mem, u32 mem_len) {
 		case EBPF_OP_EXIT:
 			return reg[0];
 		}
-		// if (!iters_check(pc)) {
-		// 	return false;
-		// }
+		if (!iters_check(tick++)) {
+			// FILTER_DROP
+			DEBUG_LOG("SFI: Exceed the max iteration number: %d > %d!\n", tick, MAX_ITERS);
+			return 1 << 32;
+		}
 	}
 
 	return ret;
 }
 
-bool iters_check(int pc) {
-	if (pc > MAX_ITERS) {
+bool iters_check(int tick) {
+	if (tick > MAX_ITERS) {
 		return false;
 	}
+	return true;
 }
 
 bool bounds_check(const struct ebpf_vm *vm, void *addr, int size, const char *type, u16 cur_pc, void *mem, size_t mem_len, void *stack) {
