@@ -134,6 +134,8 @@ void usart1_isr(void)
 			i = (recv_ndx_nxt + 1) % RECV_BUF_SIZE;
 			if (i != recv_ndx_cur) {
 				recv_ndx_nxt = i;
+			} else {
+				printf("Usart ringbuffer overrun\n");
 			}
 		}
 	} while ((reg & USART_SR_RXNE) != 0); /* can read back-to-back
@@ -158,6 +160,35 @@ void usart2_isr(void)
 		}
 	} while ((reg & USART_SR_RXNE) != 0); /* can read back-to-back
 						 interrupts */
+}
+
+int console_read_buf(unsigned char *buf, int len) {
+	int read_sz = 0;
+	if (recv_ndx_cur == recv_ndx_nxt) {
+		return 0;
+	} else if (recv_ndx_cur < recv_ndx_nxt) {
+		while (recv_ndx_cur < recv_ndx_nxt && len > 0) {
+			buf[read_sz++] = recv_buf[recv_ndx_cur++];
+			len--;
+		}
+		recv_ndx_cur = (recv_ndx_cur) % RECV_BUF_SIZE;
+		// printf("read: %d\n", read_sz);
+		return read_sz;
+	} else {
+		while (recv_ndx_cur < RECV_BUF_SIZE && len > 0) {
+			buf[read_sz++] = recv_buf[recv_ndx_cur++];
+			len--;
+		}
+		recv_ndx_cur = (recv_ndx_cur) % RECV_BUF_SIZE;
+		while (recv_ndx_cur < recv_ndx_nxt && len > 0) {
+			buf[read_sz++] = recv_buf[recv_ndx_cur++];
+			len--;
+		}
+		recv_ndx_cur = (recv_ndx_cur) % RECV_BUF_SIZE;
+		// printf("read ring: %d\n", read_sz);
+		return read_sz;
+	}
+	return 0;
 }
 
 char console_getc(int wait) {

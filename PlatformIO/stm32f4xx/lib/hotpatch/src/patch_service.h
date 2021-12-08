@@ -29,6 +29,16 @@ typedef struct __attribute__((__packed__)) patch_desc {
 	uint16_t type;
 	uint16_t code_len;
 	union {
+		struct {
+			uint16_t opt: 4;
+			uint16_t rtype: 4;
+			uint16_t prioriy: 4;
+			uint16_t iters: 16;
+		};
+		uint32_t settings;
+	};
+	uint32_t sign;
+	union {
 		uint32_t fixed_id;
 		uint32_t inst_addr;
 	};

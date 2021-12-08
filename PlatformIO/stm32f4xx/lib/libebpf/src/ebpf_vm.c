@@ -21,6 +21,7 @@ ebpf_vm *init_ebpf_vm(const uint8_t *code, uint32_t code_len) {
 		return NULL;
 	}
 	// vm->helper_func = NULL;
+	memset(vm, 0, sizeof(struct ebpf_vm));
 	vm->insts = (struct ebpf_inst *) code;
 	vm->num_insts = (u16) code_len / sizeof(vm->insts[0]);
 	init_iot_ebpf_helpers(vm);

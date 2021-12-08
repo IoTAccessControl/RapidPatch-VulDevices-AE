@@ -34,6 +34,20 @@ int byte2int(uint8_t *buf, int len) {
 	return val;
 }
 
+// https://cp-algorithms.com/string/string-hashing.html
+uint32_t str_hash(char *str, int len) {
+	uint32_t hash = 5381;
+	int pos = 0;
+
+	while (pos < len) {
+		//hash = ((hash << 5) + hash) + str[pos]; /* hash * 33 + c */
+		hash += str[pos];
+		hash %= 20000;
+		pos++;
+	}
+    return hash;
+}
+
 
 uint32_t calc_bpkt_pc(uint32_t inst_addr) {
 #ifdef SYS_CORTEX_M4
@@ -48,6 +62,14 @@ uint32_t calc_bpkt_pc(uint32_t inst_addr) {
 #endif
 
 	return inst_addr;
+}
+
+void dump_bin(uint8_t *data, int len) {
+	DEBUG_LOG("dump bin:\n");
+	for (int i = 0; i < len; i++) {
+		DEBUG_LOG("\\x%02x", data[i]);
+	}
+	DEBUG_LOG("\n");
 }
 
 /*

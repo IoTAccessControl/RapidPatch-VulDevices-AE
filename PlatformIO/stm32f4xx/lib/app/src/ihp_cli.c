@@ -16,7 +16,7 @@
 // getchar from uart or linux-stdio
 extern char shell_get_char();
 extern void shell_put_char(char c);
-extern void shell_reset();
+extern int usart_read_buf(unsigned char *buf, int len);
 static void cli_print_help();
 static void handle_trigger_func(int tid);
 static void show_patch_list();
@@ -97,21 +97,39 @@ static void shell_dispatch_cmd(char *argv[], int argc) {
 		}
 	} else if (strcmp(argv[0], "install") == 0) {
 		uint8_t ps[5] = {0};
-		for (int i = 0; i < 2; i++) {
-			ps[i] = shell_get_char();
+		// for (int i = 0; i < 2; i++) {
+		// 	ps[i] = shell_get_char();
+		// }
+		int t = usart_read_buf(ps, 2);
+		while (t < 2) {
+			t += usart_read_buf(ps + t, 2 - t);
 		}
 		int len = byte2int(ps, 2);
 		int pkt_len = len;
+		// dump_bin(ps, 5);
 		DEBUG_LOG("[IoT]: patch conf: %s size: %d\n", argv[1], pkt_len);
 		patch_payload paylod;
 		paylod.pkt = ebpf_malloc(pkt_len);
-		for (int i = 0; i < pkt_len; i++) {
-			paylod.pkt[i] = shell_get_char();
+
+		t = usart_read_buf(paylod.pkt, pkt_len);
+		while (t < pkt_len) {
+			t += usart_read_buf(paylod.pkt + t, pkt_len - t);
 		}
+		// for (int i = 0; i < pkt_len; i++) {
+		// 	paylod.pkt[i] = shell_get_char();
+		// }
 		patch_desc *patch = (patch_desc*) paylod.pkt;
-		DEBUG_LOG("type: %d size:%d 0x%08x\n", patch->type, patch->code_len, patch->inst_addr);
+		uint32_t pkt_hash = str_hash(patch->code, patch->code_len);
+		// dump patch
+		// dump_bin(patch->code, patch->code_len);
+		DEBUG_LOG("hash:%u type: %d size:%d 0x%08x t:%d\n", pkt_hash, patch->type, patch->code_len, patch->inst_addr, t);
+		printf("patch settings: %d\n", patch->settings);
+		verify_patch_trans(patch->code, patch->code_len);
+		if (patch->sign != pkt_hash) {
+			DEBUG_LOG("Failed to install patch: SIGN is different: %u. transfer error\n", patch->sign);
+			return;
+		}
 		notify_new_patch(patch);
-		shell_reset();
 	} else {
 		DEBUG_LOG("Command not find: %s argc: %d\n", argv[0], argc);
 	}

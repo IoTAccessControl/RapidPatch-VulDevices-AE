@@ -10,15 +10,15 @@ Port these functions to your devices.
 // #define USE_MY_USART 
 
 
-//
+// 
 int init_dev(void);
 
-//
+// 
 void console_putc(char c);
 
-//
+// 
 char console_getc(int wait);
 
-void console_clear();
+int console_read_buf(unsigned char *buf, int len);
 
 #endif

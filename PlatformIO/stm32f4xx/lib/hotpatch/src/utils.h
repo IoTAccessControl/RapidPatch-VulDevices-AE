@@ -34,6 +34,10 @@ do {												\
 int str2int(char *str);
 int byte2int(uint8_t *buf, int len); // little_edian
 
+uint32_t str_hash(char *str, int len);
+
+void dump_bin(uint8_t *data, int len);
+
 // calculate pc address based on inst type (arm32 or thumb16)
 uint32_t calc_bpkt_pc(uint32_t inst_addr);
 
