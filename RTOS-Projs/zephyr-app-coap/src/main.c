@@ -5,8 +5,9 @@
  */
 
 #include <zephyr.h>
-#include <misc/printk.h>
-#include <console.h>
+//#include <misc/printk.h>
+#include <sys/printk.h>
+// #include <console.h>
 #include <stdio.h>
 #include <string.h>
 

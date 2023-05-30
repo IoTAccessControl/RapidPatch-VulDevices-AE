@@ -6,7 +6,7 @@ include($ENV{ZEPHYR_BASE}/cmake/app/boilerplate.cmake NO_POLICY_SCOPE)
 
 project(IoTPatch)
 
-set(IOTPATCH_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../PatchCore/)
+set(IOTPATCH_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../../Runtime/)
 
 message("======================================")
 message(${IOTPATCH_DIR})
